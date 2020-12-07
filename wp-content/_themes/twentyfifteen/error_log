@@ -1,0 +1,15 @@
+[28-Oct-2017 08:17:47 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/index.php on line 17
+[28-Oct-2017 12:58:58 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/author-bio.php on line 12
+[29-Oct-2017 17:21:22 America/Chicago] PHP Fatal error:  Call to undefined function the_ID() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/content.php on line 13
+[30-Oct-2017 03:11:33 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/archive.php on line 19
+[03-Nov-2017 09:10:19 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/index.php on line 17
+[05-Nov-2017 05:42:49 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/author-bio.php on line 12
+[15-Nov-2017 20:41:11 America/Chicago] PHP Fatal error:  Call to undefined function the_ID() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/content.php on line 13
+[16-Nov-2017 20:08:46 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/archive.php on line 19
+[26-Nov-2017 12:32:03 America/Chicago] PHP Fatal error:  Call to undefined function the_ID() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/content-link.php on line 13
+[07-Dec-2017 16:24:17 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/404.php on line 10
+[22-Dec-2017 23:17:04 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/archive.php on line 19
+[23-Dec-2017 03:05:34 America/Chicago] PHP Fatal error:  Call to undefined function _e() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/author-bio.php on line 12
+[29-Dec-2017 12:21:53 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/404.php on line 10
+[17-Jan-2018 09:35:07 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/index.php on line 17
+[20-Jan-2018 17:32:35 America/Chicago] PHP Fatal error:  Call to undefined function the_ID() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/content.php on line 13

@@ -1,0 +1,99 @@
+Server IP addressess
+
+72.167.40.138
+72.167.42.230 
+72.167.42.87  
+
+Login to Root by SSH
+
+(user) ikserver 
+(pass)  IK-UIserver123
+su -
+(Root Login pass) IK-UIserver123
+
+Plesk control pannel
+
+https://72.167.40.138:8443/login_up.php3
+(user) admin 
+(pass) IK-UIserver12120
+
+Wordpress
+admin
+IK-UIserver123
+
+FTP
+72.167.40.138
+dev3i
+IIIWIN2015d
+
+iklearn.com backup.iklearn.com
+Plesk
+https://50.62.130.22:8443
+user: admin 
+pass:  jcr321-Paksa123
+
+gil Project GilProject jcr321-Project123
+
+patty 
+user: gilserver  
+pass: LockerGil123
+
+su - LockerRunning123  <--- Root
+
+Svn 
+https://117.6.131.222:8443/svn/dicprj/
+
+Gmail
+iii.lupus.com@gmail.com
+Vietnam3i
+
+FTP Backup
+50.62.130.22
+21
+dev3i2
+Vietnam3i
+
+wp-admin
+ADMIN-IKgil$$
+
+**********************************************************************************
+Backup server's root password and Plesk access is backup server
+50.62.130.59 -  backup.iklearn.com
+Plesk
+https://50.62.130.22:8443
+admin jcr321-Paksa123
+
+patty gilserver  Project12120
+su -  uiserver12120
+
+
+//backup server
+gilserver
+UI@ikstudy123
+
+root IK321-UIserver123
+
+Username : wp-admin
+Passowrd: IK-UIserver123
+
+Cpanel
+root IK321-UIserver123
+https://166.62.122.90:2087
+
+
+FTP
+dev3i@ikstudy.com
+Vietnam3i
+
+//patty of ikstudy.com
+gilserver
+UI@ikstudy123
+sudo su
+//patty of iklearn.com
+72.167.42.87  
+
+Login to Root by SSH
+(user) ikserver 
+(pass)  IK-UIserver12120
+su -
+(new pass) IK-UIserver12120

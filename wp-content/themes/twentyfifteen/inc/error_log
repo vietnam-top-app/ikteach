@@ -1,0 +1,10 @@
+[25-Oct-2018 20:27:31 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/inc/back-compat.php on line 26
+[25-Oct-2018 23:18:13 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/inc/back-compat.php on line 26
+[26-Oct-2018 00:24:54 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/inc/custom-header.php on line 41
+[26-Oct-2018 03:34:16 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/inc/custom-header.php on line 41
+[26-Oct-2018 04:48:45 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/inc/back-compat.php on line 26
+[26-Oct-2018 04:49:20 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/inc/back-compat.php on line 26
+[26-Oct-2018 05:02:55 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/inc/customizer.php on line 83
+[26-Oct-2018 08:16:45 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/inc/customizer.php on line 83
+[26-Oct-2018 09:24:57 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/inc/template-tags.php on line 171
+[26-Oct-2018 14:43:40 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ikteacher/public_html/wp-content/themes/twentyfifteen/inc/template-tags.php on line 171

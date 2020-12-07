@@ -1,0 +1,371 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DRAWING</title>
+
+        <meta charset="utf-8">
+
+
+        <script src="http://107.180.78.211:8000/socket.io/socket.io.js"></script>
+
+        <link href="lib/img/logo.png" rel="hortcut icon" type="image/x-icon" /> 
+        <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+        <link href="lib/css/drawstyle.css" rel="stylesheet">
+        <link href="lib/css/common-math.css" rel="stylesheet">
+        <link href="lib/css/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+        <link rel="stylesheet" id="common-math-css" href="http://ikteacher.com/wp-content/themes/ik-learn/library/css/common-math.css" type="text/css" media="all">
+        <link rel='stylesheet' id='chat-main-css-css'  href='http://ikteacher.com/wp-content/plugins/iii-dictionary/chat/css/chatMain.css' type='text/css' media='all' />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="lib/js/bootstrap.min.js"></script>
+        <script src="lib/js/jquery.event.drag-2.0.js"></script>
+        <script src="lib/js/draw.js"></script>
+        <script src="lib/js/html2canvas/dist/html2canvas.js"></script>
+        <script src="lib/js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="https://code.jquery.com/pep/0.4.1/pep.js"></script>
+        <script type='text/javascript' src='http://ikteacher.com/wp-content/themes/ik-learn/library/js/common-math.js'></script>
+        <script type='text/javascript' src='http://ikteacher.com/wp-content/themes/ik-learn/library/js/common-math.js'></script>
+    </head>
+    <body>
+        <script type='text/javascript' src='http://ikteacher.com/wp-content/plugins/iii-dictionary/chat/js/chatMain.js'></script>
+        <script type='text/javascript' src='http://ikteacher.com/wp-content/plugins/iii-dictionary/chat/js/appChatmain.js'></script>
+        <script>
+            App = {};
+            App.socket = io.connect('http://107.180.78.211:8000');
+            var x = $(location).attr('search').substr(1).split('&');
+            var client = decodeURIComponent(x[0].split('=')[1]);
+            var __SID = decodeURIComponent(x[1].split('=')[1]);
+            var __HA = decodeURIComponent(x[2].split('=')[1]);
+            var __US = decodeURIComponent(x[3].split('=')[1]);
+            var __URL = decodeURIComponent(x[4].split('L')[1]);
+            var __IS = decodeURIComponent(x[5].split('=')[1]);
+            var __NAME = decodeURIComponent(x[6].split('=')[1]);
+            var __EMAIL = decodeURIComponent(x[7].split('=')[1]);
+            var __PRICE = decodeURIComponent(x[8].split('=')[1]);
+            var CURRENTNAME = decodeURIComponent(x[9].split('=')[1]);
+            var EMAILSTUDENT = decodeURIComponent(x[14].split('=')[1]);
+            idstudent = decodeURIComponent(x[12].split('=')[1]);
+            idroom  = decodeURIComponent(x[13].split('=')[1]);
+            var HAVE_CONNECT_CLASS = 'have-connect';
+            
+            $("body").append("<div id='wplc_hovercard' style='display:none margin-bottom: 0px;left: 60px;top: 115px;' class='modern'><div id='wplc_hovercard_min' class='wplc_button_standard wplc-color-border-1 wplc-color-bg-1'>close</div><div id='wplc_hovercard_content'><div class='wplc_hovercard_content_left'><div class='wplc_left_logo' style='background:url(wp-content/plugins/wp-live-chat-support/images/iconmicro.png) no-repeat; background-size: cover;'></div></div><div class='wplc_hovercard_content_right'><div id='wplc_first_message'><div class='wplc-color-4'><strong>Questions?</strong> Chat with teacher</div></div></div></div><div id='wplc_hovercard_bottom'><button id='speeching_button' type='button'  class='wplc-color-bg-1 wplc-color-2'>Start Chat</button></div></div><div id='wp-live-chat' wplc_animation='none' style='margin-bottom: 0; left: 60px; top:60px;' class='modern  wplc_close' original_pos='bottom_right'  > <div class='wp-live-chat-wraper'><div id='wp-live-chat-header' class='wplc-color-bg-1 wplc-color-2'><style>#wp-live-chat-header { background:url(wp-content/plugins/wp-live-chat-support/images/chaticon.png) no-repeat; background-size: cover; }</style> </div> <div id='wp-live-chat-2' style='display:none;'> <i id='wp-live-chat-close' data-toggle='tooltip' data-placement='bottom'  title='Close' class='glyphicon glyphicon-remove' style='right: 23px;display: block;'></i> <i id='wp-live-chat-minimize' data-toggle='tooltip' title='Minimise' data-placement='bottom' class='glyphicon glyphicon-minus wplc-color-bg-1 wplc-color-2' style='right: 50px;display: block;'></i> <i id='wp-live-chat-close' class='fa fa-times' style='display:none;' ></i> <div id='wplc-extra-div' style='display:none;'></div>    <div id='wp-live-chat-4' ><div id='wplc_sound_update' style='height:0; width:0; display:none; border:0;'></div><div id='wplc_chatbox_header' class='wplc-color-bg-2 wplc-color-4'></div><div id='wplc_chatbox'></div><div id='wplc_user_message_div'><p style='text-align:center; font-size:11px;' id='wplc_msg_notice'>Press ENTER to send your message</p><p><input type='text' name='wplc_chatmsg' id='txt-chat' placeholder='Type a message...' class='txt-chat1' value='' /><input type='hidden' name='wplc_cid' id='wplc_cid' value='' /><input id='wplc_send_msg' type='button' value='Send' style='display:none;' /></p></div><div id='wplc_user_message_div1' \n\
+            style='display: block;position: absolute;min-height: 100px;position: absolute;top: 21%;left: 0;width: 100%;padding: 10px;border-top: 1px solid #eee;'><p style='text-align: right;font-size: 14px;' id='student-email'>Tutor : "+CURRENTNAME+"</p><p style='text-align: left;font-size: 14px;' id='teacher-email'>Student : "+EMAILSTUDENT+"</p><div class='break'></div></div></div>   </div> </div></div>");
+//            document.getElementById('wp-live-chat-2').style.display = 'block';
+             current_connect = idstudent;
+                socket.emit('make_room', {uid: __US, cid: current_connect, sid: __SID, is: __IS, from: __US});
+                var selector = $('.block-apend-message');
+                selector.html('');
+                $.ajax('http://ikteacher.com/?r=ajax/chat/get_history', {
+                    'method': 'post',
+                    'data': {'room': room(current_connect, __US), 'id': __US,'idstudent': idstudent,'idteacher': ''},
+                    beforeSend: function () {
+                        $(this).prop('readonly', true);
+                        $('#btn-send').button('loading');
+                    }
+                }).done(function (data) {
+                    
+                    $(this).prop('readonly', false);
+                    $('#btn-send').button('reset');
+                    if (data.length > 0) {
+//                        append_notice(selector, $("#block-cc-chat"), data);
+                        jQuery("#wplc_chatbox").prepend(data);
+                        jQuery('#wplc_chatbox').scrollTop(0);
+                        
+                    }
+                });   
+            document.getElementById('wp-live-chat-2').style.display = 'block';
+                
+            jQuery("body").on("click", "#wp-live-chat-header", function () {
+                jQuery("#wplc_hovercard").fadeOut('fast');
+                document.getElementById('wp-live-chat-2').style.display = 'block';
+                $('#parent').css('margin-left', '370px');
+                
+                
+            });
+            jQuery("#wp-live-chat-header").hover(function(){if ($('#wp-live-chat-2').css('display') == 'none')
+                {
+                 jQuery("#wplc_hovercard").fadeIn('fast');
+                }});
+            jQuery('#wp-live-chat-close').hover(function(){jQuery('[data-toggle="tooltip"]').tooltip();   });
+            jQuery("body").on("click", "#wp-live-chat-minimize", function () {
+                document.getElementById('wp-live-chat-2').style.display = "none";
+                $('#parent').css('margin-left', '');
+            });
+            jQuery("body").on("click", "#wplc_hovercard_min", function () {
+                jQuery("#wplc_hovercard").fadeOut('fast');
+            });
+            jQuery("body").on("click", "#speeching_button", function () {
+                jQuery("#wplc_hovercard").fadeOut('fast');
+                document.getElementById('wp-live-chat-2').style.display = 'block';
+            });
+            socket.on('update_message_php', function (data) {
+                if (data._from== __US) {
+                        var html = '<span class="wplc-user-message wplc-color-bg-1 wplc-color-2 wplc-color-border-1">'+CURRENTNAME+' : ' + data._content + '</span><div class="wplc-clear-float-message"></div>';
+                        jQuery("#wplc_chatbox").prepend(html);
+                        jQuery('#wplc_chatbox').scrollTop(0);
+
+                }
+            });
+            window.onbeforeunload = function () {
+                socket.emit('reload_tab_teacher', {uid: client, idteacher: idstudent, idroom: idroom});
+                socket.emit('quit_message', {'idroomquit': idroom, 'idteacher': __US, 'idstudent': idstudent, 'email': EMAILSTUDENT,'idstop':1});
+                return "";
+            }
+            jQuery("body").on("click", "#wp-live-chat-minimize", function () {
+                jQuery("#wplc_hovercard").fadeOut('fast');
+                document.getElementById('wp-live-chat-2').style.display = "none";
+                $('#parent').css('margin-left', '');
+            });
+        </script>
+        <div class="container-fluid">
+            <article class="row">
+                <section id="parent" style="margin-left: 370px;width: 1000px;">
+                    <header class="col-md-12 col-xs-12 ">
+                        <div class="control parent-border">
+                            <div class="row dpl_flex">
+                                <div class="col-md-2 col-xs-2 text-center parent-padding child-border " style="padding-left: 15px;">
+                                    <div class="div-980">
+                                        <img src="lib/img/pen.png" id="btn_pen" class="resetdraw">
+                                    </div>
+                                    <div class="div-980">
+                                        <img src="lib/img/btn_subsize.png" id="subsize" class="sizeimg resetdraw">
+                                        <b id="size_num" class="sizeb">1</b>
+                                        <img src="lib/img/btn_addsize.png" id="addsize" class="sizeimg resetdraw">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-4 text-center parent-padding child-border">
+                                    <div class="div-980">
+                                        <img src="lib/img/color_box.png" class="color_box" id="clearpage">
+                                    </div>
+                                    <div class="div-980">
+                                        <img src="lib/img/colorbox_lacay.png" class="btn_color" id="lacay">
+                                        <img src="lib/img/colorbox_cam.png" class="btn_color" id="cam">
+                                        <img src="lib/img/colorbox_do.png" class="btn_color" id="d_o">
+                                        <img src="lib/img/colorbox_nau.png" class="btn_color" id="nau">
+                                        <img src="lib/img/colorbox_datroi.png" class="btn_color" id="datroi">
+                                        <img src="lib/img/colorbox_tim.png" class="btn_color" id="tim">
+                                        <img src="lib/img/colorbox_den.png" class="btn_color btn_color_active" id="den">
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-xs-2 text-center parent-padding child-border">
+                                    <div class="div-980">
+                                        <img src="lib/img/btn_eraser.png" id="btn_eraser"  class="resetdraw" />
+
+                                    </div>
+                                    <div class="div-980">
+                                        <img src="lib/img/btn_subsize.png" id="subsize_ers" class="sizeimg resetdraw">
+                                        <b id="size_num_ers" class="sizeb">1</b>
+                                        <img src="lib/img/btn_addsize.png" id="addsize_ers"  class="sizeimg resetdraw">
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-xs-2 text-center parent-padding child-border sct-clear">
+                                    <img src="lib/img/clear.png" id="btn_clear"/>
+                                </div>
+
+                                <div class="col-md-2 col-xs-2 text-center parent-padding child-border">
+                                    <label for="input-image" style="display:block;background: cadetblue;">Upload My Image</label>
+                                    <input name="input-image" id="input-image" type="file" multiple="multiple" accept="img/*" alt="file" style="display: none">
+                                    <button id="btn_import" style="display:block;background: cadetblue;border: none;width: 100%;">ikMath Image</button>
+                                </div>
+
+                            </div>
+                    </header>
+                    <div class="col-md-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-10 col-xs-10">
+                                <div id="canvas_panel" style="height: 500px; overflow: hidden;position: relative;width: 809px;cursor: url('img/cursor.png'), crosshair;">
+
+                                    <canvas width="737" height="500" id="word-prob-step" data-readonly="1" class="main-canvas" style="position: absolute; z-index: 1;"></canvas>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-2 canvas_nav">
+                                <div class="scroll-list-v" style="max-height: 300px;">
+                                    <ul id="nav_steps">
+                                        <li id="first_click" touch-action="none">1</li>
+                                    </ul>
+                                </div>
+                                <div class="control new_layer_section"><img src="lib/img/new_layer.png" class="img-responsive" id="btn_new_layer" touch-action="none" /></div>
+                                <div class="scroll-list-v" id="new_layer_nav">
+                                    <ul id="nlayer_step">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+        </div>
+        <div class="body" id="block-chat">
+            <div id="ignore-fixed">
+                <div id="block-new-friend">
+                    <div class="nf-header col-md-12">
+                        <?php _e('Enter the account name', 'iii-dictionary') ?>
+                        <div id="nf-close"></div>
+                    </div>
+                    <div class="nf-content col-md-12">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <input type="text" id="nf-txt-log" placeholder="Email & Username" />
+                            </div>
+                            <div class="col-md-5">
+                                <button id="nf-btn-send"><?php _e('Send', 'iii-dictionary') ?></button>
+                            </div>
+                            <div class="col-md-12 nd-notice">
+                                <label class="nf-lbl-notice" id="notice-null"><?php _e('Insert user name', 'iii-dictionary') ?></label>
+                                <label class="nf-lbl-notice" id="notice-yourself"><?php _e('Can\'t connect to your self', 'iii-dictionary') ?></label>
+                                <label class="nf-lbl-notice" id="notice-exists"><?php _e('User already exists', 'iii-dictionary') ?></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div >
+                    <div class="row">
+                        <div class="col-md-12 chat-box-header block-header">
+                            <label><?php _e('Request a Teacher for Math Tutorials', 'iii-dictionary') ?></label>
+                            <a type="button" id="btnClose" class="btn-close">
+                                <span class="glyphicon glyphicon-remove" style="vertical-align:middle"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="block-content row">
+                        <?php if (is_user_logged_in()) : ?>
+                        <div class="section-chat <?php echo ($_is) ? 'display-block' : '' ?>">
+                            <div class="col-md-12" id="block-chat-header">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <label class="sl-label"><?php _e('Select a Reciplent', 'iii-dictionary') ?></label>
+                                    </div>
+                                    <div class="col-md-7">
+<!--                                        <select id="sl-reciplent" class="sl-style">
+                                            <option value="0"><?php _e('---- Click below ----', 'iii-dictionary') ?></option>
+                                            <option value="new-friend"><?php _e('New Friend...', 'iii-dictionary') ?></option>
+                                        </select>-->
+                                        <input id="sl-reciplent" value=""/>
+                                    </div>
+                                    <div class="col-md-12"><div class="block-break"></div></div> 
+                                </div>
+                            </div>
+
+                            <div class="col-md-12" id="block-chat-content">
+                                <div id="slitter">
+                                    <div id="block-cc-draw">
+                                        <div class="btn-canvas-edit" >
+                                        </div>
+                                        <canvas id="draw-canvas" class="block-canvas"></canvas>
+                                    </div>
+
+                                    <div class="bottom_panel mCustomScrollbar _mCS_1 mCS_no_scrollbar" id="block-cc-chat">
+                                        <div class="block-apend-message">
+                                            <div class="receive-message col-md-12">
+                                                <div class="col-md-8 cm-text">
+                                                    <?php _e('Hello', 'iii-dictionary') ?> <b class="b-name"><?php echo $current_user->display_name; ?></b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-12" id="block-type-chat">
+                                <div class="row">
+                                    <!--                                                <div class="col-md-9">
+                                                                                        <textarea  class="txt-chat" id="txt-chat" placeholder="<?php _e('Type a message...', 'iii-dictionary') ?>" autocomplete="off"></textarea>
+                                                                                    </div>-->
+                                    <div class="col-md-3">
+                                        <button class="btn-send" id="btn-send" ><?php _e('Send', 'iii-dictionary') ?></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-register <?php echo (!$_is) ? 'display-block' : '' ?>">
+                            <div class="col-md-12 block-body">
+                                <div class="block-chat-notice"> <?php echo mw_get_option('math-chat-notice') ?> </div>
+                                <div class="block-chat-price" >
+                                    <p style="padding-left: 15px; background: #ddd;"><?php printf(__('Price $%d per minute', 'iii-dictionary'), mw_get_option('math-chat-price')) ?></p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 block-footer">
+                                <div class="row" style="height: 50px">
+                                    <div class="col-md-6" style="height: 50px;padding-right: 0px !important;padding-left: 0px !important;border: 1.5px solid #2e6da4;border-right: none">
+                                        <button style="width:100%;height: 100%" id="btn-chat-accept" class="btn-chat-default btn-chat-accept"><?php _e('Request', 'iii-dictionary') ?></button>
+                                    </div>
+                                    <div class="col-md-6" style=" height: 50px;border: 1.5px solid #2e6da4;">
+                                        <button style="width:100%;height: 100%" id="btn-chat-quit" class="btn-chat-default btn-chat-quit" ><?php _e('No Thanks', 'iii-dictionary') ?></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block-popup">
+                                <div class="block-popup-content">
+                                </div>
+                            </div>
+                        </div>
+                        <?php else : ?>
+                        <form action="<?php echo locale_home_url() ?>/?r=login" name="loginform" method="post" >
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for='chat_username' class="lbl-chat"><?php _e('Username (e-mail address)', 'iii-dictionary') ?></label>
+                                    <input type="text" id="chat_username" name="log" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for='chat_password' class="lbl-chat"><?php _e('Password', 'iii-dictionary') ?></label>
+                                    <input type="password" id="chat_password" name="pwd" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-default btn-block orange login" name="wp-submit">
+                                        <span class="icon-user"></span><?php _e('Login', 'iii-dictionary') ?>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <a href="<?php echo locale_home_url() ?>/?r=signup" class="btn btn-default btn-block grey signup"><span class="icon-pencil"></span><?php _e('Sign-up', 'iii-dictionary') ?></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                            </div>
+                        </form>
+                        <?php endif ?>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="modal modal-custom" id="modal-custom" aria-hidden="true">
+            <div class="row popup-notice">
+                <div class="col-md-12 notice-header">
+                    <?php _e('Message', 'iii-dictionary') ?>
+                </div>
+                <div class="col-md-12 notice-content" style="padding-left: 0px !important;
+                     padding-right: 0px !important;">
+                </div>
+            </div>
+        </div>
+        <div class="modal " id="modal-notice-close" role="dialog" style="right: 10%;">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Message</h4>
+            </div>
+            <div class="notice-content">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger btn-quit" data-dismiss="modal">Yes</button>
+              <button type="button" class="btn btn-primary btn-close-md" data-dismiss="modal">No</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+    <script src="lib/js/uploadfile.js"></script>
+    <script>
+        $('#parent').css('margin-left', '370px');
+    </script>
+</html>

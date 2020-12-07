@@ -1,0 +1,5 @@
+[22-Jan-2019 15:31:03 UTC] PHP Fatal error:  Call to undefined function get_current_user_id() in /home/iktutor/public_html/ikteach/wp-content/themes/ik-learn/library/css/teachers_box.php on line 2
+[30-Jan-2019 01:22:32 UTC] PHP Fatal error:  Call to undefined function get_current_user_id() in /home/iktutor/public_html/ikteach/wp-content/themes/ik-learn/library/css/teachers_box.php on line 2
+[30-Mar-2019 10:52:58 UTC] PHP Fatal error:  Call to undefined function get_current_user_id() in /home/iktutor/public_html/ikteach/wp-content/themes/ik-learn/library/css/teachers_box.php on line 2
+[11-Aug-2019 22:12:08 UTC] PHP Fatal error:  Call to undefined function get_current_user_id() in /home/iktutor/public_html/ikteach/wp-content/themes/ik-learn/library/css/teachers_box.php on line 2
+[20-Oct-2019 17:53:29 UTC] PHP Fatal error:  Call to undefined function get_current_user_id() in /home/iktutor/public_html/ikteach/wp-content/themes/ik-learn/library/css/teachers_box.php on line 2

@@ -1,0 +1,44 @@
+#dialogoverlay{
+	display: none;
+	opacity: 0.4;
+	top: 0px;
+	left: 0px;
+	background: #006;
+	width: 100%;
+	height:100%;
+	z-index: 99999;
+}
+#dialogbox{
+	display: block;
+	width:380px;
+	text-align: left;
+	background-color: #419782;
+	color: #F5F0A3;
+}
+#dialogbox > div{ background:#FFF; margin:0px; }
+#dialogbox > div > #dialogboxhead{ background: #419782 ; font-size:24px; padding:10px; color:#F5F0A3;}
+#dialogbox > div > #dialogboxbody{ background: #419782; padding:20px; color:#F5F0A3;}
+#dialogbox > div > #dialogboxbody > b{ margin-left:30px; color:#F5F0A3}
+#dialogbox > div > #dialogboxbody > #prompt_value1, #prompt_value2{ margin-left:30px; width:270px;text-align: left !important; color: #000 !important}
+#dialogbox > div > #dialogboxbody > #btn_login{ width:150px;height:25px; background-image:url('../img/btn_login.png');background-size:150px 25px;border:none; float:left; margin-left:15px; cursor:pointer;}
+#dialogbox > div > #dialogboxbody > #btn_signup{ width:150px;height:25px; background-image:url('../img/Sign-up_btn.png');background-size:150px 25px;border:none; float:left; margin-left:20px; cursor:pointer;}
+#dialogbox > div > #dialogboxbody > a{ color:#F5F0A3;font-weight:bold; float:right; cursor:pointer;}
+#dialogbox > div > #dialogboxbody > #remember{margin-left:30px;display: none;}
+#dialogbox > div > #dialogboxfoot{ background: #419782;height:100px;width:100%;word-break:break-word; 
+
+word-wrap: break-word;}
+
+#dianewuser{
+	display: none;
+	position: absolute;
+	border-radius:7px; 
+	width:300px;
+	z-index: 9999999;
+	bottom: 250px;
+	right : 100px;
+	
+}
+#dianewuser > div{ background:#4A0D0D; margin:8px; }
+#dianewuser > div > #dialogboxhead_newu{ background: #4A0D0D; font-size:18px; padding:10px; color: #F5F0A3;}
+#dianewuser > div > #dialogboxbody_newu{ background: #419782; padding:20px; color:#FFF;}
+#user_connect, #btn_connect {color: #000 !important}

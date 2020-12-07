@@ -1,0 +1,5 @@
+[06-Feb-2018 08:34:53 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/ikteacher/public_html/wp-content/themes/twentyfourteen/index.php on line 17
+[06-Feb-2018 08:34:53 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/ikteacher/public_html/wp-content/themes/twentyfourteen/index.php on line 17
+[06-Feb-2018 08:34:57 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/ikteacher/public_html/wp-content/themes/twentyfourteen/index.php on line 17
+[06-Feb-2018 08:34:57 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/ikteacher/public_html/wp-content/themes/twentyfourteen/index.php on line 17
+[18-Jul-2018 00:28:26 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/ikteacher/public_html/wp-content/themes/twentyfourteen/404.php on line 10

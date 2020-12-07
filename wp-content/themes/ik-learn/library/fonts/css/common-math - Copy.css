@@ -1,0 +1,1936 @@
+@font-face {
+  font-family: 'Alamain';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Alamain'), url(../fonts/alamain1.ttf) format('truetype');
+}
+
+body.body-math {
+	background-color: #000000;
+}
+
+.header-math .top-nav {
+	background: #eaeaea;
+	border-bottom-color: #eaeaea;
+}
+.header-math-new .top-nav {
+	background: #eaeaea;
+	border-bottom-color: #eaeaea;
+}
+
+.header-math a:hover,
+.header-math a:focus,
+.header-math a:active {
+	color: #418c71;
+}
+
+.header-math .home-icon {
+	background-image: url(../images/math-home-icon2.png);
+}
+
+.header-math .login-icon {
+	background-image: url(../images/math-login-icon2.png);
+}
+.header-math-new .login-icon {
+	background-image: url(../images/login-icon4.png);
+}
+
+.header-math .signup-icon {
+	background-image: url(../images/math-signup-icon2.png);
+}
+.header-math-new .signup-icon {
+	background-image: url(../images/signup-icon4.png);
+}
+
+.header-math #user-nav li a:hover {
+	color: #418c71;
+}
+
+.header-math .main-nav-block {
+	background: #b0b0b0;
+}
+.header-math-new .main-nav-block {
+	background: #b0b0b0;
+}
+.header-math .navbar{
+	background: #b0b0b0 !important;
+}
+header.header-math .navbar {
+	background: #421010;
+}
+
+header.header-math nav .main-menu li {
+	height: 48px;
+}
+
+header.header-math .navbar-default .navbar-nav > li > a {
+	color: #fbfbfb;
+}
+
+header.header-math .navbar-default .main-menu.navbar-nav > li > a {
+	line-height: 2.8;
+}
+
+
+header.header-math .navbar-default .navbar-nav > li > a:focus,
+header.header-math .navbar-default .navbar-nav > li:hover > a,
+header.header-math .navbar-default .navbar-nav > li > a:hover,
+header.header-math .navbar-default .navbar-nav > li.current_page_item > a,
+header.header-math .navbar-default .navbar-nav > li.current-menu-item > a,
+header.header-math .navbar-default ul.user-nav .sub-menu > li > a:hover {
+	color: red;
+}
+
+.menu_main_math_teacher_home .main-menu li:first-child a {
+	background-image: url(../images/item1.jpg) !important;
+}
+.menu_main_math_teacher_home .main-menu li:nth-child(2) a {
+	background-image: url(../images/item2.jpg) !important;
+}
+.menu_main_math_teacher_home .main-menu li:nth-child(3) a {
+	background-image: url(../images/item3.jpg) !important;
+}
+.menu_main_math_teacher_home .main-menu li:nth-child(4) a {
+	background-image: url(../images/item4.jpg) !important;
+}
+.menu_main_math_teacher_home .main-menu li:nth-child(5) a {
+	background-image: url(../images/item5.jpg) !important;
+}
+.menu_main_math_teacher_home .main-menu li:nth-child(6) a {
+	background-image: url(../images/item6.jpg) !important;
+}
+.menu_main_math_teacher_home .main-menu li:nth-child(7) a {
+	background-image: url(../images/math-menu-item-icon-e.png) !important;
+}
+
+.header-math .main-menu li:first-child a {
+	background-image: url(../images/item1.jpg) !important;
+}
+.header-math .main-menu li:nth-child(2) a {
+	background-image: url(../images/item2.jpg) !important;
+}
+.header-math .main-menu li:nth-child(3) a {
+	background-image: url(../images/item3.jpg) !important;
+}
+.header-math .main-menu li:nth-child(4) a {
+	background-image: url(../images/item4.jpg) !important;
+}
+.header-math .main-menu li:nth-child(5) a {
+	background-image: url(../images/item5.jpg) !important;
+}
+.header-math .main-menu li:nth-child(6) a {
+	background-image: url(../images/item6.jpg) !important;
+	background-repeat: no-repeat;
+}
+.header-math .main-menu li:nth-child(7) a {
+	background-image: url(../images/math-menu-item-icon-e-green.png) !important;
+	background-repeat: no-repeat;
+}
+
+header.header-math .navbar-default ul.user-nav li a {
+	color: #7a8f88;
+}
+
+header.header-math .math_teacher_nav > li > a {
+	background-image: url(../images/math-gear-icon.png);
+}
+
+.header-math #main-nav > nav#sub-user-nav {
+	background-color: #293430;
+}
+
+header.header-math .user-nav .sub-menu {
+	background-color: #1b221f;
+}
+
+.header-math .user-nav .sub-menu > li {
+	border-bottom-color: #000000;
+}
+
+.header-math .navbar-default ul.user-nav .sub-menu > li > a {
+    background-image: url(../images/math-langmenu-open.png);
+}
+
+.header-math #lang-switcher-nav > ul > li > a,
+.header-math #lang-switcher-nav > ul > li:hover > a,
+.header-math #lang-switcher-nav > ul > li.current_page_item > a {
+	background-image: url(../images/math-icon-langs.png);
+}
+
+.header-math #lang-switcher-nav .sub-menu {
+	background-color: #002115;
+}
+
+.header-math #lang-switcher-nav .sub-menu > li {
+	border-bottom-color: #000000;
+}
+
+.header-math #lang-switcher-nav .sub-menu > li > a {
+	background-image: url(../images/math-langmenu-open.png);
+}
+
+.header-math .navbar-default ul.user-nav .sub-menu > li > a,
+.header-math #lang-switcher-nav .sub-menu > li > a {
+	color: #bcbcbc;
+}
+
+.header-math .btn-menu-collapse {
+	background-image: url(../images/math-btn-menu.png);
+}
+.header-math-new #lang-switcher.select-sapphire + .selectboxit-container .selectboxit-options,
+.header-math-new #lang-switcher.select-sapphire + .selectboxit-container .selectboxit,
+.header-math-new #lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:hover, 
+.header-math-new #lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:focus, 
+.header-math-new #lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:active {
+	border-color: #9a6b6b !important; 
+} 
+
+.header-math-new  #lang-switcher.select-sapphire + .selectboxit-container .selectboxit-options,
+.header-math-new #lang-switcher.select-sapphire + .selectboxit-container .selectboxit,
+.header-math-new #lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:hover, 
+.header-math-new #lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:focus, 
+.header-math-new #lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:active {
+	background-color: #eaeaea !important;
+}
+
+.header-math-new #lang-switcher.select-sapphire + .selectboxit-container .selectboxit-default-arrow {
+	border-top-color: #9a6b6b !important;
+}
+
+.header-math-new #lang-switcher.select-sapphire + .selectboxit-container .selectboxit-list .selectboxit-option-anchor,
+.header-math-new #lang-switcher.select-sapphire + .selectboxit-container .selectboxit,
+.header-math-new #lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:hover,
+.header-math-new #lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:focus {
+	color: #ff0000 !important ;
+}
+
+#lang-switcher.select-sapphire + .selectboxit-container .selectboxit-options,
+#lang-switcher.select-sapphire + .selectboxit-container .selectboxit,
+#lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:hover, 
+#lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:focus, 
+#lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:active {
+	border-color: #d69ecb;
+} 
+
+#lang-switcher.select-sapphire + .selectboxit-container .selectboxit-options,
+#lang-switcher.select-sapphire + .selectboxit-container .selectboxit,
+#lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:hover, 
+#lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:focus, 
+#lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:active {
+	background-color: #670053 !important;
+}
+
+#lang-switcher.select-sapphire + .selectboxit-container .selectboxit-default-arrow {
+	border-top-color: #670053;
+}
+
+#lang-switcher.select-sapphire + .selectboxit-container .selectboxit-list .selectboxit-option-anchor,
+#lang-switcher.select-sapphire + .selectboxit-container .selectboxit,
+#lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:hover,
+#lang-switcher.select-sapphire + .selectboxit-btn.selectboxit-enabled:focus {
+	color: #d69ecb;
+}
+
+#user-nav li a.shopping-cart, #user-nav li a.display-name {
+	color: #d69ecb;
+}
+.header-math-new #user-nav li a.shopping-cart, .header-math-new #user-nav li a.display-name, .header-math-new #user-nav li a {
+	color: black;
+}
+
+.footer.footer-math {
+	background: #26001f;
+	border-top-color: #6f0457;
+}
+
+.body-math #home .bottom-content .block-content h2, 
+.body-math #home .bottom-content .block-content h3 {
+	color: #c2c2c2;
+}
+
+.body-math #home .bottom-content .block-content a {
+	font-size: 14px;
+	color: #8c8c8c;
+}
+
+.body-math .findout-more {
+	background: url(../images/corner-findout.png) no-repeat;
+	width: 186px;
+	height: 64px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.body-math .findout-more > div {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	text-align: right;
+}
+
+.body-math .findout-more a {
+	font-size: 11px;
+	color: #ff8a00;
+}
+
+.body-math .findout-more p {
+	color: #b6b6b6;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.body-math .column-content .benefits-list h3 {
+	font-size: 18px;
+	color: #570448;
+}
+
+.body-math .benefits-list ul li {
+	background-image: url(../images/ul-bullet-style10.png);
+	font-size: 15px;
+}
+
+.math-levels {
+	padding: 30px 20px 20px;
+	border-bottom: 1px solid #182823;
+	box-shadow: 0 1px #34564c;
+}
+
+.math-levels .math-level-title {
+	font-size: 20px;
+	color: #dd89cd;
+	font-weight: normal;
+}
+
+.math-levels .math-sublevels li {
+	background: url(../images/ul-square1.png) no-repeat 0 8px;
+	padding: 0 40px 0 17px;
+	display: inline-block;
+	font-size: 17px;
+	color: #fff;
+	cursor: pointer;
+}
+
+header.math-homework-header {
+	margin-bottom: 10px;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+.math-homework-sounds {
+	background-color: #062206;
+}
+
+header.math-homework-header, .math-homework-sounds {
+	/*height: 142px;*/
+	height: 100%;
+}
+
+.main-article header.math-homework-header .page-subtitle {
+	font-size: 12px;
+	margin: 0;
+	color: #4e7e6f;
+	font-weight: normal;
+}
+
+.main-article header.math-homework-header .page-title {
+	font-size: 18px;
+	font-weight: 600;
+	border-bottom: 1px solid #2a503b;
+	line-height: 1.8;
+}
+
+.main-article header.math-homework-header .page-title.arithmetics {
+	color: #48e3ff;
+}
+
+.main-article header.math-homework-header .math-question {
+	color: #4e7e6f;
+	font-size: 11px;
+	margin: 0;
+}
+
+#math-category, #math-level, #math-sublevel {
+	color: #FFF779;
+}
+
+#math-category, #math-sublevel {
+	margin: 0;
+}
+
+#math-level {
+	margin: 5px 0;
+}
+
+.math-homework-sounds {
+	position: relative;
+}
+
+.math-sounds-player {
+	background: url(../images/icon-speaker3.png) no-repeat 28px 0;
+	display: inline-block;
+	width: 120px;
+	height: 32px;
+	position: absolute;
+	bottom: 50px;
+	left: 5px;
+	padding-top: 40px;
+}
+
+.math-sounds-player .sounds-switch {
+	background: url(../images/icon-speaker-on.png) no-repeat;
+	width: 75px;
+	height: 32px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.math-sounds-player .sounds-switch.off {
+	background-image: url(../images/icon-speaker-off.png);
+}
+
+.math-homework-body {
+	margin-bottom: 15px;
+}
+
+.homework-nav, .homework-controls {
+	background: #28423A;
+}
+
+.homework-nav .nav-title {
+	font-size: 17px;
+	font-weight: 600;
+	color: #599180;
+	border-bottom: 1px solid #182823;
+	box-shadow: 0 1px #34564c;
+	line-height: 2;
+}
+
+.homework-nav .mCSB_dragger_bar,
+.homework-nav .mCSB_draggerRail {
+	background-color: #062206 !important;
+}
+
+.homework-nav .nav-items li {
+	font-size: 22px;
+	cursor: pointer;
+	text-align: center;
+	color: #cdc988;
+	line-height: 1.5;
+	margin-left: 20px;
+}
+
+.homework-nav .nav-items.horizontal {
+	float: left;
+	width: calc(100% - 50px);
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.scroll-list-v .ar {
+	float: left;
+	width: 25px;
+	display: block;
+	height: 38px;
+	cursor: pointer;
+}
+
+#question-nav-left {
+	background: url(../images/icon-left-arrow3.png) no-repeat 4px 8px;
+}
+
+#question-nav-right {
+	background: url(../images/icon-right-arrow3.png) no-repeat 10px 8px;
+}
+
+.homework-nav .nav-items li.visited {
+	color: #487a6b;
+}
+
+.homework-nav .nav-items li.active {
+	background: -webkit-linear-gradient(left, #f5f0a3, #f6f3cd);
+	background: linear-gradient(to right, #f5f0a3, #f6f3cd);
+	font-weight: bold;
+	color: #041d04;
+	position: relative;
+}
+
+.homework-nav .nav-items li.active:before {
+	content: "";
+	background: #f5f0a3;
+	display: block;
+	position: absolute;
+	z-index: 9;
+}
+
+.homework-content {
+	background: #f5f0a3;
+	height: 525px;
+	text-align: right;
+	padding: 20px 10px 0 5px;
+}
+
+.homework-controls {
+	height: 60px;
+	text-align: right;
+}
+
+.homework-controls .btn {
+	font-size: 16px;
+	font-weight: normal;
+	display: inline-block;
+}
+
+.homework-controls .btn .icon-notepad, .homework-controls .btn .icon-chat {
+	margin-right: 7px;
+	vertical-align: middle;
+}
+
+.homework-controls hr {
+	margin: 15px 0;
+}
+
+.homework-user-answer {
+	background: #2e2d1d;
+	height: 70px;
+	margin-top: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.homework-user-answer .homework-input,
+.homework-user-answer #submit-homework,
+.homework-user-answer #next-worksheet {
+	width: 100%;
+}
+
+.homework-user-answer .homework-input {
+	background: #2e2d1d;
+	font-size: 19px;
+	color: #b4b07b;
+	border: 0;
+	line-height: 2;
+}
+
+header.math-homework-header,
+.homework-content,
+.homework-user-answer {
+	border-right: 0 solid #000000;
+}
+
+header.math-homework-header {
+	border-right-width: 3px;
+}
+
+.formula-steps {
+	display: block;
+}
+
+.math-number {
+	display: inline-block;
+	width: 45px;
+	height: 38px;
+	border: 2px solid transparent;
+	font-family: "Comic Sans MS";
+	font-style: italic;
+	font-size: 22px;
+	line-height: 34px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 3px;
+	position: relative;
+}
+
+.math-number.division-line {
+	width: 25px;
+}
+
+.math-number.division-line:before {
+	content: "";
+	background: url(../images/division-line.png) no-repeat;
+	width: 100%;
+	height: 44px;
+	position: absolute;
+	top: -3px;
+	left: 8px;
+}
+
+.math-number.dividend:before {
+	content: "";
+	background: url(../images/division-line.png) no-repeat -20px 0;
+	height: 1px;
+	width: 55px;
+	position: absolute;
+	top: -3px;
+	left: -5px;
+}
+
+.math-number.sign {
+	font-style: normal;
+}
+
+.math-number.empty {
+	color: #F5F0A3;
+}
+
+.math-number.input-box {
+	border-color: #8F00FF;
+}
+
+.math-number.input-box.has-correct {
+	border-color: #3C763D;
+}
+
+.math-number.input-box.has-incorrect {
+	border-color: #C7254E;
+}
+
+.math-number > input {
+	background: #f5f0a3;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	text-align: center;
+	display: block;
+	font-size: 22px;
+}
+
+.math-number > input:focus {
+	outline: 0;
+}
+
+hr.hr-formula {
+	margin: 5px 0;
+	border-color: #565539;
+	display: inline-block;
+}
+
+hr.hr-num-2 {
+	width: 111px;
+}
+
+hr.hr-num-4 {
+	width: 222px;
+}
+
+hr.hr-num-5 {
+	width: 275px;
+}
+
+.flashcard-question {
+	text-align: center;
+	padding-top: 120px;
+}
+
+.flashcard-question .math-number {
+	font-size: 46px;
+	width: 15%;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+.equation-question .math-number:first-child {
+	width: 75%;
+	line-height: 60px;
+	height: auto;
+	text-align: right;
+}
+
+.flashcard-question .math-number:last-child {
+	font-size: 36px;
+	width: auto;
+	vertical-align: baseline;
+}
+
+.equation-question .math-number:last-child {
+	width: 20%;
+}
+
+.equation-question .math-number {
+	vertical-align: bottom;
+}
+
+.flashcard-question .math-number > input {
+	font-size: 34px;
+}
+
+.icon-fraction {
+	background: url(../images/icon-fraction.png) no-repeat;
+	width: 158px;
+	height: 2px;
+	display: inline-block;
+}
+
+.fraction {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.fraction.single {
+	padding-top: 65px;
+}
+
+.flashcard-question .fraction .math-number {
+	width: 110px;
+}
+
+.flashcard-question .fraction .fraction-answer {
+	width: 50px;
+}
+
+.fraction.left-number {
+	padding-top: 65px;
+}
+
+.flashcard-question .fraction .icon-fraction.fraction-answer {
+	width: 60px;
+}
+
+.fraction .icon-fraction {
+	display: block;
+	margin: 19px 0;
+}
+
+.fraction .sign {
+	font-size: 46px;
+	line-height: 1;
+	display: block;
+}
+
+.word-prob-steps {
+	position: absolute;
+	display: none;
+	width: 99.5%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.question-box-block {
+	display: none;
+}
+
+.question-box-block .word-prob-steps {
+	display: block;
+}
+
+.question-box-block .input-box {
+	position: absolute;
+}
+
+.tooltip-top-left + .tooltip {
+	left: 15px !important;
+}
+
+.tooltip-top-left + .tooltip .tooltip-arrow {
+    left: 10% !important;
+}
+
+.incorrect + .tooltip .tooltip-inner {
+	background-color: #C92022;
+}
+
+.incorrect + .tooltip .tooltip-arrow {
+	border-top-color: #C92022;
+}
+
+.correct + .tooltip .tooltip-inner {
+	background-color: #003C26;
+}
+
+.correct + .tooltip .tooltip-arrow {
+	border-top-color: #003C26;
+}
+
+@media(max-width: 767px) {
+	header.math-homework-header,
+	.math-homework-sounds {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.homework-nav {
+		margin-bottom: 5px;
+		height: 78px;
+	}
+
+	.homework-nav .nav-title {
+		margin-top: 0;
+	}
+
+	.homework-nav .nav-items {
+		height: 38px;
+		margin-bottom: -5px;
+	}
+
+	.homework-nav .nav-items li {
+		display: inline-block;
+		margin: 0;
+		padding: 0 10px;
+	}
+
+	.homework-nav .nav-items li.active {
+		background: linear-gradient(#f6f3cc, #f5f0a3);
+	}
+
+	.homework-nav .nav-items li.active:before {
+		width: 100%;
+		height: 5px;
+		bottom: -5px;
+		left: 0;
+	}
+
+	.homework-user-answer {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.homework-controls {
+		padding-top: 10px;
+	}
+
+	.homework-controls button {
+		margin: 0 5px;
+	}
+
+	#homework-content.math-digit-6 .math-number {
+		width: 33px;
+		height: 30px;
+		font-size: 29px;
+		line-height: 29px;
+	}
+
+	#homework-content.math-digit-6 .math-number > input {
+		font-size: 22px;
+	}
+
+	#homework-content.math-digit-8 .math-number {
+		width: 25px;
+		height: 24px;
+		font-size: 22px;
+		line-height: 24px;
+	}
+
+	#homework-content.math-digit-8 .math-number > input {
+		font-size: 16px;
+	}
+
+	#homework-content.math-digit-10 .math-number {
+		width: 18px;
+		height: 19px;
+		font-size: 18px;
+		line-height: 16px;
+	}
+
+	#homework-content.math-digit-10 .math-number > input {
+		font-size: 12px;
+	}
+
+	.equation-question .math-number:first-child {
+		font-size: 16px;
+		line-height: 32px;
+	}
+
+	.equation-question .math-number:last-child {
+		height: 30px;
+	}
+
+	.equation-question .math-number:last-child input {
+		font-size: 18px;
+	}
+}
+.title_box_green{font-size: 11pt}
+@media(min-width: 320px) {
+	.title_box_green{font-size: 11pt}
+	.teacher_interface .banner_sat h1{
+		margin: 13px 0 7px 36px;
+	}
+	.teacher_interface .banner_sat p{
+		margin: 8px 0 31px 36px;
+	}
+	h2.daum, p.myriad{margin-left: 36px;}
+	.teacher_interface .banner_sat{
+		background: url(../images/banner_teache_320.jpg);
+		background-size: cover;
+		padding: 30px 0;
+		position: relative;
+	}
+	.menu_main_math_teacher .main-menu.navbar-nav > li > a{
+		line-height: 2.5 !important;
+	}
+}
+@media(min-width: 375px) {
+	.main-article header.math-homework-header .page-subtitle {
+		font-size: 14px;
+	}
+
+	.main-article header.math-homework-header .page-title {
+		font-size: 20px;
+	}
+
+	.main-article header.math-homework-header .math-question {
+		font-size: 13px;
+	}
+
+	.math-sounds-player {
+		left: 10px;
+	}
+}
+
+@media(min-width: 480px) {
+	.math-sounds-player {
+		left: 25px;
+	}
+	.title_box_green{font-size: 15pt;}
+}
+
+@media(min-width: 600px) {
+	.header-math .home-icon {
+		background: url(../images/home-icon3.png) no-repeat;
+	}
+
+	.header-math .login-icon {
+		background: url(../images/login-icon3.png) no-repeat;
+	}
+
+	.header-math .signup-icon {
+		background: url(../images/signup-icon3.png) no-repeat;
+	}
+
+	.header-math #user-nav li:after {
+		background-image: url(../images/math-menu-divider.png);
+	}
+
+	#user-nav li a {
+		color: #d69ecb;
+	}
+	h2.daum{
+		font-size: 20pt;
+		margin-left: 106px;
+	}
+	p.myriad{
+		font-size: 14pt;
+		margin-left: 106px;
+		margin-bottom: 20px;
+	}
+	.teacher_interface .banner_sat h1{
+		margin: 13px 0 7px 106px;
+	}
+	.teacher_interface .banner_sat p{
+		margin: 8px 0 31px 106px;
+	}
+	.teacher_interface .banner_sat{
+		background: url(../images/banner_teacher.jpg);
+		background-size: cover;
+		padding: 30px 0;
+		position: relative;
+	}
+}
+
+@media(min-width: 768px) {
+	.body-math .left-column .column-content {
+		width: 400px;
+	}
+	.menu_main_math_teacher .main-menu.navbar-nav > li > a {
+		line-height: 1.4 !important;
+	}
+	.homework-controls {
+		height: 145px;
+		margin-top: -65px;
+		padding-top: 15px;
+	}
+
+	.homework-controls .btn {
+		width: 100%;
+	}
+
+	header.math-homework-header,
+	.homework-content,
+	.homework-user-answer {
+		border-right-width: 3px;
+	}
+
+	.header-math #main-nav > nav#sub-user-nav {
+		background: #003c26;
+	}
+
+	header.header-math nav .main-menu li a {
+		font-size: 15px;
+		line-height: 2.4;
+		font-size: 13px;
+	}
+
+	.main-article header.math-homework-header .page-subtitle {
+		font-size: 20px;
+		font-weight: 300;
+	}
+
+	.main-article header.math-homework-header .page-title {
+		font-size: 28px;
+	}
+
+	.main-article header.math-homework-header .math-question {
+		font-size: 16px;
+	}
+
+	.homework-nav {
+		height: 460px;
+		float: right;
+	}
+
+	.homework-nav .nav-title {
+		font-size: 21px;
+		padding-left: 25px;
+		line-height: 2.3;
+	}
+
+	.homework-nav > .scroll-list-v {
+		margin-left: -20px;
+	}
+
+	.homework-nav .nav-items li.active:before {
+		width: 20px;
+		height: 100%;
+		top: 0;
+		left: -20px;
+	}
+}
+
+@media (min-width: 992px) {
+	.math-sounds-player {
+		background-position: 0 7px;
+		bottom: 10px;
+		left: 30px;
+		padding-left: 40px;
+		padding-top: 0;
+	}
+	header.math-homework-header {
+		padding-top: 35px;
+		padding-left: 45px;
+	}
+
+	.body-math #top-content {
+		background: url(../images/math-home-main-bg.png) no-repeat, linear-gradient(#b2b2b2, #eeeeee);
+		height: 465px;
+	}
+
+	.body-math .left-column .column-content {
+		left: 150px;
+		top: 50px;
+	}
+
+	.body-math .right-column .column-content {
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+
+	.body-math .right-column .column-content .benefits-list {
+		width: 250px;
+	}
+
+	.body-math #home .bottom-content .block-content:first-child {
+		background-image: url(../images/math-bottom-sets-ael-bg.jpg);
+	}
+
+	.body-math #home .bottom-content .block-content:nth-child(2) {
+		background-image: url(../images/math-bottom-sets-teacher-bg.jpg);
+	}
+
+	.body-math #home .bottom-content .block-content:nth-child(3) {
+		background-image: url(../images/math-bottom-sets-managers-bg.jpg);
+	}
+
+	.homework-content {
+		padding: 30px 65px;
+	}
+
+	.homework-content.math-type-15 {
+		padding: 30px;
+	}
+}
+
+@media(min-width: 1200px) {
+	header.header-math .user-nav > li:first-child:after,
+	header.header-math .user-nav > li:nth-child(2):after {
+		background: #005b3a;
+	}
+
+	header.header-math .user-nav .sub-menu {
+		    background: #fff;
+    border: 2px solid #fff;
+	}
+
+	header.header-math .navbar-default ul.user-nav .sub-menu > li > a {
+		color: black;
+	}
+
+	.header-math .navbar-default ul.user-nav .sub-menu > li > a {
+		background: none;
+	}
+}
+.teacher_bot .sat_bot_left{
+	background: url(../images/kid.png) no-repeat right -15px bottom -16px #2d2d2d;
+    background-size: 137px;
+}
+.teacher_bot .sat_bot_right{
+	background: url(../images/kid_2.png) no-repeat right 10px bottom -50px #2d2d2d;
+    background-size: 197px;
+}
+h2.daum{color: #fff;}
+p.myriad{color: #838383;}
+.sat_prep_1 {background: #9a1c1d;}
+.sat_prep_2 {background:#064a8f;}
+.sat_prep{padding: 0; height: auto;}
+.sat_prep .title_box{
+	color: #fff450;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 0;
+    padding: 20px 0;
+}
+.sat_prep_1 h2{
+	background: #781b1b;
+}
+.sat_prep_2 h2{
+	background: #093c70;
+}
+.sat_prep p{
+	margin-left: 0;
+	color: #fff;
+	text-align: justify;
+}
+.center_box{margin: 0 auto; float: none !important;}
+.text_center{text-align: center !important;}
+.title_box_green{
+	background: #092a15 !important;
+    color: #61ff61;
+    padding: 10px 0;
+    text-align: center;
+}
+.title_box_green a{text-decoration: none;color: #61ff61;}
+.sat_prep_1 .title_box_green{box-shadow: 3px 3px #861919;}
+.sat_prep_2 .title_box_green{box-shadow: 3px 3px #053d75;}
+.title_box_green .glyphicon-arrow-right{
+	color: #84958a;
+	margin: 0 5px;
+    font-size: 16px;
+}
+.header-math-new .user-nav .sub-menu{
+	background: #421010;
+    border: 2px solid #a92323;
+}
+.header-math-new .navbar-default ul.user-nav .sub-menu > li > a{color:#cd8181 }
+header .user-nav > li:first-child{width: 100%}
+
+.box_gray{
+	background:#2d2d2d;
+}
+#manage-classroom-modal h2, #manage-classroom-modal .modal-content{
+	color: #000 !important;
+}
+.earn_money_tab{
+	position: absolute;
+    top: -3px;
+}
+.check_lb input[type=checkbox]{
+	opacity: 0;
+	margin: 10px;
+}
+.check_lb{position: relative; cursor: pointer;}
+.check_lb:before{
+	content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: #2f0808;
+    border-radius: 15px;
+}
+.checked_lb:before{
+	content: "\2022";
+    color: #b52324;
+    font-size: 62px;
+    text-align: center;
+    line-height: 31px;
+    font-family: Arial;
+	display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: #2f0808;
+    border-radius: 15px;
+}
+.header .navbar-default ul.user-nav li a{padding: 5px 0 15px 45px;}
+header.header-math .user-nav > li:first-child:after,
+header.header-math .user-nav > li:nth-child(2):after {
+	width: 0;
+}
+#wp-live-chat textarea {
+    width: 100%;
+    height: 100px;
+}
+#wp-live-chat input, #wp-live-chat textarea {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #2b2b2b;
+    padding: 8px 10px 7px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    
+}
+#wplc_chatbox {
+    top: 29.5%;
+    bottom: 0px;
+     /*height: 100%;*/ 
+    z-index: 99999;
+    position: absolute;
+    overflow-y: auto;
+    padding:10px;
+    width:100%;
+}
+.break{
+    background: #a7c7de;
+    height: 1px;
+    margin: 5px 30px 10px 30px;
+    text-align: center;
+}
+#wp-live-chat-inner-container {
+    padding:16px;
+
+}
+
+#wp-live-chat td {
+    padding: 5px;
+    padding-left: 10px;
+}
+
+#wp-live-chat table {
+    border: 0 !important;
+}
+
+#wp-live-chat table td {
+    border: 0 !important;
+}
+#wplc_user_message_div {
+    min-height: 100px;
+    position: absolute;
+    /*bottom: 0px;*/
+    border-bottom:  1.5px solid #bfc6ff;
+    top: 5.7%;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    border-top:1px solid #eee;
+}
+
+#wp-live-chat h4 {
+    font-size: 20px;
+    margin: 3px;
+}
+
+#wp-live-chat p {
+    font-size: 14px;
+    margin: 3px;
+}
+
+#wp-live-chat #wplc-sb {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#wp-live-chat-4 {
+    position: fixed;
+    top: 0;
+    border:  1.5px solid #bfc6ff;
+    right: 0;
+    height: 100%;
+    width: 368px;
+    max-width: 100%;
+}
+#wplc_chatbox_header{
+    border-bottom:   1.5px solid #bfc6ff !important;
+}
+#wp-live-chat-3 {
+    padding: 10px;
+    text-align: center;
+}
+
+#wp-live-chat {
+    position: fixed;
+    z-index: 28000000;
+    display: block;
+    border-radius: 5px 5px 0 0 ;
+    color:#999;
+}
+
+#wp-live-chat-1 {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    text-align:center;
+}
+
+#wp-live-chat-minimize {
+    position: absolute;
+    right: 3px;
+    top: 7px;
+    cursor: pointer;
+    /*height: 20px;*/
+    padding: 2px 3px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 17px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*width: 20px;*/
+    padding-top: 4px;
+    color: #FFF;
+    font-weight: normal;
+    z-index: 92354389047593475893475;
+}
+#wp-live-chat-close {
+    position: absolute;
+    right: 3px;
+    top: 7px;
+    cursor: pointer;
+    padding: 2px 3px;
+    border-radius: 2px;
+    /*height: 20px;*/
+    /*width: 20px;*/
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 17px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 4px;
+    color: #FFF;
+    font-weight: normal;
+    z-index: 92354389047593475893475;
+}
+
+/*#wp-live-chat-close {
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 12px;
+    vertical-align: middle;
+    height: 14px;
+    width: 14px;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}*/
+
+
+#wp-live-chat-2-info {
+    font-size: 1em;
+    display: block;
+    width: 80%;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom:10px;
+}
+#wp-live-chat-2-inner {
+    padding: 20px 12px 26px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+
+#wp-live-chat-2-img {
+    padding-bottom: 5px;
+}
+
+.wplc_offline {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.wplc_logo_class {
+    max-width: 250px;
+    max-height:180px;
+}
+#wplc_logo {
+    position: absolute;
+    width: 100%;
+    top: 41px;
+}
+#wp-live-chat-header{
+    margin-bottom:25px;
+    border-radius: 25px 25px;
+    position:relative;
+    width:50px;
+    height:50px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.5);
+    cursor:pointer;
+}
+
+#wp-live-chat-2 {
+    
+    z-index: 2147483000;
+    position: fixed;
+    height: 100%;
+    width: 368px;
+    max-width: 100%;
+    bottom: 0;
+    right: 0;
+    background: #fafafb;
+    background: rgba(250,250,251,.98);
+    border-left: 1px solid #dadee2;
+    box-shadow: 0 0 4px 1px rgba(0,0,0,.07);
+    
+
+
+}
+#wp-live-chat-2 input{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 32px;
+    color: #60686e;
+    width: 100%;
+    border: 1px solid #e4e5e7;
+    border-radius: 2px;
+    background-color: #fff;
+    margin-bottom:5px;
+}
+.wplc-clear-float-message{
+    clear: both;
+}
+
+#wplc_message {
+    background: #fff;
+    font-weight: 400;
+    color: #455a64;
+    resize: none;
+    border: none;
+    margin-bottom:10px;
+}
+
+
+#wplc_message_div{
+    text-align: center;
+}
+#wp-live-chat-inner-image-div{
+    overflow: hidden;
+    height: 32px;
+}
+
+.wplc_close.wplc_left #wp-live-chat-1{
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -ms-transform-origin: left top 0;
+    -moz-transform-origin: left top 0;
+    -webkit-transform-origin: left top 0;
+    transform-origin: left top 0;
+    float: left;
+    width: 195px;
+    position: absolute;
+    top: 27px;
+    padding-left: 0;
+    left: 39px;
+}
+.wplc_left #wp-live-chat-header{
+    border-radius: 25px 25px;
+}
+.wplc_close.wplc_left #wp-live-chat-header{
+    position: absolute;
+    top: 0;
+    width: 50px;
+    bottom: 0;
+    right: 0;
+    left: 15px;
+}
+.wplc_open.wplc_left #wp-live-chat-header{
+    border-radius: 0px 5px 0px 0;
+}
+
+.wplc_close.wplc_left .wp-live-chat-wrapper, .wplc_close.wplc_right .wp-live-chat-wrapper{
+    position: relative;
+    height: 250px;
+}
+.wplc_left{
+    border-radius: 0px 5px 5px 0 !important;
+}
+.wplc_close.wplc_left{
+    padding-right: 45px;
+    height: 220px;
+}
+
+
+.wplc_close.wplc_right #wp-live-chat-1{
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -ms-transform-origin: 0 0 0;
+    -moz-transform-origin: 0 0 0;
+    -webkit-transform-origin: 0 0 0;
+    transform-origin: 0 0 0;
+    float: left;
+    width: 180px;
+    padding:0 !important;
+    bottom: 0;
+    position: absolute;
+    left: 8px;
+}
+
+.wplc_close.wplc_right #wp-live-chat-header{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.wplc_close.wplc_right{
+    padding-left: 75px;
+    height: 220px;
+    border-radius: 5px 0px 0px 5px !important;
+}
+.wplc_open.wplc_right #wp-live-chat-header{
+    border-radius: 5px 0px 0px 0;
+}
+.wplc_right{
+    border-radius: 5px 0px 0px 5px !important;
+}
+.wplc_close.wplc_left #wp-live-chat-image{
+    top: 25px;
+    left: 35px;
+}
+.wplc_close.wplc_right #wp-live-chat-image {
+    bottom: 18px;
+    left: initial;
+    right: 38px;
+    top: initial;
+}
+
+
+
+
+.wplc-admin-message { 
+    padding:5px;
+    color: olive!important;
+    /*text-decoration: underline;*/
+    font-size: 17;
+    font-weight: bolder;
+    color:#000;
+    display: inline-block;
+    float: left;
+    clear:both;
+    left:32px; 
+    max-width:82%;
+    word-wrap: break-word;
+}
+.wplc-admin-message-avatar {
+    position: absolute;
+    left: -38px;
+    border-radius: 15px;
+}
+#wplc_chatbox_header {
+    position: absolute;
+    background-color: #FFF;
+    background: rgba(255,255,255,.98);
+    top: 0;
+    right: 0;
+    height: 35px;
+    width: 367px;
+    border-bottom: 1px solid #eee;
+}
+.wplc-admin-message:before {
+    display: block;
+    width: 0;
+    top: 20px;
+    bottom: auto;
+    left: auto;
+    left: -7px;
+    border-width: 6px 7px 6px 0;
+    border-color: transparent #666;
+    content: "";
+    position: absolute;
+    border-style: solid;
+}
+
+.wplc-user-message { 
+     padding:5px;
+    color: darkslateblue !important;
+    /*text-decoration: underline;*/
+    font-size: 17;
+    font-weight: bolder;
+    color:#000;
+    display: inline-block;
+    float: right;
+    clear:both;
+    right:30px;
+    max-width:82%;
+    word-wrap: break-word;
+
+
+}
+
+.chat_time {
+    display: block;
+     width: 100%; 
+     text-align: center; 
+    font-size: 0.8em;
+    color: #ccc;
+    clear: both;
+    position: relative;
+    right: 30px;
+    text-align: right;
+}
+
+.wplc-user-message hr, .wplc-admin-message hr{
+    margin-bottom: 0px !important;
+}
+.wplc-user-message-avatar {
+    position: absolute;
+    right: -38px;
+    border-radius: 15px;
+}
+
+
+.wplc-user-message:before {
+    display: block;
+    width: 0;
+    top: 20px;
+    bottom: auto;
+    left: auto;
+    right: -7px;
+    border-width: 6px 0 6px 7px;
+    border-color: transparent #ffdb99;
+    content: "";
+    position: absolute;
+    border-style: solid;
+}
+
+#wplc_hovercard { 
+    position: fixed;
+    bottom: 96px;
+    right: 75px;
+    width: 300px;
+    height: 145px;
+    border: 1px solid #ccc ;
+    background-color: #FFF;
+    border-radius: 5px;
+    z-index: 9999999;
+    height:auto;
+}
+
+#wplc_hovercard:before {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 240px;
+    border-width: 9px 9px 0;
+    border-style: solid;
+    border-color: #ccc transparent;
+    display: block;
+    width: 0;}
+#wplc_hovercard:after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 241px;
+    border-width: 8px 8px 0;
+    border-style: solid;
+    border-color: #fafafb transparent;
+    display: block;
+    width: 0;
+}
+
+.wplc_button_standard {
+    border: 1px solid #ED832F;
+    background-color: #ED832F;
+    opacity:0.9;
+
+}
+.wplc_button_standard:hover {
+    border: 1px solid #ED832F;
+    background-color: #ED832F;
+    opacity:0.7;
+}
+
+.wplc_button_standard:focus {
+    border: 1px solid #ED832F;
+    background-color: #ED832F;
+    opacity:0.7;
+}
+
+
+#wplc_hovercard_min {
+    position: absolute;
+    width: 61px;
+    height: 18px;
+    right: 0px;
+    top: -25px;
+    font-size: 9px;
+    text-align: center;
+    border-radius: 9px;
+    color: #fff;
+    cursor: pointer;
+    line-height: 16px;
+}
+#wplc_hovercard_bottom{ 
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    height: 43px;
+    border-bottom-right-radius: 5px;
+    background-color: #fafafb;
+    border-bottom-left-radius: 5px;
+}
+#wplc_hovercard_content { 
+    padding:15px;
+    height:100px;
+    box-shadow: 0 1px 1px #f0f0f1;
+    display:flex;
+    height:auto;
+}
+
+ named after the famous words uttered by The Dylan at Code Cabin 
+#speeching_button {
+    padding: 5px;
+    font-size: 12px;
+    text-transform: none;
+    float: right;
+    margin-right: 15px;
+    border-style: none;
+    line-height: 12px;
+}
+
+#wplc_first_message {
+    display:block;
+
+
+}
+#wplc_first_message strong {
+    display:block;
+    clear:right;
+}
+
+.wplc_hovercard_content_left {
+    float: left;
+    display: block;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80px;
+}
+.wplc_hovercard_content_right {
+    float: left;
+    display: block;
+     margin-left: 30px; 
+     padding-left: 20px; 
+    font-size: 0.8em;
+    word-wrap: break-word;
+    height: 70px;
+    width: 188px;
+}
+.wplc_left_logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.wplc_hovercard_content_right .wplc_offline {
+    font-size:0.9em;
+    font-weight:bold;
+}
+
+#wplc_message_div {
+    margin-top: 20px;
+}
+#wp-live-chat-2-inner #wplc_start_chat_btn {
+    width:100%;
+}
+#wplc_social_holder {
+    position: absolute;
+    width: 40px;
+    z-index: 9999999999 !important;
+    bottom: 0px;
+    right: 2px !important;
+    left: 330px !important;
+    font-size: 15px;
+}
+
+.wplc_social_icon {
+    margin-left: 3px;
+}
+
+.nifty_tedit_icon{
+    font-size: 12px !important;
+    padding-left: 6px;
+}
+
+#nifty_text_editor_holder{
+    margin-top:-10px;
+    margin-left:4px;
+}
+.nifty_attach_icon {
+    position: absolute;
+    bottom: 62px;
+    right: 20px;
+}
+
+#nifty_ratings_holder {
+    position: relative;
+    z-index: 9999999999999999999999;
+    left: 8px;
+    top: 4px;
+}
+
+#nifty_ratings_form {
+    position: absolute;
+    left: 65px;
+    top: -4px;
+    width: 220px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+input#nifty_ratings_comment {
+    width: 70%;
+    margin-bottom: 0px;
+    line-height: inherit;
+    font-size: 12px;
+    top: -1px;
+    position: relative;
+}
+
+#nifty_ratings_form:before {
+    top: 11px;
+    left: -7px;
+    border-width: 6px 7px 6px 0;
+    border-color: transparent #666;
+    content: "";
+    position: absolute;
+    border-style: solid;
+}
+
+#nifty_ratings_comment {
+    height: 25px !important;
+    margin-left: 2px;
+}
+
+#nifty_rating_button {
+    float: right;
+    border-style: none;
+    width: 27%;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 12px;
+    padding: 4px;
+    top: 1px;
+    right: 2px;
+    position: relative;
+}
+
+#nifty_rating_thanks {
+    position: absolute;
+    top: 0px;
+    left: 58px;
+    width: 200px;
+}
+
+#nifty_recording {
+    margin-left: 5px;
+}
+.wplc_powered_by_link {
+    font-size: 10px;
+    padding: 5px;
+}
+.wplc-color-1 { color: #ED832F !important; }
+.wplc-color-2 {color: #FFF !important;}
+.wplc-color-3 { color: #EEE !important; }
+.wplc-color-4 { color: #666 !important; }
+
+
+
+
+.wplc-color-bg-1 {background-color: #ED832F !important;}
+.wplc-color-bg-2 { background-color: #FFF !important; }
+.wplc-color-bg-3 { background-color: #EEE !important; }
+.wplc-color-bg-4 { background-color: #666 !important; }
+
+
+
+
+.wplc-color-border-1 { border-color: #ED832F !important; }
+.wplc-color-border-2 { border-color: #FFF !important; }
+.wplc-color-border-3 { border-color: #EEE !important; }
+.wplc-color-border-4 { border-color: #666 !important; }
+
+
+
+.wplc-color-border-1:before { border-color: transparent #ED832F !important; }
+.wplc-color-border-2:before { border-color: transparent #FFF !important; }
+.wplc-color-border-3:before { border-color: transparent #EEE !important; }
+.wplc-color-border-4:before { border-color: transparent #666 !important; }
+#wplc_hovercard.modern {
+    position: fixed;
+    bottom: 96px;
+    left: 75px;
+    width: 300px;
+    height: 145px;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+
+
+#wplc_hovercard:before {
+    left: 40px;
+}
+#wplc_hovercard:after {
+    left: 41px;
+}
+.modern #wp-live-chat-2 {
+    left:0 !important;
+    right:auto;
+}
+
+.modern #wp-live-chat-4 {
+    left:0 !important;
+    right:auto;
+}
+
+#wplc_social_holder {
+    right: -24px;
+}
+
+#wplc_hovercard.classic {
+    position: fixed;
+    bottom: 96px;
+    left: 97px;
+    width: 209px;
+    height: 125px;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+#wplc_hovercard.classic:before {
+    left: 32px;
+}
+#wplc_hovercard.classic:after {
+    left: 33px;
+}

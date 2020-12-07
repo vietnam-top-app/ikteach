@@ -1,0 +1,186 @@
+# Translation of Plugins - Disable Comments - Development (trunk) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Disable Comments - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-08 10:32:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Disable Comments - Development (trunk)\n"
+
+#: disable-comments.php:388
+msgctxt "settings menu title"
+msgid "Disable Comments"
+msgstr "停用迴響"
+
+#: includes/tools-page.php:102
+msgid "Total Comments:"
+msgstr "迴響總數:"
+
+#: includes/tools-page.php:97
+msgid "%s: Deleting comments will remove existing comment entries in the database and cannot be reverted without a database backup."
+msgstr "%s: [刪除迴響] 功能會移除資料庫中所有迴響項目，且在沒有資料庫備份的情況下無法還原。"
+
+#: includes/tools-page.php:88
+msgid "For certain post types"
+msgstr "為指定文章類型進行刪除"
+
+#: includes/tools-page.php:86
+msgid "%s: This function and will affect your entire site. Use it only if you want to delete comments <em>everywhere</em>."
+msgstr "%s: 操作這項功能後會套用至整個網站。只有當你想為<strong>全站</strong>刪除迴響時才使用它。"
+
+#: includes/tools-page.php:85
+msgid "Delete all comments in WordPress."
+msgstr "刪除 WordPress 網站中所有迴響。"
+
+#: includes/tools-page.php:68
+msgid "Comment Deletion Complete"
+msgstr "完成迴響刪除工作"
+
+#: includes/tools-page.php:62
+msgid "All comments have been deleted for %ss."
+msgstr "已刪除「%s」的所有迴響。"
+
+#: includes/tools-page.php:40 includes/tools-page.php:43
+msgid "Internal error occured. Please try again later."
+msgstr "發生內部錯誤，請稍後重試。"
+
+#: includes/tools-page.php:38
+msgid "All comments have been deleted."
+msgstr "已刪除所有迴響。"
+
+#: includes/tools-page.php:13 includes/tools-page.php:75
+msgid "No comments available for deletion."
+msgstr "沒有迴響可供刪除。"
+
+#: includes/settings-page.php:68 includes/tools-page.php:95
+msgid "Custom post types:"
+msgstr "自訂文章類型:"
+
+#: disable-comments.php:400 includes/tools-page.php:7
+#: includes/tools-page.php:103
+msgid "Delete Comments"
+msgstr "刪除迴響"
+
+#: disable-comments.php:380
+msgid "Tools"
+msgstr "工具"
+
+#. Author URI of the plugin/theme
+msgid "http://www.rayofsolaris.net/"
+msgstr "http://www.rayofsolaris.net/"
+
+#. Author of the plugin/theme
+msgid "Samir Shah"
+msgstr "Samir Shah"
+
+#. Description of the plugin/theme
+msgid "Allows administrators to globally disable comments on their site. Comments can be disabled according to post type."
+msgstr "讓網站管理員為整個網站停用迴響功能，亦可在指定文章類型中停用迴響功能。"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/disable-comments/"
+msgstr "https://wordpress.org/plugins/disable-comments/"
+
+#: includes/settings-page.php:110
+msgid "%s: Selecting this option will make persistent changes to your database. Are you sure you want to enable it?"
+msgstr "%s: 選取這個選項將會對資料庫進行永久性變更。確定要啟用它嗎？"
+
+#: includes/settings-page.php:89
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: includes/settings-page.php:82
+msgid "%s: Entering persistent mode on large multi-site networks requires a large number of database queries and can take a while. Use with caution!"
+msgstr "%s: 在大型多站點網路上進入永久模式會進行大量的資料庫查詢，且可能需要一段時間。請謹慎使用！"
+
+#: includes/settings-page.php:80
+msgid "%s: <strong>This will make persistent changes to your database &mdash; comments will remain closed even if you later disable the plugin!</strong> You should not use it if you only want to disable comments temporarily. Please <a href=\"%s\" target=\"_blank\">read the FAQ</a> before selecting this option."
+msgstr "%s: <strong>這項設定會永久變更你的資料庫 &mdash; 即使你稍後停用了這個外掛，迴響功能依舊會保持關閉！</strong>如果只想暫時停用迴響功能，請不要使用這項功能。在選取這個選項前，請參閱<a href=\"%s\" target=\"_blank\">常見問題集</a>。"
+
+#: includes/settings-page.php:79
+msgid "Use persistent mode"
+msgstr "使用永久模式"
+
+#: includes/settings-page.php:75
+msgid "Other options"
+msgstr "其他設定"
+
+#: includes/settings-page.php:70
+msgid "Disabling comments will also disable trackbacks and pingbacks. All comment-related fields will also be hidden from the edit/quick-edit screens of the affected posts. These settings cannot be overridden for individual posts."
+msgstr "停用迴響功能的同時，也會一併停用引用通知和通告。所有與迴響功能相關的欄位，都會在影響所及的文章類型的 [編輯] 及 [快速編輯] 畫面中予以隱藏，且這些設定無法為個別文章/頁面進行變更。"
+
+#: includes/settings-page.php:67 includes/tools-page.php:94
+msgid "Only the built-in post types appear above. If you want to disable comments on other custom post types on the entire network, you can supply a comma-separated list of post types below (use the slug that identifies the post type)."
+msgstr "只有內建的文章類型會顯示於上方。如果你想在整個網路中為自訂文章類型停用迴響功能，請在下方提供以逗號分隔的文章類型清單。請填入可辨識文章類型的代稱 (Slug)。"
+
+#: includes/settings-page.php:61
+msgid "On certain post types"
+msgstr "為指定文章類型進行停用"
+
+#: includes/settings-page.php:59 includes/settings-page.php:80
+#: includes/settings-page.php:82 includes/settings-page.php:110
+#: includes/tools-page.php:86 includes/tools-page.php:97
+msgid "Warning"
+msgstr "警告"
+
+#: includes/settings-page.php:59
+msgid "%s: This option is global and will affect your entire site. Use it only if you want to disable comments <em>everywhere</em>. A complete description of what this option does is <a href=\"%s\" target=\"_blank\">available here</a>."
+msgstr "%s: 這個選項為全域設定，意即一經設定就會套用至整個網站。只有當你想為<strong>全站</strong>停用迴響功能時才使用它。你在<a href=\"%s\" target=\"_blank\">這裡</a>可以找到關於這項設定的完整說明。"
+
+#: includes/settings-page.php:58
+msgid "Disable all comment-related controls and settings in WordPress."
+msgstr "停用 WordPress 網站中所有與迴響相關的控制項及設定。"
+
+#: includes/settings-page.php:58 includes/tools-page.php:85
+msgid "Everywhere"
+msgstr "套用至整個網站"
+
+#: includes/settings-page.php:54
+msgid "It seems that a caching/performance plugin is active on this site. Please manually invalidate that plugin's cache after making any changes to the settings below."
+msgstr "偵測到這個網站啟用了快取或效能相關外掛。在變更以下的任何設定後，請務必手動清除外掛所產生的快取。"
+
+#: includes/settings-page.php:52
+msgid "<em>Disable Comments</em> is Network Activated. The settings below will affect <strong>all sites</strong> in this network."
+msgstr "已為所有網誌啟用 <strong>Disable Comments</strong> 外掛。以下設定將會套用至這個網誌網路內的<strong>所有網站</strong>。"
+
+#: includes/settings-page.php:44
+msgid "Options updated. Changes to the Admin Menu and Admin Bar will not appear until you leave or reload this page."
+msgstr "設定已儲存。管理選單和管理工具列會在你離開或重新整理此頁面後才會出現變更。"
+
+#: includes/settings-page.php:43
+msgid "If a caching/performance plugin is active, please invalidate its cache to ensure that changes are reflected immediately."
+msgstr "如果啟用了快取或與效能相關的外掛，請先清除快取，以確保變更會立即生效。"
+
+#. #-#-#-#-#  disable-comments-code.pot (Disable Comments 1.7.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/settings-page.php:49
+msgid "Disable Comments"
+msgstr "Disable Comments"
+
+#: disable-comments.php:379
+msgid "Settings"
+msgstr "設定"
+
+#: disable-comments.php:317
+msgid "The <em>Disable Comments</em> plugin is active, but isn't configured to do anything yet. Visit the <a href=\"%s\">configuration page</a> to choose which post types to disable comments on."
+msgstr "<strong>Disable Comments</strong> 外掛已啟用，但仍未進行任何設定。請至<a href=\"%s\">外掛設定頁面</a>進行設定，選取要為哪些文章類型停用迴響功能。"
+
+#: disable-comments.php:289
+msgid ", "
+msgstr ", "
+
+#: disable-comments.php:289
+msgid "Note: The <em>Disable Comments</em> plugin is currently active, and comments are completely disabled on: %s. Many of the settings below will not be applicable for those post types."
+msgstr "注意: <strong>Disable Comments</strong> 外掛目前已啟用，迴響會在「%s」中完全停用。以下所列設定並不適用於那些文章類型。"
+
+#: disable-comments.php:240 disable-comments.php:325
+msgid "Comments are closed."
+msgstr "迴響功能已關閉。"
+
+#: disable-comments.php:59
+msgid "Disable Comments requires WordPress version %s or greater."
+msgstr "Disable Comments 須要 WordPress %s 版或更新版本。"

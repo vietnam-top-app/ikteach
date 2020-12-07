@@ -1,0 +1,3 @@
+[06-Feb-2018 06:34:55 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ikteacher/public_html/wp-content/plugins/hello.php on line 60
+[31-May-2018 09:58:42 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ikteacher/public_html/wp-content/plugins/hello.php on line 60
+[26-May-2020 20:15:13 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/iktutor/public_html/ikteach/wp-content/plugins/hello.php on line 60

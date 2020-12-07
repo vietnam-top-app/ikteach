@@ -1,0 +1,43 @@
+.wp-editor p {
+
+	margin: 0;
+
+}
+
+* {
+   font-family: "Myriad Pro", "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+blockquote {
+
+	background: #E1E4F2 !important;
+
+	font-style: italic !important;
+
+	padding: 10px;
+
+	margin: 5px 0 5px 30px;
+
+}
+
+
+
+blockquote .quoted-from {
+
+	font-size: 15px;
+
+	font-weight: bold;
+
+}
+
+
+
+blockquote blockquote {
+
+	border-width: 1px !important;
+
+	border-style: solid !important;
+
+	border-color: #9A9A9A #EEE #EEE #9A9A9A !important;
+
+}

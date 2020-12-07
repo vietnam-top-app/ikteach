@@ -1,0 +1,11 @@
+[30-Jul-2018 15:08:33 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ikteacher/public_html/wp-content/plugins/iii-dictionary/iii-dictionary.php on line 71
+[16-Aug-2018 11:30:30 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ikteacher/public_html/wp-content/plugins/iii-dictionary/iii-dictionary.php on line 71
+[24-Dec-2018 09:19:50 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/iktutor/public_html/ikteach/wp-content/plugins/iii-dictionary/iii-dictionary.php on line 71
+[27-Dec-2018 01:56:43 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/iktutor/public_html/ikteach/wp-content/plugins/iii-dictionary/iii-dictionary.php on line 71
+[23-Feb-2019 18:15:49 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/iktutor/public_html/ikteach/wp-content/plugins/iii-dictionary/iii-dictionary.php on line 71
+[15-Jul-2019 14:45:55 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/iktutor/public_html/ikteach/wp-content/plugins/iii-dictionary/iii-dictionary.php on line 71
+[05-Aug-2019 11:56:51 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/iktutor/public_html/ikteach/wp-content/plugins/iii-dictionary/iii-dictionary.php on line 71
+[24-Jan-2020 08:05:57 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/iktutor/public_html/ikteach/wp-content/plugins/iii-dictionary/iii-dictionary.php on line 71
+[24-Jan-2020 08:07:22 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/iktutor/public_html/ikteach/wp-content/plugins/iii-dictionary/iii-dictionary.php on line 71
+[21-Mar-2020 08:25:23 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/iktutor/public_html/ikteach/wp-content/plugins/iii-dictionary/iii-dictionary.php on line 71
+[29-Jun-2020 06:17:55 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/iktutor/public_html/ikteach/wp-content/plugins/iii-dictionary/iii-dictionary.php on line 71

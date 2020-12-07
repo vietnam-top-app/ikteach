@@ -1,0 +1,5570 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-07-06 17:34+0700\n"
+"PO-Revision-Date: 2015-09-22 09:16+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: plugins/iii-dictionary\n"
+"X-Poedit-SearchPath-1: themes/ik-learn/footer.php\n"
+"X-Poedit-SearchPath-2: themes/ik-learn/header.php\n"
+"X-Poedit-SearchPath-3: themes/ik-learn/footer-math.php\n"
+"X-Poedit-SearchPath-4: themes/ik-learn/header-math.php\n"
+"X-Poedit-SearchPathExcluded-0: plugins/iii-dictionary/chat\n"
+
+#: plugins/iii-dictionary/layouts/about_us.php:76
+msgid "American English Live > "
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:77
+msgid "About Us & <br /> Contact"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:91
+msgid "Who we are"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:92
+msgid "Innovative Knowledge is located in the heart of the Silicon Valley, developing and has been developing educational software for almost 20 years."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:93
+msgid "We have accumulated critical knowledge and know-how of how software assisted learning works. We do not create \"educational games\" for children because we do not believe playing games is the most effective way to learn a new concept."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:94
+msgid "We have collaborated with San Joe State University for the K-12 content in English and math. All software development has been done in-house by engineers who have many years of experience in software development in the Silicon Valley."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:106
+msgid "What we offer"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:107
+msgid "Innovative Knowledge, Inc. currently offers two online programs: iklearn.com and Americanenglishlive.com."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:108
+msgid "Americanenglishlive.com was developed for students in China, Japan, Korea and other countries. This site offers TOEIC, TOEFL, and other English learning programs."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:109
+msgid "Iklearn.com provides Math and English learning programs, along with SAT preparation. This site offers teacher a \"classroom management tool\" to access a large database of ready-made homework and simplifies homework assigment and grading. Tutoring in English writing and math are also provide on this site."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:121
+msgid "Customer Service"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:124
+msgid "Tel:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:127
+msgid "(408) 274-4848"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:130
+msgid "Email:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:133
+msgid "support@iklearn.com"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:134
+msgid "(Please note that telephone technical support requests may <br /> require lengthy hold period - email is usually a faster option.)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:137
+msgid "Add:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/about_us.php:140
+msgid "Innovative Knowledge, Inc. <br/> 606 North First Street <br/> San Jose, CA 95112"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/admin_homework_creator.php:476
+#: plugins/iii-dictionary/layouts/admin/admin_homework_creator.php:890
+#: plugins/iii-dictionary/layouts/homework_assignment.php:442
+#: plugins/iii-dictionary/layouts/homework_assignment.php:846
+msgid "-Homework Type-"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/admin_homework_creator.php:551
+#: plugins/iii-dictionary/layouts/homework_assignment.php:512
+#: plugins/iii-dictionary/layouts/homework_assignment.php:915
+#: plugins/iii-dictionary/layouts/math/home.php:74
+#: plugins/iii-dictionary/layouts/math/home.php:79
+#: plugins/iii-dictionary/layouts/teaching.php:904
+msgid "Details"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:170
+msgid "Email Type"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:174
+msgid "Language Type"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:187
+msgid "Rate of Emil to send out (Daily)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:193
+msgid "Subject in the email"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:199
+msgid "Email Body"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:214
+msgid "A word from Collegiate Dictionary"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:220
+msgid "The Ending portion of email"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:236
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:251
+#: plugins/iii-dictionary/layouts/math/math_homework.php:608
+#: plugins/iii-dictionary/layouts/math/math_homework.php:675
+#: plugins/iii-dictionary/layouts/private_messages.php:354
+msgid "Send"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:241
+msgid "Email Test"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:242
+msgid "Test E-mail address"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:261
+#: plugins/iii-dictionary/layouts/flash_cards.php:180
+#: plugins/iii-dictionary/library/MWHtml.php:1198
+#: plugins/iii-dictionary/library/MWHtml.php:1757
+msgid "Messages"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:266
+msgid "Successfully Saved"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:269
+msgid "Send email test successfully"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:272
+msgid "You have not type test email address."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/email_marketing.php:275
+msgid "Send email test fail."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/feedback_from_users.php:255
+#: plugins/iii-dictionary/layouts/dictionary.php:450
+#: plugins/iii-dictionary/layouts/payments.php:294
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:196
+#: plugins/iii-dictionary/layouts/spelling_practice.php:217
+#: plugins/iii-dictionary/layouts/teachers_box.php:245
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:200
+#: plugins/iii-dictionary/layouts/writing_practice.php:188
+msgid "Loading..."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/feedback_from_users.php:258
+#: plugins/iii-dictionary/layouts/payments.php:302
+msgid "Please don't close the window until it is completed."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:375
+msgid "English side"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:378
+msgid "Math side (main menu)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:383
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:417
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:459
+#: plugins/iii-dictionary/library/MWHtml.php:22
+msgid "English"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:389
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:423
+#: plugins/iii-dictionary/library/MWHtml.php:23
+msgid "Japanese"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:395
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:429
+#: plugins/iii-dictionary/library/MWHtml.php:24
+msgid "Korean"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:401
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:435
+#: plugins/iii-dictionary/library/MWHtml.php:26
+msgid "Chinese"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:407
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:441
+msgid "Vietnamese"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:450
+msgid "Apply the new Links"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:462
+msgid "Math"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/admin/price_manager.php:526
+msgid "Apply the new subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:327
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:208
+#: plugins/iii-dictionary/layouts/spelling_practice.php:229
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:213
+#: plugins/iii-dictionary/layouts/writing_practice.php:197
+msgid "Worksheet - Free"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:330
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:209
+#: plugins/iii-dictionary/layouts/spelling_practice.php:230
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:214
+#: plugins/iii-dictionary/layouts/writing_practice.php:198
+msgid "Worksheet - Subscribed"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:804
+msgid "Invalid credit code number."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:805
+msgid "The credit code you entered is invalid. Please enter a different one."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:810
+msgid "This credit code has been used already."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:811
+msgid "Please enter a different credit code."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:816
+msgid "This credit code has expired."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:817
+msgid "This credit code has already expired. Please enter a different one."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:823
+msgid "Activation error"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:824
+msgid "Number of license is used up for this activation code. Please enter a different code."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:827
+msgid "Activation notice"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:828
+msgid "This activation code is already actived from Desktop app. Please use the Desktop icon to start iklearn.com."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:1263
+#: plugins/iii-dictionary/library/MWHtml.php:1871
+#: plugins/iii-dictionary/library/MWHtml.php:1883
+msgid "Select a directory"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:1286
+#: plugins/iii-dictionary/layouts/ajax.php:1337
+msgid "Sorry, you do not have enough points for this session"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:1287
+#: plugins/iii-dictionary/layouts/ajax.php:1338
+msgid "Would you like to purchase points now?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:1289
+#: plugins/iii-dictionary/layouts/ajax.php:1340
+#: plugins/iii-dictionary/layouts/ajax.php:1347
+#: plugins/iii-dictionary/layouts/ajax.php:1353
+#: plugins/iii-dictionary/layouts/homework_status.php:201
+#: plugins/iii-dictionary/layouts/math/math_homework.php:554
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:332
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:389
+#: plugins/iii-dictionary/layouts/spelling_practice.php:351
+#: plugins/iii-dictionary/layouts/spelling_practice.php:408
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:332
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:389
+#: plugins/iii-dictionary/layouts/writing_practice.php:318
+#: plugins/iii-dictionary/layouts/writing_practice.php:375
+#: plugins/iii-dictionary/library/MWHtml.php:1635
+msgid "Yes"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:1290
+#: plugins/iii-dictionary/layouts/ajax.php:1324
+#: plugins/iii-dictionary/layouts/ajax.php:1341
+#: plugins/iii-dictionary/layouts/ajax.php:1348
+#: plugins/iii-dictionary/layouts/ajax.php:1354
+#: plugins/iii-dictionary/layouts/homework_assignment.php:67
+#: plugins/iii-dictionary/layouts/homework_status.php:207
+msgid "No"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:1314
+msgid "A teacher, "
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:1314
+msgid " has responded."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:1315
+msgid "Would you like to start the tutoring now ?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:1316
+#: plugins/iii-dictionary/layouts/sat_preparation.php:301
+#: plugins/iii-dictionary/layouts/sat_preparation.php:332
+#: plugins/iii-dictionary/layouts/spelling_practice.php:243
+#: plugins/iii-dictionary/layouts/spelling_practice.php:465
+#: plugins/iii-dictionary/layouts/spelling_practice.php:559
+#: plugins/iii-dictionary/layouts/spelling_practice.php:608
+msgid "Start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:1322
+msgid "Your request has been sent to the teacher's panel."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:1323
+msgid "Please wait until a teacher responses"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:1346
+msgid "Do you want stop chat session ?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/ajax.php:1352
+msgid "Do you want continue this session ?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/api.php:148
+msgid "Your Device hasn't subscribed any Dictionaries yet."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/api.php:180
+#, php-format
+msgid "Your Device has subscribed %s Dictionary"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:4
+msgid "Create a Group or Class"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:131
+msgid "List of \"Class\" Groups"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:136
+msgid "Create Group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:147
+#: plugins/iii-dictionary/layouts/create_group.php:241
+#: plugins/iii-dictionary/layouts/homework_assignment.php:623
+#: plugins/iii-dictionary/layouts/homework_assignment.php:1030
+#: plugins/iii-dictionary/layouts/homework_assignment.php:1087
+#: plugins/iii-dictionary/layouts/homework_status.php:116
+#: plugins/iii-dictionary/layouts/homework_status.php:143
+#: plugins/iii-dictionary/layouts/manage_subscription.php:812
+#: plugins/iii-dictionary/layouts/manage_subscription.php:864
+#: plugins/iii-dictionary/layouts/teachers_box.php:177
+#: plugins/iii-dictionary/layouts/teachers_box.php:205
+#: plugins/iii-dictionary/layouts/teachers_box.php:267
+msgid "Group name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:154
+msgid "Free"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:163
+#: plugins/iii-dictionary/layouts/dictionary.php:203
+#: plugins/iii-dictionary/layouts/homework_assignment.php:450
+#: plugins/iii-dictionary/layouts/homework_assignment.php:863
+#: plugins/iii-dictionary/layouts/private_messages.php:213
+#: plugins/iii-dictionary/layouts/teachers_box.php:194
+#: plugins/iii-dictionary/layouts/teaching.php:695
+#: plugins/iii-dictionary/layouts/teaching.php:760
+#: plugins/iii-dictionary/layouts/teaching.php:861
+#: plugins/iii-dictionary/layouts/teaching.php:1126
+#: plugins/iii-dictionary/layouts/teaching.php:1382
+msgid "Search"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:176
+#: plugins/iii-dictionary/library/MWHtml.php:1689
+msgid "Group Name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:178
+#: plugins/iii-dictionary/library/MWHtml.php:253
+msgid "Class"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:180
+#: plugins/iii-dictionary/layouts/create_group.php:287
+msgid "Ordering"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:183
+msgid "Created on"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:193
+msgid "You haven't created any group yet."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:229
+msgid "Create New Group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:233
+msgid "See how to manage a classroom?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:248
+#: plugins/iii-dictionary/layouts/homework_assignment.php:1093
+#: plugins/iii-dictionary/layouts/homework_status.php:122
+#: plugins/iii-dictionary/layouts/manage_subscription.php:818
+#: plugins/iii-dictionary/layouts/manage_subscription.php:870
+msgid "Group password"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:258
+msgid "Group Type"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:271
+msgid "Special Group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:277
+msgid "Class Name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:294
+#: plugins/iii-dictionary/layouts/payments.php:77
+#: plugins/iii-dictionary/layouts/teaching.php:710
+#: plugins/iii-dictionary/layouts/teaching.php:877
+#: plugins/iii-dictionary/layouts/teaching.php:1141
+#: plugins/iii-dictionary/library/MWHtml.php:1690
+#: plugins/iii-dictionary/library/subscriptionlib.php:1482
+msgid "Price"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:302
+#: plugins/iii-dictionary/layouts/sat_preparation.php:298
+msgid "Content"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:319
+#: plugins/iii-dictionary/layouts/manage_subscription.php:136
+#: plugins/iii-dictionary/layouts/sat_preparation.php:300
+#: plugins/iii-dictionary/library/MWHtml.php:1384
+#: plugins/iii-dictionary/library/MWHtml.php:1692
+msgid "Detail"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:329
+#: plugins/iii-dictionary/layouts/homework_assignment.php:635
+#: plugins/iii-dictionary/layouts/homework_assignment.php:1034
+#: plugins/iii-dictionary/layouts/homework_assignment.php:1099
+msgid "Create a new group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:333
+msgid "Update group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:338
+#: plugins/iii-dictionary/layouts/grade_homework.php:152
+#: plugins/iii-dictionary/layouts/home.php:146
+#: plugins/iii-dictionary/layouts/homework_assignment.php:732
+#: plugins/iii-dictionary/layouts/homework_status.php:383
+#: plugins/iii-dictionary/layouts/math/home.php:129
+#: plugins/iii-dictionary/layouts/private_messages.php:292
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:288
+#: plugins/iii-dictionary/layouts/spelling_practice.php:307
+#: plugins/iii-dictionary/layouts/teachers_box.php:404
+#: plugins/iii-dictionary/layouts/teachers_box.php:581
+#: plugins/iii-dictionary/layouts/view_subscription.php:90
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:287
+#: plugins/iii-dictionary/layouts/writing_practice.php:273
+#: plugins/iii-dictionary/layouts/writing_report.php:123
+msgid "Go back"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:349
+msgid "Create a name for your group (class)."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:350
+msgid "Give the group name and password to your students to join the class."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:352
+msgid "Go to Homework Assignment under \"Teacher\" and select a worksheet and send it to the group as the homework assignment."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:353
+msgid "Homework completed by students is auto-graded."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:354
+msgid "View the homework results at the"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/create_group.php:354
+#: plugins/iii-dictionary/layouts/teachers_box.php:11
+msgid "Teacher's Box"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:79
+#: plugins/iii-dictionary/layouts/sat_preparation.php:269
+msgid "Login Required"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:80
+#: plugins/iii-dictionary/layouts/sat_preparation.php:270
+msgid "Please login in order to continue to use this function."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:81
+#: plugins/iii-dictionary/layouts/login.php:12
+#: plugins/iii-dictionary/layouts/login.php:19
+#: plugins/iii-dictionary/layouts/login.php:216
+#: plugins/iii-dictionary/layouts/math/math_homework.php:722
+#: plugins/iii-dictionary/layouts/sat_preparation.php:271
+#: themes/ik-learn/header-math.php:136 themes/ik-learn/header.php:131
+msgid "Login"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:82
+#: plugins/iii-dictionary/layouts/dictionary.php:507
+msgid "Please select a Folder"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:83
+msgid "Please subscribe in order to save more than 5 flashcards!"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:92
+#: plugins/iii-dictionary/layouts/signup.php:11
+msgid "This email address is already registered. Please choose another one."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:100
+#: plugins/iii-dictionary/layouts/signup.php:19
+msgid "This email address is invalid. Please choose another one."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:109
+#: plugins/iii-dictionary/layouts/signup.php:28
+msgid "Passwords must not be empty"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:115
+#: plugins/iii-dictionary/layouts/signup.php:34
+msgid "Passwords must match"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:121
+#: plugins/iii-dictionary/layouts/signup.php:40
+msgid "Passwords must be at least six characters long"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:166
+#: plugins/iii-dictionary/layouts/signup.php:99
+msgid "Congratulations! You have successfully signed up for iklearn.com"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:167
+#: plugins/iii-dictionary/layouts/signup.php:100
+msgid "You have successfully signed up for iklearn.com."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:168
+#: plugins/iii-dictionary/layouts/signup.php:101
+msgid "If you have questions or need support, please contact us at support@iklearn.com."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:169
+#: plugins/iii-dictionary/layouts/signup.php:102
+msgid "If you forgot your password, please click on the \"forgot password\" button after entering your username (email address)."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:170
+#: plugins/iii-dictionary/layouts/signup.php:103
+msgid "Please enjoy the Merriam Webster dictionary and English learning tools."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:171
+#: plugins/iii-dictionary/layouts/signup.php:104
+msgid "For teachers - You may assign homework practice sheets available on this site. You can also create your own homework sheets. Please click here for details. The homework that is turned in by students is automatically graded and saved in your teacher's box. Currently, the available homework worksheets are (1) spelling practice and (2) vocabulary and grammar."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:172
+#: plugins/iii-dictionary/layouts/signup.php:105
+msgid "Happy learning!"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:173
+#: plugins/iii-dictionary/layouts/signup.php:106
+#: plugins/iii-dictionary/library/subscriptionlib.php:1539
+msgid "Support"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:219
+msgid "Create flash card"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:224
+#: plugins/iii-dictionary/layouts/dictionary.php:318
+msgid "Headword"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:232
+msgid "Pronunciation"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:241
+msgid "Variant spelling"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:250
+#: plugins/iii-dictionary/layouts/dictionary.php:323
+msgid "Inflected form"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:255
+#: plugins/iii-dictionary/layouts/dictionary.php:328
+msgid "Function"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:261
+msgid "Usage"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:268
+#: plugins/iii-dictionary/layouts/dictionary.php:333
+msgid "Definition"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:277
+msgid "Synonym"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:291
+msgid "Etymology"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:297
+#: plugins/iii-dictionary/layouts/teaching.php:1233
+msgid "Date"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:349
+#, php-format
+msgid "No exact match found for \"%s\" in %s"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:354
+msgid "Did you mean"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:357
+msgid "Similar words:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:374
+#, php-format
+msgid "Merriam-Webster's%s Collegiate Dictionary, Eleventh Edition"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:376
+msgid "Digital <br /> dictionary <br /> download"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:378
+msgid "Download for Mac"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:379
+msgid "Download for Win"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:381
+#, php-format
+msgid "Windows Compatibility: Win%s7, Vista, XP/2K %s Mac Compatibility: OS X 10.4 or higher"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:383
+msgid "Dictionaries: Copyright by Merriam Webster, All rights reserved. Software and graphics: Copyright by Innovative Knowledge, Inc. All rights reserved."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:390
+#: plugins/iii-dictionary/layouts/dictionary.php:482
+msgid "Search History"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:402
+msgid "see more"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:410
+#: plugins/iii-dictionary/layouts/flash_cards.php:69
+#: plugins/iii-dictionary/layouts/flash_cards.php:70
+msgid "Flash Cards"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:459
+msgid "Get answer"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:460
+#: plugins/iii-dictionary/layouts/flash_cards.php:166
+#: plugins/iii-dictionary/layouts/homework_assignment.php:570
+#: plugins/iii-dictionary/layouts/math/math_homework.php:510
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:241
+#: plugins/iii-dictionary/layouts/spelling_practice.php:255
+#: plugins/iii-dictionary/layouts/teaching.php:952
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:241
+#: plugins/iii-dictionary/layouts/writing_practice.php:228
+msgid "Next"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:463
+msgid "Get more Quizzes at:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:464
+#: plugins/iii-dictionary/layouts/homework_assignment.php:888
+msgid "Level"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:464
+msgid "Lesson"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:492
+msgid "Done"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:504
+msgid "Save to folder"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:522
+msgid "Adding ..."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:522
+msgid "Add"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:527
+#: plugins/iii-dictionary/layouts/dictionary.php:541
+msgid "Create folder"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:544
+msgid "Folder name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:548
+msgid "Saving ..."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:548
+#: plugins/iii-dictionary/layouts/homework_status.php:239
+#: plugins/iii-dictionary/layouts/homework_status.php:410
+#: plugins/iii-dictionary/layouts/homework_status.php:442
+#: plugins/iii-dictionary/layouts/manage_subscription.php:921
+#: plugins/iii-dictionary/layouts/manage_subscription.php:994
+#: plugins/iii-dictionary/layouts/math/math_homework.php:550
+#: plugins/iii-dictionary/layouts/math/math_homework.php:577
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:328
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:354
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:385
+#: plugins/iii-dictionary/layouts/spelling_practice.php:347
+#: plugins/iii-dictionary/layouts/spelling_practice.php:373
+#: plugins/iii-dictionary/layouts/spelling_practice.php:404
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:328
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:354
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:385
+#: plugins/iii-dictionary/layouts/writing_practice.php:314
+#: plugins/iii-dictionary/layouts/writing_practice.php:340
+#: plugins/iii-dictionary/layouts/writing_practice.php:371
+#: plugins/iii-dictionary/library/MWHtml.php:1249
+#: plugins/iii-dictionary/library/MWHtml.php:1426
+#: plugins/iii-dictionary/library/MWHtml.php:1764
+msgid "OK"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:561
+#: plugins/iii-dictionary/layouts/sat_preparation.php:273
+#: plugins/iii-dictionary/layouts/sat_preparation.php:386
+msgid "Subscription Required"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:564
+msgid "Please subscribe in order to continue to use this program."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:567
+#: plugins/iii-dictionary/layouts/homework_assignment.php:64
+#: plugins/iii-dictionary/layouts/sat_preparation.php:275
+#: plugins/iii-dictionary/layouts/teachers_box.php:238
+msgid "Subscribe"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:578
+msgid "Registration"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:585
+#: plugins/iii-dictionary/layouts/login.php:202
+#: plugins/iii-dictionary/layouts/math/math_homework.php:709
+#: plugins/iii-dictionary/layouts/signup.php:130
+msgid "Username (e-mail address)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:592
+#: plugins/iii-dictionary/layouts/signup.php:137
+msgid "Find out availability"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:601
+#: plugins/iii-dictionary/layouts/signup.php:146
+msgid "Create Password"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:607
+#: plugins/iii-dictionary/layouts/signup.php:152
+msgid "Confirm Password"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:614
+#: plugins/iii-dictionary/layouts/my_account.php:84
+#: plugins/iii-dictionary/layouts/signup.php:159
+msgid "Last Name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:620
+#: plugins/iii-dictionary/layouts/my_account.php:70
+#: plugins/iii-dictionary/layouts/signup.php:165
+msgid "First Name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:627
+#: plugins/iii-dictionary/layouts/teaching.php:18
+#: plugins/iii-dictionary/layouts/teaching.php:29
+msgid "Register"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:694
+#: plugins/iii-dictionary/layouts/signup.php:229
+msgid "Not available"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/dictionary.php:696
+#: plugins/iii-dictionary/layouts/signup.php:231
+msgid "Available"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:7
+msgid "English Online Tool"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:7
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:5
+msgid "for Teachers and Students"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:8
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:6
+msgid "Revolutionary online"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:8
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:6
+msgid "management system"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:12
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:10
+msgid "How Online Tool Works"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:15
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:13
+msgid "Teachers"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:16
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:14
+msgid "Send homework and test online"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:17
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:15
+msgid "View scores"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:18
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:16
+msgid "Homework is auto-graded"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:23
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:21
+msgid "Students"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:24
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:22
+msgid "Additional practice worksheets"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:25
+msgid "Vocabulary"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:26
+msgid "Writing"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:27
+msgid "Spelling"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:28
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:27
+msgid "SAT Prep"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:29
+msgid "Grammar"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:34
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:33
+msgid "Homework Library"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:35
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:34
+msgid "Free homework assignments to use"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:36
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:35
+msgid "Create your own homework assignments with homework creator tool"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:37
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:36
+msgid "License your homework sheets to other teachers"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:41
+msgid "Merriam Webster"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:42
+msgid "Classroom license"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:46
+msgid "Teacher can assign homework, check grades and create an English program for students"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:50
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:49
+msgid "Teacher-Student Program"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:50
+#: plugins/iii-dictionary/layouts/english_teacher.php:61
+#: plugins/iii-dictionary/layouts/home_sat_new.php:25
+#: plugins/iii-dictionary/layouts/home_sat_new.php:44
+#: plugins/iii-dictionary/layouts/home_sat_new.php:61
+#: plugins/iii-dictionary/layouts/home_sat_new.php:82
+#: plugins/iii-dictionary/layouts/home_sat_new.php:98
+msgid "See Details"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:51
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:50
+msgid "Create an online classroom"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:53
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:52
+msgid "Teacher registers online"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:54
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:53
+msgid "Define a group to teach"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:55
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:54
+msgid "Students join the group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:56
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:55
+msgid "Teacher assigns homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:57
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:56
+msgid "Teacher checks auto-graded homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:61
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:60
+msgid "Teacher's"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:61
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:60
+msgid "Contribution Program"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:62
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:61
+msgid "Teacher can help students"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:64
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:63
+msgid "Teacher registers"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:65
+msgid ""
+"Check student's request for editing \n"
+"English essay"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:67
+msgid "Teacher makes extra money"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/english_teacher.php:68
+msgid "Students improve writing"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:70
+msgid "Vocabulary Builder"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:74
+msgid "Flashcard type"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:82
+msgid "Flash card mode"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:87
+msgid "Select a folder"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:99
+msgid "Select a set sent by your teacher"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:109
+msgid "Set:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:110
+#: plugins/iii-dictionary/layouts/homework_status.php:259
+msgid "Teacher:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:111
+#: plugins/iii-dictionary/layouts/grade_homework.php:81
+#: plugins/iii-dictionary/layouts/teachers_box.php:508
+msgid "Group:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:112
+msgid "Date:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:113
+msgid "Teacher's comment:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:117
+msgid "Words"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:118
+msgid "Own sentence"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:119
+msgid "Memorized?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:125
+msgid "There's no flashcard in this folder"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:143
+#: plugins/iii-dictionary/library/MWHtml.php:1744
+msgid "Close"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:144
+msgid "Flash Card"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:160
+msgid "Do not show again"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/flash_cards.php:183
+msgid "You have memorized all flash cards or there's no flash card in this folder"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/grade_homework.php:71
+msgid "Teacher's Box - Grade Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/grade_homework.php:72
+msgid "Teacher's box - Grade Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/grade_homework.php:77
+msgid "Student:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/grade_homework.php:85
+msgid "Homework:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/grade_homework.php:88
+#: plugins/iii-dictionary/layouts/homework_result.php:113
+msgid "Answers"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/grade_homework.php:93
+#, php-format
+msgid "Subject %s"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/grade_homework.php:103
+msgid "Essay"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/grade_homework.php:123
+msgid "Comments"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/grade_homework.php:133
+#: plugins/iii-dictionary/layouts/homework_result.php:45
+msgid "Score:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/grade_homework.php:138
+#: plugins/iii-dictionary/layouts/homework_assignment.php:464
+#: plugins/iii-dictionary/layouts/homework_assignment.php:602
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1018
+#: plugins/iii-dictionary/layouts/teachers_box.php:288
+#: plugins/iii-dictionary/layouts/teachers_box.php:290
+#: plugins/iii-dictionary/layouts/teachers_box.php:347
+#: plugins/iii-dictionary/layouts/teachers_box.php:543
+#: plugins/iii-dictionary/layouts/teachers_box.php:654
+#: plugins/iii-dictionary/layouts/teaching.php:707
+#: plugins/iii-dictionary/layouts/teaching.php:772
+#: plugins/iii-dictionary/layouts/teaching.php:874
+#: plugins/iii-dictionary/layouts/teaching.php:1138
+#: plugins/iii-dictionary/layouts/teaching.php:1158
+msgid "Grade"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:7
+#: plugins/iii-dictionary/layouts/group_messages.php:62
+msgid "Group Messages"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:73
+#: plugins/iii-dictionary/layouts/group_messages.php:133
+#: plugins/iii-dictionary/layouts/manage_subscription.php:94
+#: plugins/iii-dictionary/library/MWHtml.php:1342
+#: plugins/iii-dictionary/library/subscriptionlib.php:1594
+msgid "Group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:76
+msgid "Last Post"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:79
+msgid "Replies"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:88
+msgid "You haven't joined any group yet."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:95
+#: plugins/iii-dictionary/layouts/group_messages.php:158
+msgid "No post"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:97
+msgid "by"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:102
+#: plugins/iii-dictionary/layouts/group_messages.php:137
+#: plugins/iii-dictionary/layouts/group_messages.php:210
+msgid "Members List"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:110
+#: plugins/iii-dictionary/layouts/group_messages.php:143
+#: plugins/iii-dictionary/layouts/group_messages.php:168
+msgid "Send PM"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:151
+#: plugins/iii-dictionary/layouts/homework_result.php:280
+msgid "Back"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:165
+msgid "Name:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:168
+#, php-format
+msgid "Send private message to %s"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:178
+msgid "Write message"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:193
+#: plugins/iii-dictionary/layouts/private_messages.php:354
+msgid "Reply"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:215
+msgid "Account Name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/group_messages.php:216
+#: plugins/iii-dictionary/layouts/teachers_box.php:315
+msgid "Joined Date"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:24
+#: plugins/iii-dictionary/layouts/math/home.php:22
+msgid "Do you have an activation code? Click here"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:28
+msgid "Online classroom management for teachers & students"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:29
+#: plugins/iii-dictionary/layouts/math/home.php:27
+msgid "Using Cloud Server"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:49
+msgid "Benefits for Teachers"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:51
+msgid "Assign homework & tests online"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:52
+msgid "Use ready-made HW or your own"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:53
+msgid "Teacher's class management with auto-grading"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:54
+msgid "Earn money selling own homework to other teachers or teaching writing class"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:57
+msgid "Benefits for Students"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:59
+#: plugins/iii-dictionary/layouts/manage_subscription.php:285
+#: plugins/iii-dictionary/layouts/sat_preparation.php:24
+msgid "SAT Preparation"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:60
+msgid "Quick review on grammar & vocabulary building"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:63
+#: plugins/iii-dictionary/layouts/math/home.php:67
+msgid "Find out more"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:70
+msgid "<h2>Why</h2> <h3>Merriam-Webster?</h3>"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:71
+#: plugins/iii-dictionary/layouts/home.php:76
+#: plugins/iii-dictionary/layouts/home.php:81
+msgid "Let's Find out"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:75
+msgid "How can teachers earn extra income?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:80
+msgid "How can students improve writing and prepare for the SAT?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:99
+msgid "How to help teachers in the classroom"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:100
+msgid "If you want to improve your Englsih writing..."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:101
+msgid "Complete review of Grammar and Vocab"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:102
+msgid "SAT test preparation"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:105
+msgid "Got it"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:195
+#: plugins/iii-dictionary/layouts/math/home.php:169
+msgid "Thank you for signing up!"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:200
+#: plugins/iii-dictionary/layouts/math/home.php:174
+msgid "Thank you for signing up on Merriam-Webster and English Learning System."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:201
+#: plugins/iii-dictionary/layouts/math/home.php:175
+msgid "If you have a group name for homework assignment, you can check it at <strong><em>My Account</em></strong> Area."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home.php:209
+#: plugins/iii-dictionary/layouts/math/home.php:183
+msgid "Let's Begin!"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:7
+msgid "Math Teachers"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:7
+#: plugins/iii-dictionary/layouts/home_sat_new.php:10
+msgid "click here"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:10
+msgid "English Teachers"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:13
+#: plugins/iii-dictionary/layouts/teaching.php:1425
+msgid "Complete"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:13
+msgid "SAT"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:14
+#: plugins/iii-dictionary/layouts/sat_preparation.php:112
+#: plugins/iii-dictionary/layouts/sat_preparation.php:172
+msgid "Preparation"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:16
+msgid "Get in to the college you want!"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:23
+#: plugins/iii-dictionary/layouts/home_sat_new.php:29
+msgid "English SAT Prep."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:24
+#: plugins/iii-dictionary/layouts/home_sat_new.php:29
+#: plugins/iii-dictionary/layouts/home_sat_new.php:43
+#: plugins/iii-dictionary/layouts/home_sat_new.php:48
+msgid "(2016 style SAT)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:31
+msgid "Complete Grammar review and vocabulary enhancement"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:32
+msgid "Writing practice with teacher's support"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:33
+#: plugins/iii-dictionary/layouts/home_sat_new.php:51
+#: plugins/iii-dictionary/layouts/home_sat_new.php:68
+msgid "Five practice tests"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:36
+#: plugins/iii-dictionary/layouts/home_sat_new.php:54
+#: plugins/iii-dictionary/layouts/home_sat_new.php:71
+#: plugins/iii-dictionary/layouts/home_sat_new.php:89
+#: plugins/iii-dictionary/layouts/home_sat_new.php:105
+msgid "Let's Go!"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:42
+#: plugins/iii-dictionary/layouts/home_sat_new.php:48
+msgid "Math SAT I Prep."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:50
+msgid "Complete math review for SAT I"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:60
+#: plugins/iii-dictionary/layouts/home_sat_new.php:65
+msgid "Math SAT II Prep."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:67
+msgid "Complete math review for SAT II"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:79
+#: plugins/iii-dictionary/layouts/home_sat_new.php:87
+msgid "Improve"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:81
+#: plugins/iii-dictionary/layouts/home_sat_new.php:87
+msgid "Essay Writing"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:88
+msgid "Improve English writing with worksheets"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:88
+msgid "Teachers provide online English writing support"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:95
+#: plugins/iii-dictionary/layouts/home_sat_new.php:103
+msgid "Math Improvement"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:97
+#: plugins/iii-dictionary/layouts/home_sat_new.php:103
+msgid "Math Tutoring"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:104
+msgid "Self-study plus online tutoring support."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/home_sat_new.php:104
+msgid "(Actual Math teacher)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:11
+msgid "Homework Assignment"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:60
+msgid "You need to subscribe Homework Tool for this group before sending homework."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:75
+msgid "Successfully assigned homework."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:78
+msgid "Can not assign homework."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:145
+msgid "Please select a Group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:151
+msgid "You need to subscribe Homework Tool for this group before sending flashcards."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:229
+msgid "You don't have permission to edit this Homework."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:411
+#: plugins/iii-dictionary/layouts/homework_assignment.php:829
+msgid "Available Worksheets"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:411
+#: plugins/iii-dictionary/layouts/homework_assignment.php:829
+msgid "(Select one to assign)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:415
+#: plugins/iii-dictionary/layouts/homework_assignment.php:531
+#: plugins/iii-dictionary/layouts/homework_assignment.php:833
+#: plugins/iii-dictionary/layouts/homework_assignment.php:930
+msgid "Create my own"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:425
+#: plugins/iii-dictionary/layouts/homework_assignment.php:468
+#: plugins/iii-dictionary/layouts/homework_assignment.php:608
+#: plugins/iii-dictionary/layouts/homework_assignment.php:842
+#: plugins/iii-dictionary/layouts/homework_assignment.php:894
+#: plugins/iii-dictionary/layouts/teaching.php:708
+#: plugins/iii-dictionary/layouts/teaching.php:773
+#: plugins/iii-dictionary/layouts/teaching.php:875
+#: plugins/iii-dictionary/layouts/teaching.php:1139
+msgid "Sheet Name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:436
+msgid "-Assignment-"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:462
+#: plugins/iii-dictionary/layouts/homework_assignment.php:594
+#: plugins/iii-dictionary/layouts/homework_assignment.php:709
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1017
+#: plugins/iii-dictionary/layouts/teaching.php:706
+#: plugins/iii-dictionary/layouts/teaching.php:771
+#: plugins/iii-dictionary/layouts/teaching.php:873
+msgid "Assignment"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:466
+#: plugins/iii-dictionary/layouts/manage_subscription.php:93
+#: plugins/iii-dictionary/layouts/manage_subscription.php:267
+#: plugins/iii-dictionary/layouts/payments.php:75
+#: plugins/iii-dictionary/layouts/teaching.php:709
+#: plugins/iii-dictionary/layouts/teaching.php:774
+#: plugins/iii-dictionary/library/MWHtml.php:1341
+#: plugins/iii-dictionary/library/subscriptionlib.php:1479
+#: plugins/iii-dictionary/library/subscriptionlib.php:1559
+msgid "Dictionary"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:487
+#: plugins/iii-dictionary/layouts/homework_assignment.php:906
+msgid "Require Homework Tool Subscrption"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:496
+#: plugins/iii-dictionary/layouts/homework_assignment.php:500
+msgid "Edit"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:506
+#: plugins/iii-dictionary/layouts/homework_assignment.php:913
+msgid "Assign"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:510
+#: plugins/iii-dictionary/layouts/teaching.php:902
+msgid "Preview"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:519
+#: plugins/iii-dictionary/layouts/teachers_box.php:219
+#: plugins/iii-dictionary/layouts/teachers_box.php:277
+#: plugins/iii-dictionary/layouts/teachers_box.php:471
+#: plugins/iii-dictionary/layouts/teachers_box.php:530
+#: plugins/iii-dictionary/layouts/teaching.php:885
+msgid "No results"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:540
+#: plugins/iii-dictionary/layouts/teaching.php:926
+msgid "Homework Viewer"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:549
+#: plugins/iii-dictionary/layouts/homework_assignment.php:702
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:219
+#: plugins/iii-dictionary/layouts/teaching.php:935
+msgid "Passage"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:571
+msgid "Exit"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:588
+msgid "Edit Worksheet"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:588
+msgid "Create New Worksheet"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:603
+msgid "Select Grade"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:617
+msgid "Header Name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:625
+#: plugins/iii-dictionary/layouts/homework_assignment.php:1008
+#: plugins/iii-dictionary/layouts/homework_assignment.php:1022
+msgid "My Groups"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:636
+#: plugins/iii-dictionary/layouts/homework_assignment.php:1035
+msgid "Create"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:644
+msgid "Import CSV"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:653
+#: plugins/iii-dictionary/layouts/teaching.php:605
+#: plugins/iii-dictionary/layouts/writing_report.php:110
+msgid "Browse"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:665
+msgid "Max. 20 lines per sheet"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:676
+msgid "Select a dictionary to use"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:681
+#: plugins/iii-dictionary/layouts/manage_subscription.php:188
+#: plugins/iii-dictionary/layouts/manage_subscription.php:832
+#: plugins/iii-dictionary/layouts/teachers_box.php:628
+msgid "Checking..."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:681
+msgid "Check words"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:716
+msgid "Description of Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:724
+msgid "Update worksheet"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:726
+msgid "Create a new worksheet"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:742
+msgid "Teacher's comments"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:746
+msgid "Write your comments here"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:753
+#: plugins/iii-dictionary/layouts/homework_assignment.php:806
+#: plugins/iii-dictionary/layouts/my_account.php:154
+#: plugins/iii-dictionary/layouts/teachers_box.php:617
+msgid "Save"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:756
+#: plugins/iii-dictionary/layouts/homework_assignment.php:809
+#: plugins/iii-dictionary/layouts/homework_status.php:218
+#: plugins/iii-dictionary/layouts/homework_status.php:242
+#: plugins/iii-dictionary/layouts/homework_status.php:413
+#: plugins/iii-dictionary/layouts/manage_subscription.php:571
+#: plugins/iii-dictionary/layouts/manage_subscription.php:637
+#: plugins/iii-dictionary/layouts/manage_subscription.php:735
+#: plugins/iii-dictionary/layouts/manage_subscription.php:778
+#: plugins/iii-dictionary/layouts/manage_subscription.php:900
+#: plugins/iii-dictionary/layouts/teachers_box.php:478
+#: plugins/iii-dictionary/layouts/teaching.php:824
+#: plugins/iii-dictionary/layouts/teaching.php:990
+#: plugins/iii-dictionary/layouts/teaching.php:1485
+msgid "Cancel"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:769
+#, php-format
+msgid "Edit Question %s"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:774
+#: plugins/iii-dictionary/layouts/homework_result.php:146
+#: plugins/iii-dictionary/layouts/private_messages.php:236
+#: plugins/iii-dictionary/layouts/private_messages.php:322
+msgid "Subject"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:778
+#: plugins/iii-dictionary/layouts/homework_result.php:77
+#: plugins/iii-dictionary/layouts/homework_result.php:119
+#: plugins/iii-dictionary/layouts/homework_result.php:190
+#: plugins/iii-dictionary/layouts/homework_result.php:214
+#: plugins/iii-dictionary/layouts/homework_result.php:261
+#: plugins/iii-dictionary/library/MWHtml.php:340
+#: plugins/iii-dictionary/library/MWHtml.php:379
+#: plugins/iii-dictionary/library/MWHtml.php:430
+#: plugins/iii-dictionary/library/MWHtml.php:462
+#: plugins/iii-dictionary/library/MWHtml.php:491
+#: plugins/iii-dictionary/library/MWHtml.php:519
+#: plugins/iii-dictionary/library/MWHtml.php:542
+#: plugins/iii-dictionary/library/MWHtml.php:570
+msgid "Question"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:783
+#: plugins/iii-dictionary/layouts/homework_result.php:83
+#: plugins/iii-dictionary/layouts/homework_result.php:123
+#: plugins/iii-dictionary/layouts/homework_result.php:194
+#: plugins/iii-dictionary/layouts/homework_result.php:218
+#: plugins/iii-dictionary/layouts/homework_result.php:240
+#: plugins/iii-dictionary/layouts/homework_result.php:264
+msgid "Correct Answer"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:787
+msgid "Incorrect Answer 1"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:791
+msgid "Incorrect Answer 2"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:795
+msgid "Incorrect Answer 3"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:799
+msgid "Incorrect Answer 4"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:853
+msgid "-Level Category-"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:860
+msgid "-Worksheet Format-"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:867
+msgid "-Level-"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:873
+msgid "-Sublevel-"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:886
+msgid "Level Category"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:891
+msgid "Sublevel"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:945
+msgid "Assign Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:950
+msgid "Selected Worksheet"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:954
+#: plugins/iii-dictionary/layouts/homework_status.php:270
+#: plugins/iii-dictionary/layouts/teachers_box.php:419
+msgid "Homework Name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:958
+#: plugins/iii-dictionary/layouts/teachers_box.php:349
+#: plugins/iii-dictionary/layouts/teachers_box.php:423
+msgid "Deadline"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:959
+#: plugins/iii-dictionary/layouts/teachers_box.php:426
+#: plugins/iii-dictionary/layouts/teachers_box.php:511
+msgid "No deadline"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:962
+#: plugins/iii-dictionary/layouts/teachers_box.php:434
+msgid "Homework mode"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:967
+#: plugins/iii-dictionary/layouts/teachers_box.php:439
+msgid "Test"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:973
+#: plugins/iii-dictionary/layouts/teachers_box.php:445
+msgid "Practice"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:1003
+msgid "Group types"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:1039
+msgid "Send a homework assignment"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:1052
+msgid "Worksheet details"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:1055
+#: plugins/iii-dictionary/layouts/teaching.php:975
+msgid "Worksheet Description"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_assignment.php:1078
+msgid "Greate a Group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:7
+msgid "Homework Result"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:23
+#: plugins/iii-dictionary/layouts/homework_status.php:144
+msgid "Teacher"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:37
+#: plugins/iii-dictionary/layouts/view_subscription.php:57
+msgid "Dictionary:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:41
+msgid "Level:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:47
+#, php-format
+msgid "%d %%"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:49
+#, php-format
+msgid "%d correct, %d %%"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:54
+msgid "Last Attempt:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:57
+msgid "Completed Date:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:60
+msgid "Lesson:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:71
+msgid "Missed Word"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:87
+#: plugins/iii-dictionary/layouts/homework_result.php:127
+#: plugins/iii-dictionary/layouts/homework_result.php:198
+#: plugins/iii-dictionary/layouts/homework_result.php:222
+#: plugins/iii-dictionary/layouts/homework_result.php:244
+#: plugins/iii-dictionary/layouts/homework_result.php:266
+msgid "Your Answer"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:102
+msgid "Article"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:141
+msgid "Grading Results"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:156
+msgid "Your Essay"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:164
+msgid "Teacher's Comments"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:176
+msgid "All of your answers is correct"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_result.php:262
+msgid "Step"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:10
+msgid "Homework Status"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:31
+msgid "Successfully left group."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:40
+msgid "Cannot leave Group."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:112
+msgid "Finish homework first?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:129
+#: plugins/iii-dictionary/library/MWHtml.php:1693
+#: plugins/iii-dictionary/library/MWHtml.php:1709
+msgid "Join"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:133
+msgid "My Groups/Classes"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:145
+#: plugins/iii-dictionary/layouts/teachers_box.php:208
+msgid "No. of Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:146
+msgid "No. of Completed"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:157
+msgid "You haven't joined any groups yet."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:167
+msgid "Homeworks"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:171
+#: plugins/iii-dictionary/layouts/homework_status.php:231
+msgid "Leave Group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:190
+#: plugins/iii-dictionary/layouts/homework_status.php:193
+msgid "Are you sure you are joining to this group?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:194
+msgid "If this group name is provided by your teacher, your name will show up in his/her class member list and it will cost the teacher for class membership. If this is a private group, it is free."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:196
+msgid "Do you want to join group chat (chat board for this group)?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:215
+msgid "Yes, Join"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:234
+#, php-format
+msgid "Do you want to leave Group: %s"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:253
+msgid "List of Homeworks"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:262
+#: plugins/iii-dictionary/layouts/view_subscription.php:63
+msgid "Group Name:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:271
+msgid "Due date"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:272
+#: plugins/iii-dictionary/layouts/private_messages.php:205
+msgid "Status"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:273
+msgid "Result"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:274
+#: plugins/iii-dictionary/layouts/homework_status.php:400
+msgid "Request Grading"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:287
+msgid "New"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:291
+msgid "Unfinished"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:296
+msgid "Over Due"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:300
+msgid "Finished"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:307
+#: plugins/iii-dictionary/layouts/teachers_box.php:229
+#: plugins/iii-dictionary/layouts/teachers_box.php:566
+msgid "View"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:317
+#: plugins/iii-dictionary/layouts/homework_status.php:335
+#: plugins/iii-dictionary/layouts/homework_status.php:344
+#: plugins/iii-dictionary/layouts/teachers_box.php:540
+#: plugins/iii-dictionary/layouts/teachers_box.php:554
+msgid "Graded"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:321
+#: plugins/iii-dictionary/layouts/teaching.php:1041
+#: plugins/iii-dictionary/layouts/teaching.php:1073
+#: plugins/iii-dictionary/layouts/teaching.php:1300
+#: plugins/iii-dictionary/layouts/teaching.php:1331
+msgid "Accepted"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:326
+msgid "Requested"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:331
+#: plugins/iii-dictionary/layouts/math/math_homework.php:688
+msgid "Request"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:342
+msgid "Waiting for grading"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:354
+#: plugins/iii-dictionary/layouts/homework_status.php:357
+msgid "Do homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:360
+msgid "Retry homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:369
+msgid "No homework assigned to this Group yet"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:379
+#, php-format
+msgid "Average : %d %s"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:389
+msgid "This is the Test assigned by your teacher. The score will be displayed at Homework Status panel."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:390
+msgid "This is Practice Worksheet sent by your teacher"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:391
+msgid "You have more than 2 unfinished homeworks. Please complete it before starting another one."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:392
+#, php-format
+msgid "Your current points is <strong>%d</strong> pts. You don't have enough points to request grading for this homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:403
+#, php-format
+msgid "This grading and editing your writing costs %s points."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:404
+msgid "Need Points?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/homework_status.php:436
+msgid "Starting Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:30
+msgid "Please check your Login Email address or Password and try it again."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:38
+msgid "Did you forget your password? Please try \"Forgot Password\""
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:54
+#: plugins/iii-dictionary/layouts/login.php:55
+msgid "Lost Password"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:61
+msgid "Please enter a username or e-mail address."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:67
+msgid "There is no user registered with that email address."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:77
+msgid "Invalid username or e-mail."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:99
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:101
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:102
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:103
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:108
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:115
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:115
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:118
+msgid "Please check your e-mail for the confirmation link."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:128
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:131
+msgid "Sorry, that key has expired. Please try again."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:140
+#: plugins/iii-dictionary/layouts/login.php:141
+msgid "Reset Password"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:169
+msgid "The passwords do not match."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:175
+msgid "Your password has been reset."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:208
+#: plugins/iii-dictionary/layouts/math/math_homework.php:715
+#: plugins/iii-dictionary/layouts/teachers_box.php:207
+msgid "Password"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:222
+#: plugins/iii-dictionary/layouts/math/math_homework.php:728
+#: plugins/iii-dictionary/layouts/signup.php:3
+#: themes/ik-learn/header-math.php:137 themes/ik-learn/header.php:132
+msgid "Sign-up"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:227
+msgid "Forgot password?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:236
+msgid "To make it easy to start up this site, download Desktop icon"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:237
+#: plugins/iii-dictionary/layouts/manage_subscription.php:958
+msgid "DOWNLOAD:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:238
+#: plugins/iii-dictionary/layouts/manage_subscription.php:959
+msgid "Mac"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:238
+#: plugins/iii-dictionary/layouts/manage_subscription.php:959
+msgid "Windows"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:240
+msgid "Mobile device, search for iklearn.com"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:253
+msgid "Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:261
+msgid "Username or E-mail"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:283
+msgid "Enter your new password below."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:291
+#: plugins/iii-dictionary/layouts/my_account.php:46
+#: plugins/iii-dictionary/layouts/teachers_box.php:614
+msgid "New password"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/login.php:299
+msgid "Confirm new password"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:48
+msgid "Manage My Subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:65
+#: plugins/iii-dictionary/library/MWHtml.php:1440
+msgid "Current Subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:70
+#: plugins/iii-dictionary/layouts/manage_subscription.php:173
+msgid "(For download version of dictionary,"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:71
+#: plugins/iii-dictionary/layouts/manage_subscription.php:174
+msgid "click here first."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:72
+#: plugins/iii-dictionary/layouts/manage_subscription.php:175
+msgid ")"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:89
+#: plugins/iii-dictionary/layouts/payments.php:71
+#: plugins/iii-dictionary/library/MWHtml.php:1337
+#: plugins/iii-dictionary/library/subscriptionlib.php:1475
+msgid "Type"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:90
+#: plugins/iii-dictionary/layouts/payments.php:73
+#: plugins/iii-dictionary/layouts/teachers_box.php:209
+#: plugins/iii-dictionary/layouts/teachers_box.php:350
+#: plugins/iii-dictionary/library/MWHtml.php:1338
+#: plugins/iii-dictionary/library/subscriptionlib.php:1477
+msgid "No. of Students"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:91
+#: plugins/iii-dictionary/layouts/payments.php:74
+#: plugins/iii-dictionary/library/MWHtml.php:1339
+#: plugins/iii-dictionary/library/subscriptionlib.php:1478
+msgid "No. of Users"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:92
+#: plugins/iii-dictionary/library/MWHtml.php:1340
+msgid "Sub. End"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:103
+#: plugins/iii-dictionary/library/MWHtml.php:1351
+msgid "You haven't subscribed yet."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:131
+#: plugins/iii-dictionary/library/MWHtml.php:1381
+msgid "Add Members"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:134
+#: plugins/iii-dictionary/library/MWHtml.php:1383
+msgid "Renew Subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:153
+msgid "Point Balance"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:156
+#, php-format
+msgid "Your current point balance is: %s"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:162
+msgid "Do you have an activation code?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:169
+msgid "Enter a credit code (if you have any)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:188
+msgid "Please enter a credit code"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:188
+msgid "Apply"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:195
+msgid "Select a subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:204
+#: plugins/iii-dictionary/library/subscriptionlib.php:1590
+msgid "Student Self-study"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:204
+msgid "Math Self-study"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:213
+msgid "You can receive over 200 new worksheets in Spelling, Vocab/Grammar, Reading Comprehension, Writing Practice, and Vocabulary Builder tools with your choice of dictionary."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:215
+msgid "You can use all worksheets listed in this site once you subscribe \"Self-study\" mode. Self-study mode is monthly subscription. You can see the complete list of worksheets by clicking below."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:218
+msgid "List of new worksheet you will receive for this subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:223
+#: plugins/iii-dictionary/layouts/manage_subscription.php:258
+#: plugins/iii-dictionary/layouts/manage_subscription.php:277
+msgid "New subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:231
+msgid "Teacher's Homework Tool"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:235
+msgid "What is the Teachers's Tool subscription?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:236
+msgid "With this subscription, teachers can:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:238
+msgid "Send homework to a group- students join the group to do the homework assignment. The homework is auto-graded (except for writing assignments)."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:239
+msgid "See every student's homework status in Teacher's Box."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:240
+msgid "Get many more homework sheets for all grade levels."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:241
+msgid "(Click here to see the list)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:242
+msgid "Purchase additional homework sheets from other teachers or sell your own homework to other teachers. (in the teacher's exchange  section)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:251
+msgid "If you are starting a new subscription for a group (class), click \"New subscription\"."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:252
+msgid "If you are extending the subscription period for an existing group, click \"Renew subscription\"."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:253
+msgid "If you are adding students to the existing group, click \"Add members to the subscription\"."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:254
+msgid "You cannot renew or add members at the same time. If you are renewing and adding more members, please do so in two steps."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:272
+msgid "If you purchase a dictionary subscription for multiple users, give each user the activation code that is generated after purchase. Users can activate their subscriptions and view account information under <em>My Account</em> > <em>Manage Subscription</em>."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:273
+msgid "For installation on public computers, such as school computer labs, click on the instructions (shown above on this page) after you have made the purchase."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:289
+msgid "You may join SAT preparation class at this site. Once you join, then you can start your preparation study."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:297
+#: plugins/iii-dictionary/layouts/manage_subscription.php:304
+msgid "Grammar Review"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:299
+msgid "This class reviews grammar efficiently from beginning to end which is necessary for building basic skills for getting a high SAT score. You will also substantially build your vocabulary in this class."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:304
+#: plugins/iii-dictionary/layouts/manage_subscription.php:321
+#: plugins/iii-dictionary/layouts/manage_subscription.php:338
+#: plugins/iii-dictionary/layouts/manage_subscription.php:365
+#: plugins/iii-dictionary/layouts/manage_subscription.php:382
+#: plugins/iii-dictionary/layouts/manage_subscription.php:410
+#: plugins/iii-dictionary/layouts/manage_subscription.php:427
+msgid "Start subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:314
+#: plugins/iii-dictionary/layouts/manage_subscription.php:321
+#: plugins/iii-dictionary/layouts/writing_practice.php:18
+msgid "Writing Practice"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:316
+msgid "This class lets you prepare writing section of the SAT test. It covers many aspects of writing practice from \"confusing words and phrases\" to \"writing style and methods\". You will learn many aspects of writing knowledge, tips, and practice methods in this section. If you want to get real teacher's help, you can request \"Real Teacher\" in the writing group you are currently practicing. We will ask teachers to respond to your request, but there will be an additional cost for getting a teacher's help for each writing homework page. The price is set for each homework assignment, so make a request for a real teacher for each homework assignment you are working on."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:331
+#: plugins/iii-dictionary/layouts/manage_subscription.php:338
+msgid "SAT practice Test"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:333
+msgid "You may subscribe to one of five tests available for SAT. Once subscribed, you may take the same test as many times as you want. But, if you want to try another practice test, you need to subscribe for the second practice test. You can subscribe up to five practice tests. You may retake subscribed tests as many times as you want during your valid subscription period."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:349
+#: plugins/iii-dictionary/layouts/manage_subscription.php:358
+#: plugins/iii-dictionary/layouts/manage_subscription.php:365
+#: plugins/iii-dictionary/layouts/sat_preparation.php:99
+msgid "SAT I Preparation"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:360
+msgid "This practice is essential to prepare for SATI preparation. You will quickly review entire Algebra in this class."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:375
+msgid "SAT I simulated test  (New SAT test)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:377
+#: plugins/iii-dictionary/layouts/manage_subscription.php:422
+msgid "There are five simulated test prepared for you. You may choose any once of them per subscription. Once subscribed, you may take the test you choose as many time as you want."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:382
+msgid "SAT I simlated test"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:394
+#: plugins/iii-dictionary/layouts/manage_subscription.php:403
+#: plugins/iii-dictionary/layouts/manage_subscription.php:410
+#: plugins/iii-dictionary/layouts/sat_preparation.php:165
+msgid "SAT II Preparation"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:405
+msgid "This practice is essential to prepare for SATII preparation. You will quickly review entire Algebra in this class."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:420
+#: plugins/iii-dictionary/layouts/manage_subscription.php:427
+msgid "SAT II simlated test"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:440
+#: plugins/iii-dictionary/layouts/teaching.php:843
+msgid "Purchase points?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:445
+msgid "Points are required to purchase worksheet that you can use for the homework assignment."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:446
+msgid "One point is equivalent to one dollar. You can earn points by selling your worksheet to other teachers."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:447
+msgid "You can earn points by editing and grading writing assignment students submitted."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:451
+#: plugins/iii-dictionary/layouts/teaching.php:906
+#: plugins/iii-dictionary/layouts/teaching.php:985
+msgid "Purchase"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:459
+msgid "Purchase History"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:469
+msgid "Purchase Item"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:470
+#: plugins/iii-dictionary/library/subscriptionlib.php:1481
+msgid "Activation Code"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:471
+#: plugins/iii-dictionary/layouts/payments.php:116
+msgid "Payment Method"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:472
+msgid "Paid Amount"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:473
+msgid "Purchased On"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:478
+msgid "No history"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:512
+#: plugins/iii-dictionary/layouts/manage_subscription.php:793
+msgid "Teacher's Homework Tool Subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:512
+msgid "Dictionary Subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:512
+msgid "Purchase Additional Subscriptions"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:524
+msgid "Selected Group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:530
+#: plugins/iii-dictionary/layouts/manage_subscription.php:600
+#: plugins/iii-dictionary/layouts/manage_subscription.php:884
+msgid "Select the type of dictionary"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:538
+#: plugins/iii-dictionary/layouts/manage_subscription.php:607
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1055
+#: plugins/iii-dictionary/layouts/view_subscription.php:69
+msgid "Number of Students"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:545
+#: plugins/iii-dictionary/layouts/manage_subscription.php:613
+#: plugins/iii-dictionary/layouts/manage_subscription.php:669
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1054
+msgid "Number of Months"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:548
+#: plugins/iii-dictionary/library/MWHtml.php:860
+#: plugins/iii-dictionary/library/MWHtml.php:875
+#, php-format
+msgid "%s months"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:557
+#: plugins/iii-dictionary/layouts/manage_subscription.php:623
+#: plugins/iii-dictionary/layouts/manage_subscription.php:721
+#: plugins/iii-dictionary/layouts/manage_subscription.php:764
+#: plugins/iii-dictionary/layouts/payments.php:106
+#: plugins/iii-dictionary/layouts/teaching.php:1471
+#: plugins/iii-dictionary/library/subscriptionlib.php:1533
+msgid "Total amount:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:566
+#: plugins/iii-dictionary/layouts/manage_subscription.php:632
+#: plugins/iii-dictionary/layouts/manage_subscription.php:730
+#: plugins/iii-dictionary/layouts/manage_subscription.php:773
+#: plugins/iii-dictionary/layouts/payments.php:269
+#: plugins/iii-dictionary/layouts/teaching.php:1480
+msgid "Check out"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:586
+msgid "Student's Self-study Subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:596
+msgid "Default Group for this subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:616
+#: plugins/iii-dictionary/layouts/manage_subscription.php:672
+#, php-format
+msgid "%s month"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:652
+msgid "Purchase SAT Subscriptions"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:662
+msgid "Selected Class"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:678
+#: plugins/iii-dictionary/layouts/sat_preparation.php:46
+msgid "SAT Test 1"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:678
+#: plugins/iii-dictionary/layouts/sat_preparation.php:50
+msgid "SAT Test 2"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:678
+#: plugins/iii-dictionary/layouts/sat_preparation.php:54
+msgid "SAT Test 3"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:679
+#: plugins/iii-dictionary/layouts/sat_preparation.php:58
+msgid "SAT Test 4"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:679
+#: plugins/iii-dictionary/layouts/sat_preparation.php:62
+msgid "SAT Test 5"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:683
+msgid "Practice Test"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:692
+#: plugins/iii-dictionary/layouts/sat_preparation.php:116
+msgid "SAT 1A"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:692
+#: plugins/iii-dictionary/layouts/sat_preparation.php:120
+msgid "SAT 1B"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:693
+#: plugins/iii-dictionary/layouts/sat_preparation.php:124
+msgid "SAT 1C"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:693
+#: plugins/iii-dictionary/layouts/sat_preparation.php:128
+msgid "SAT 1D"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:693
+#: plugins/iii-dictionary/layouts/sat_preparation.php:132
+msgid "SAT 1E"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:694
+#: plugins/iii-dictionary/layouts/sat_preparation.php:176
+msgid "SAT 2A"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:694
+#: plugins/iii-dictionary/layouts/sat_preparation.php:180
+msgid "SAT 2B"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:695
+#: plugins/iii-dictionary/layouts/sat_preparation.php:184
+msgid "SAT 2C"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:695
+#: plugins/iii-dictionary/layouts/sat_preparation.php:188
+msgid "SAT 2D"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:695
+#: plugins/iii-dictionary/layouts/sat_preparation.php:192
+msgid "SAT 2E"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:699
+#: plugins/iii-dictionary/layouts/manage_subscription.php:709
+msgid "Simlated Test"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:750
+#: plugins/iii-dictionary/layouts/teaching.php:1457
+msgid "Purchase Points"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:758
+#: plugins/iii-dictionary/layouts/teaching.php:1465
+msgid "Number of Points"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:799
+#: plugins/iii-dictionary/layouts/manage_subscription.php:851
+msgid "Select existing group (Class Name)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:801
+#: plugins/iii-dictionary/layouts/manage_subscription.php:853
+#: plugins/iii-dictionary/library/MWHtml.php:842
+#: plugins/iii-dictionary/library/MWHtml.php:856
+#: plugins/iii-dictionary/library/MWHtml.php:872
+#: plugins/iii-dictionary/library/MWHtml.php:912
+#: plugins/iii-dictionary/library/MWHtml.php:932
+msgid "Select one"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:811
+#: plugins/iii-dictionary/layouts/manage_subscription.php:863
+msgid "Or Create New Group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:823
+msgid "One dictionary for all members in your group is included in the subscription."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:824
+#, php-format
+msgid "The price for Teacher's Homework Tool is %s per student per month."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:832
+#: plugins/iii-dictionary/library/MWHtml.php:1716
+msgid "Continue"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:845
+msgid "Use a credit code to add subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:878
+msgid "Starting When"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:895
+msgid "Add Subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:914
+msgid "Credit Code Error"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:932
+msgid "To use dictionary without internet connection"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:940
+msgid "DICTIONARY - DOWNLOAD VERSION"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:945
+msgid "Download the dictionary to use offline. Once installed, you need to"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:946
+msgid "(1) enter the activation code and"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:947
+msgid "(2) your email address registered in iklearn.com."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:948
+msgid "The dictionary program needs to periodically check the license status,"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:949
+msgid "so you need to be connected online occasionally"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1007
+msgid "Subscribed Worksheets"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1019
+#: plugins/iii-dictionary/layouts/sat_preparation.php:370
+msgid "Worksheet Name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1045
+#: plugins/iii-dictionary/layouts/sat_preparation.php:289
+msgid "month"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1046
+msgid "months"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1047
+#: plugins/iii-dictionary/library/MWDB.php:1103
+#: plugins/iii-dictionary/library/MWDB.php:3935
+msgid "Please select a Dictionary"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1048
+msgid "Please select a group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1049
+msgid "This group name is already taken. Please choose a different name."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1050
+msgid "Group password cannot empty"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1051
+msgid "Please select Number of Months"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1052
+msgid "Invalid number"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1053
+#: plugins/iii-dictionary/layouts/view_subscription.php:69
+msgid "Number of Users"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1056
+msgid "Number of Students to Increase"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1057
+msgid "Number of Remaining Months"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/manage_subscription.php:1058
+msgid "Number of Months to Add"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/algebra_i.php:5
+#: plugins/iii-dictionary/layouts/math/algebra_i.php:6
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:24
+msgid "Algebra I"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/algebra_ii.php:5
+#: plugins/iii-dictionary/layouts/math/algebra_ii.php:6
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:26
+msgid "Algebra II"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/arithmetics.php:5
+#: plugins/iii-dictionary/layouts/math/arithmetics.php:6
+#: plugins/iii-dictionary/layouts/math/math_homework.php:191
+msgid "Arithmetics"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/calculus.php:5
+#: plugins/iii-dictionary/layouts/math/calculus.php:6
+msgid "Calculus"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/geometry.php:5
+#: plugins/iii-dictionary/layouts/math/geometry.php:6
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:25
+msgid "Geometry"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:26
+msgid "Online Math Classroom management for teachers & students"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:45
+msgid "Online math assignments organized for teachers:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:47
+msgid "Covers grades 1 to 12"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:48
+msgid "Explanations, example problems, and problem assignments"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:49
+msgid "Auto graded assignments"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:50
+msgid "Chat tool with graphics to help students in real time"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:51
+msgid "Teachers can earn money selling their own homework to other teachers"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:54
+msgid "Students- math self-study and prepare for the SAT:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:56
+msgid "Complete math self-study system"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:57
+msgid "Online homework from teachers"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:58
+msgid "Preparation for SAT test"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:59
+msgid "SAT practice test"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:66
+msgid "Click Here"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:73
+msgid "<h2>Why</h2> <h3>ik-Math?</h3>"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:78
+msgid "How can a person tutors students on this site?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:83
+msgid "Math Self-study the prepation of SAT I and SAT II"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:84
+msgid "SAT I"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:85
+msgid "SAT II"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:103
+msgid "Designed to support self-study with tutorials and plenty of excercises"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:104
+msgid "Start at any level from 1 to 12 grade"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:105
+msgid "Complete Preparation for SAT I and II"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/home.php:106
+msgid "Increase the confidence in Math in school"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:243
+#: plugins/iii-dictionary/layouts/math/math_homework.php:287
+#: plugins/iii-dictionary/layouts/math/math_homework.php:304
+msgid "Steps:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:269
+msgid "Question:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:484
+msgid "Type Answers Here"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:484
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:476
+#: plugins/iii-dictionary/layouts/spelling_practice.php:494
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:476
+msgid "Correct!"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:484
+msgid "Incorrect!"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:508
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:235
+#: plugins/iii-dictionary/layouts/spelling_practice.php:249
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:235
+msgid "Submit"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:516
+msgid "Notepad"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:518
+msgid "Tutoring"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:526
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:303
+#: plugins/iii-dictionary/layouts/spelling_practice.php:322
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:302
+#: plugins/iii-dictionary/layouts/writing_practice.php:289
+msgid "The End of Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:526
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:303
+#: plugins/iii-dictionary/layouts/spelling_practice.php:322
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:302
+#: plugins/iii-dictionary/layouts/writing_practice.php:289
+msgid "The End of Test"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:530
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:307
+#: plugins/iii-dictionary/layouts/spelling_practice.php:326
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:307
+#: plugins/iii-dictionary/layouts/writing_practice.php:293
+msgid "You have completed this homework."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:531
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:308
+#: plugins/iii-dictionary/layouts/spelling_practice.php:327
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:308
+#: plugins/iii-dictionary/layouts/writing_practice.php:294
+msgid "If you want to leave a message to your teacher, type it in the box below."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:533
+#: plugins/iii-dictionary/layouts/math/math_homework.php:567
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:311
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:344
+#: plugins/iii-dictionary/layouts/spelling_practice.php:330
+#: plugins/iii-dictionary/layouts/spelling_practice.php:363
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:311
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:344
+#: plugins/iii-dictionary/layouts/writing_practice.php:297
+#: plugins/iii-dictionary/layouts/writing_practice.php:330
+msgid "Click OK to submit."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:537
+#: plugins/iii-dictionary/layouts/math/math_homework.php:570
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:315
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:347
+#: plugins/iii-dictionary/layouts/spelling_practice.php:334
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:315
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:347
+#: plugins/iii-dictionary/layouts/writing_practice.php:301
+#: plugins/iii-dictionary/layouts/writing_practice.php:333
+msgid "Leave feedback"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:541
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:319
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:375
+#: plugins/iii-dictionary/layouts/spelling_practice.php:338
+#: plugins/iii-dictionary/layouts/spelling_practice.php:394
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:319
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:375
+#: plugins/iii-dictionary/layouts/writing_practice.php:305
+#: plugins/iii-dictionary/layouts/writing_practice.php:361
+#, php-format
+msgid "Starting the next worksheet, %s?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:550
+#: plugins/iii-dictionary/layouts/math/math_homework.php:554
+#: plugins/iii-dictionary/layouts/math/math_homework.php:557
+#: plugins/iii-dictionary/layouts/math/math_homework.php:577
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:328
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:332
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:335
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:354
+#: plugins/iii-dictionary/layouts/spelling_practice.php:347
+#: plugins/iii-dictionary/layouts/spelling_practice.php:351
+#: plugins/iii-dictionary/layouts/spelling_practice.php:354
+#: plugins/iii-dictionary/layouts/spelling_practice.php:373
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:328
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:332
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:335
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:354
+#: plugins/iii-dictionary/layouts/writing_practice.php:314
+#: plugins/iii-dictionary/layouts/writing_practice.php:318
+#: plugins/iii-dictionary/layouts/writing_practice.php:321
+#: plugins/iii-dictionary/layouts/writing_practice.php:340
+msgid "Submitting..."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:557
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:335
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:392
+#: plugins/iii-dictionary/layouts/spelling_practice.php:354
+#: plugins/iii-dictionary/layouts/spelling_practice.php:411
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:335
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:392
+#: plugins/iii-dictionary/layouts/writing_practice.php:321
+#: plugins/iii-dictionary/layouts/writing_practice.php:378
+msgid "Quit"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:565
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:342
+#: plugins/iii-dictionary/layouts/spelling_practice.php:361
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:342
+#: plugins/iii-dictionary/layouts/writing_practice.php:328
+msgid "You have completed this test."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:566
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:343
+#: plugins/iii-dictionary/layouts/spelling_practice.php:362
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:343
+#: plugins/iii-dictionary/layouts/writing_practice.php:329
+msgid "If you want to leave a message to the admin, type it in the box below."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:599
+msgid "Enter the account name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:611
+msgid "Insert user name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:612
+msgid "Can't connect to your self"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:613
+msgid "User already exists"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:621
+msgid "Request a Teacher for Math Tutorials"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:631
+msgid "Select a Reciplent"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:635
+msgid "---- Click below ----"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:636
+msgid "New Friend..."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:654
+msgid "Hello"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:672
+msgid "Type a message..."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:683
+#, php-format
+msgid "Price $%d / 1 minutes"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:691
+msgid "No Thanks"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_homework.php:738
+#: plugins/iii-dictionary/layouts/private_messages.php:328
+#: plugins/iii-dictionary/library/lib.php:875
+msgid "Message"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:5
+msgid "Math Online Tool"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:23
+msgid "Elementary Math"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:40
+msgid "Innovative Knowledge"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:41
+msgid "Class license allows students to self-study"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:45
+msgid "Teacher can assign homework, check grades and create an Math program for students"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:49
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:60
+msgid "See Detail"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:64
+msgid "Check student's request for tutoring"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:65
+msgid "Teacher provides tutoring and Makes extras money"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/math/math_teacher.php:66
+msgid "Students get help in math"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:5
+msgid "My Account"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:26
+#, php-format
+msgid "Your remaining points is: %s"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:29
+msgid "Modify Login Info"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:33
+msgid "Current e-mail address"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:39
+msgid "New e-mail address"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:40
+#: plugins/iii-dictionary/layouts/my_account.php:47
+#: plugins/iii-dictionary/layouts/my_account.php:78
+#: plugins/iii-dictionary/layouts/my_account.php:92
+msgid "unchanged"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:52
+msgid "Retype new password"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:59
+msgid "Current password"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:65
+msgid "Modify Personal Info"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:77
+msgid "New first Name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:91
+msgid "New last Name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:98
+#: plugins/iii-dictionary/layouts/signup.php:171
+msgid "Date of Birth"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:131
+#: plugins/iii-dictionary/layouts/signup.php:199
+msgid "Language"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:160
+msgid "Review homework result"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/my_account.php:166
+msgid "Manage my subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:3
+msgid "Payments"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:62
+msgid "Subscription to purchase"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:72
+msgid "Months"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:76
+#: plugins/iii-dictionary/library/subscriptionlib.php:1480
+msgid "No. of Points"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:86
+#: plugins/iii-dictionary/library/subscriptionlib.php:1519
+msgid "(Additional)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:93
+msgid "Delete"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:97
+#: plugins/iii-dictionary/library/subscriptionlib.php:1081
+msgid "Your cart is empty"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:123
+msgid "Use existing credit card?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:143
+msgid "Use new credit card?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:153
+msgid "Select credit card type"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:159
+msgid "Credit card number"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:165
+msgid "Expiration date"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:193
+#: plugins/iii-dictionary/layouts/teaching.php:614
+msgid "First name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:199
+#: plugins/iii-dictionary/layouts/teaching.php:620
+msgid "Last name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:205
+msgid "Billing address"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:211
+msgid "City"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:217
+msgid "State"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:223
+msgid "Zip"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:235
+msgid "Pay with Paypal"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:242
+msgid "<strong>Note:</strong> Paypal might take sometimes to process your payment. If you don't see the item you paid in Subscription history, please log out and log in again after a few minutes"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:252
+msgid "Pay with my points balance"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:258
+#: plugins/iii-dictionary/layouts/teaching.php:1180
+msgid "Your current points is"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:272
+msgid "Continue shopping"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:295
+msgid "Payment Processing..."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/payments.php:301
+msgid "Now processing the payment."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:7
+msgid "Private Messages"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:51
+msgid "Feedback to Support"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:118
+msgid "Password not match."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:129
+msgid "Invalid recipient."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:135
+msgid "You must enter a subject."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:140
+msgid "Please complete message fields."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:152
+#: plugins/iii-dictionary/layouts/private_messages.php:197
+msgid "Received Message"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:153
+msgid "Sender Username"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:157
+msgid "Sent Message"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:158
+#: plugins/iii-dictionary/layouts/private_messages.php:163
+msgid "Recipient Username"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:162
+#: plugins/iii-dictionary/layouts/private_messages.php:188
+msgid "New Message"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:183
+msgid "List Messages"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:198
+msgid "Sent Messages"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:206
+msgid "Read"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:207
+msgid "Unread"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:221
+msgid "Sender"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:222
+msgid "Received Date"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:227
+msgid "Recipient"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:228
+msgid "Sent Date"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:248
+msgid "You haven't received any message."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:250
+msgid "You haven't sent any message."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:265
+msgid "Open"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:283
+msgid "If you have any question, or found any malfunction at this site, please let us know."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:300
+msgid "Your E-mail address"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/private_messages.php:306
+msgid "Your Password"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:2
+msgid "Reading Comprehension Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:18
+msgid "Reading Comprehension Practice"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:169
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:172
+msgid "Choose correct answer"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:175
+#: plugins/iii-dictionary/layouts/spelling_practice.php:196
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:179
+#: plugins/iii-dictionary/layouts/writing_practice.php:167
+#: plugins/iii-dictionary/layouts/writing_report.php:77
+msgid "LEVEL:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:185
+#: plugins/iii-dictionary/layouts/spelling_practice.php:206
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:189
+#: plugins/iii-dictionary/layouts/writing_practice.php:177
+msgid "LESSON:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:200
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:204
+#: plugins/iii-dictionary/layouts/writing_practice.php:191
+#, php-format
+msgid "Question %s of %s"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:205
+#: plugins/iii-dictionary/layouts/spelling_practice.php:226
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:210
+#: plugins/iii-dictionary/layouts/writing_practice.php:195
+msgid "Go back to 1"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:235
+#: plugins/iii-dictionary/layouts/spelling_practice.php:249
+#: plugins/iii-dictionary/layouts/teachers_box.php:617
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:235
+msgid "Saving..."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:248
+#: plugins/iii-dictionary/layouts/spelling_practice.php:262
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:248
+#: plugins/iii-dictionary/layouts/writing_practice.php:235
+msgid "Submit Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:250
+#: plugins/iii-dictionary/layouts/spelling_practice.php:264
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:250
+#: plugins/iii-dictionary/layouts/writing_practice.php:237
+msgid "Quit Practice"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:270
+#: plugins/iii-dictionary/layouts/spelling_practice.php:289
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:269
+#: plugins/iii-dictionary/layouts/writing_practice.php:255
+msgid "Join a Group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:273
+#: plugins/iii-dictionary/layouts/spelling_practice.php:292
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:272
+#: plugins/iii-dictionary/layouts/writing_practice.php:258
+msgid "You need to join a Group to use Homework mode."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:274
+#: plugins/iii-dictionary/layouts/spelling_practice.php:293
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:273
+#: plugins/iii-dictionary/layouts/writing_practice.php:259
+msgid "To join a Group, go to Homework Status page"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:275
+#: plugins/iii-dictionary/layouts/spelling_practice.php:294
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:274
+#: plugins/iii-dictionary/layouts/writing_practice.php:260
+msgid "You can get Group name and Group password from a teacher."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:279
+#: plugins/iii-dictionary/layouts/spelling_practice.php:298
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:278
+#: plugins/iii-dictionary/layouts/writing_practice.php:264
+msgid "No Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:282
+#: plugins/iii-dictionary/layouts/spelling_practice.php:301
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:281
+#: plugins/iii-dictionary/layouts/writing_practice.php:267
+msgid "You do not have any homework assignment now."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:370
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:377
+#: plugins/iii-dictionary/layouts/spelling_practice.php:389
+#: plugins/iii-dictionary/layouts/spelling_practice.php:396
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:370
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:377
+#: plugins/iii-dictionary/layouts/writing_practice.php:356
+#: plugins/iii-dictionary/layouts/writing_practice.php:363
+msgid "The end of practice session"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:466
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:466
+msgid "Please select an answer!"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/reading_comprehension.php:479
+#: plugins/iii-dictionary/layouts/spelling_practice.php:498
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:479
+msgid "Wrong!"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:38
+msgid "Vocabulary / Grammar"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:42
+msgid "Writing Skills"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:69
+msgid "Please subscribe SAT Preparation - Vocabulary / Grammar to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:73
+msgid "Please subscribe SAT Preparation - Writing Skills to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:76
+msgid "Please subscribe SAT Preparation - SAT Test 1 to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:80
+msgid "Please subscribe SAT Preparation - SAT Test 2 to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:84
+msgid "Please subscribe SAT Preparation - SAT Test 3 to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:88
+msgid "Please subscribe SAT Preparation - SAT Test 4 to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:93
+msgid "Please subscribe SAT Preparation - SAT Test 5 to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:139
+#: plugins/iii-dictionary/layouts/sat_preparation.php:199
+msgid "Please subscribe SAT Preparation - Preparation to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:143
+msgid "Please subscribe SAT Preparation - SAT 1A to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:146
+msgid "Please subscribe SAT Preparation - SAT 1B to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:150
+msgid "Please subscribe SAT Preparation - SAT 1C to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:154
+msgid "Please subscribe SAT Preparation - SAT 1D to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:158
+msgid "Please subscribe SAT Preparation - SAT 1E to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:203
+msgid "Please subscribe SAT Preparation - SAT 2A to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:206
+msgid "Please subscribe SAT Preparation - SAT 2B to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:210
+msgid "Please subscribe SAT Preparation - SAT 2C to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:214
+msgid "Please subscribe SAT Preparation - SAT 2D to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:218
+msgid "Please subscribe SAT Preparation - SAT 2E to start"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:289
+msgid "Subscription fee:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:299
+msgid "No. of Worksheets"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:318
+msgid "Completed"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:320
+msgid "Working"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:338
+msgid "No classes"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:353
+#: plugins/iii-dictionary/library/MWHtml.php:1738
+msgid "Class Detail"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:365
+msgid "View Score"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:371
+#: plugins/iii-dictionary/layouts/teachers_box.php:523
+#: plugins/iii-dictionary/layouts/teachers_box.php:649
+msgid "Score"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/sat_preparation.php:372
+msgid "Completed Date"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/signup.php:50
+msgid "Invalid date of birth"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/signup.php:206
+msgid "Create Account"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/spelling_practice.php:2
+msgid "Spelling Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/spelling_practice.php:18
+msgid "Spelling Practice"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/spelling_practice.php:190
+msgid "Spell the following word"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/spelling_practice.php:221
+#, php-format
+msgid "Word %s of %s"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/spelling_practice.php:273
+#: plugins/iii-dictionary/layouts/spelling_practice.php:476
+#: plugins/iii-dictionary/layouts/spelling_practice.php:562
+#: plugins/iii-dictionary/layouts/spelling_practice.php:611
+msgid "HINT (Click here !)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/spelling_practice.php:440
+msgid "Replay"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/spelling_practice.php:483
+msgid "Please enter your answer!"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:81
+msgid "Homework updated."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:86
+msgid "An error occurred, cannot update homework."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:170
+msgid "List of Group/Class"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:210
+msgid "Subscribed Till"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:245
+msgid "Members"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:246
+msgid "List of Homeworks assigned to this Group"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:246
+msgid "Assigned Homeworks"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:259
+msgid "Completed Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:268
+#: plugins/iii-dictionary/layouts/teachers_box.php:346
+msgid "Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:269
+#: plugins/iii-dictionary/layouts/teachers_box.php:313
+#: plugins/iii-dictionary/layouts/teachers_box.php:520
+msgid "Student"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:270
+#: plugins/iii-dictionary/layouts/teachers_box.php:521
+msgid "Last Attempt"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:271
+#: plugins/iii-dictionary/layouts/teachers_box.php:522
+msgid "Comp. Date"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:307
+msgid "List of Students"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:314
+msgid "Email"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:316
+msgid "Homeworks Done / In Progress"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:322
+msgid "Export"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:332
+#, php-format
+msgid "List of Homeworks assigned to Group %s"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:348
+msgid "Assigned Date"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:350
+msgid "Number of Students who is working on this homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:359
+msgid "No Homeworks assigned to this group yet."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:370
+#, php-format
+msgid "Worksheet: %s"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:379
+msgid "Students Results"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:381
+msgid "Practice Worksheet"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:385
+#: plugins/iii-dictionary/layouts/teachers_box.php:475
+msgid "Update"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:389
+#: plugins/iii-dictionary/layouts/teaching.php:729
+msgid "Remove"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:414
+msgid "Update Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:429
+msgid "Reset"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:452
+msgid "Homework is retryable?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:469
+msgid "Homework Link"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:496
+msgid "List of Student's Results"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:502
+msgid "Grade:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:505
+msgid "Homework name:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:511
+msgid "Due Date:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:525
+msgid "Feedback"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:556
+#: plugins/iii-dictionary/layouts/teachers_box.php:641
+msgid "Grade Report"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:559
+msgid "No report"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:566
+msgid "Feedback from Student"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:599
+msgid "View Password"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:604
+msgid "Group name:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:605
+msgid "Group password:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:611
+msgid "Do you want to change your group password?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:622
+msgid "Enter your account password to view this group's password."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:628
+msgid "Check"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:646
+msgid "Download student's Report:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:646
+msgid "Click here"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:650
+msgid "Score is invalid"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:654
+msgid "Grading..."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:687
+msgid "Password incorrect."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:688
+msgid "Saved!"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:689
+msgid "Cannot change group password."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:690
+msgid "No student has joined this group yet."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teachers_box.php:691
+msgid "(No Link)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:6
+msgid "Earn Money by Teaching"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:19
+msgid "Sell Worksheet"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:20
+#: plugins/iii-dictionary/layouts/teaching.php:968
+msgid "Purchase Worksheet"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:21
+msgid "Teach Class"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:22
+#: plugins/iii-dictionary/layouts/teaching.php:31
+#: plugins/iii-dictionary/layouts/teaching.php:1222
+msgid "Request Payment"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:30
+msgid "Tutor Math"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:41
+msgid "Registration Agreement"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:70
+msgid "List of worksheet offered for sale"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:97
+msgid "You need to subscribe Homework Tool in order to offer Worksheet."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:176
+msgid "Homework you can add to your library"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:216
+#: plugins/iii-dictionary/layouts/teaching.php:415
+msgid "Follow the steps to teach classes"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:327
+msgid "My Earnings"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:338
+msgid "Please choose a Receiving method."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:343
+msgid "Amount requested is invalid."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:349
+#: plugins/iii-dictionary/layouts/teaching.php:380
+msgid "You don't have enough points for this request."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:355
+msgid "Email for receiving payment is invalid."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:371
+msgid "Your payment request has been sent."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:376
+msgid "An error occured, cannot request payment."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:517
+msgid "Registration Required"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:518
+msgid "Please register as Teacher in order to access this page."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:522
+msgid "Agreement Updated"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:523
+msgid "Our Agreement is updated, please agree to the new Agreement in order to continue."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:563
+#: plugins/iii-dictionary/layouts/teaching.php:580
+#: plugins/iii-dictionary/layouts/teaching.php:669
+#: plugins/iii-dictionary/layouts/teaching.php:1100
+#: plugins/iii-dictionary/layouts/teaching.php:1356
+msgid "I AGREE"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:603
+msgid "Profile Picture"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:626
+msgid "Mobile phone number"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:632
+msgid "Driver's license number"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:638
+msgid "Social security number (last 4 digit)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:644
+msgid "Latest school you tought"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:650
+msgid "Email address"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:667
+msgid "UPDATE"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:711
+msgid "Offered Date"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:719
+msgid "You haven't offered any worksheets yet."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:727
+#: plugins/iii-dictionary/layouts/teaching.php:899
+#: plugins/iii-dictionary/layouts/teaching.php:1156
+#, php-format
+msgid "%s pts"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:741
+msgid "Offer worksheet to other teachers"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:782
+msgid "You don't have any worksheet to offer."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:790
+#: plugins/iii-dictionary/layouts/teaching.php:819
+msgid "Offer"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:805
+msgid "Offer Worksheet"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:812
+#, php-format
+msgid "Offer Price <small>(Min: 0 - Max: %s)</small>"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:841
+msgid "Remaining points:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:876
+msgid "Creator"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:894
+msgid "SAT Prep."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:968
+msgid "Worksheet Details"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1005
+#: plugins/iii-dictionary/layouts/teaching.php:1088
+#: plugins/iii-dictionary/layouts/teaching.php:1112
+#: plugins/iii-dictionary/layouts/teaching.php:1263
+#: plugins/iii-dictionary/layouts/teaching.php:1344
+#: plugins/iii-dictionary/layouts/teaching.php:1368
+#, php-format
+msgid "Step %s"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1008
+#: plugins/iii-dictionary/layouts/teaching.php:1266
+msgid "Let's get started with the following steps."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1011
+#: plugins/iii-dictionary/layouts/teaching.php:1269
+msgid "Take the following two tests. One test will be auto-graded, and you will see your result immediately. Another test will be to edit a sample student's essay. We will review your work."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1012
+#: plugins/iii-dictionary/layouts/teaching.php:1270
+msgid "Once we review your editing, we will notify you on this site on how to proceed to the next step."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1017
+msgid "Auto-graded Test"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1019
+#: plugins/iii-dictionary/layouts/teaching.php:1051
+#: plugins/iii-dictionary/layouts/teaching.php:1277
+#: plugins/iii-dictionary/layouts/teaching.php:1309
+msgid "Take this test"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1025
+#: plugins/iii-dictionary/layouts/teaching.php:1057
+#: plugins/iii-dictionary/layouts/teaching.php:1284
+#: plugins/iii-dictionary/layouts/teaching.php:1315
+msgid "Your score:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1027
+#: plugins/iii-dictionary/layouts/teaching.php:1059
+msgid "Please check back to see if you are registered as a teacher to teach English writing."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1034
+#: plugins/iii-dictionary/layouts/teaching.php:1066
+#: plugins/iii-dictionary/layouts/teaching.php:1293
+#: plugins/iii-dictionary/layouts/teaching.php:1324
+msgid "Sorry, you did not pass. Would you like to take the test again?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1037
+#: plugins/iii-dictionary/layouts/teaching.php:1069
+#: plugins/iii-dictionary/layouts/teaching.php:1296
+#: plugins/iii-dictionary/layouts/teaching.php:1327
+msgid "Take this test again"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1049
+msgid "Edit a sample student's essay Test"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1091
+#: plugins/iii-dictionary/layouts/teaching.php:1347
+msgid "Now you are ready! Before you select the class to teach, let's review some of important rules."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1114
+#: plugins/iii-dictionary/layouts/teaching.php:1370
+msgid "Select worksheet to grade from the list below"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1140
+#: plugins/iii-dictionary/layouts/teaching.php:1396
+msgid "Requested by"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1149
+msgid "No grading requests"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1187
+msgid "Receiving Payments"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1191
+msgid "How would you like your payment?"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1212
+msgid "Note:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1212
+msgid "You can redeem your balance in increments of 100.00"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1217
+msgid "Email address for receiving a payment (paypal or gift card)"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1226
+msgid "Details of your earnings less expenses"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1234
+msgid "Transaction"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1235
+msgid "Amount"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1236
+#: plugins/iii-dictionary/library/MWHtml.php:383
+#: plugins/iii-dictionary/library/MWHtml.php:466
+#: plugins/iii-dictionary/library/MWHtml.php:574
+#: plugins/iii-dictionary/library/lib.php:879
+msgid "Note"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1243
+msgid "No transactions"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1275
+msgid "Auto-graded Test qualification to teacher K-to-7"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1286
+#: plugins/iii-dictionary/layouts/teaching.php:1317
+msgid "Please check back to see if you are registered as a teacher to teach Math."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1307
+msgid "Auto-graded Test qualification to teacher K-to-12"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1394
+msgid "Math category Name"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1397
+msgid "Price /1 minutes"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1404
+msgid "No result"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1419
+msgid "Accept"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/teaching.php:1422
+msgid "Taken"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/view_subscription.php:4
+msgid "View Subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/view_subscription.php:27
+#, php-format
+msgid "%s Subscription"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/view_subscription.php:35
+msgid "Subscription Code:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/view_subscription.php:40
+msgid "Subscription Type:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/view_subscription.php:44
+msgid "Subscription Start:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/view_subscription.php:48
+msgid "Subscription End:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/view_subscription.php:52
+#, php-format
+msgid "%s days left"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/view_subscription.php:75
+msgid "License left:"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/view_subscription.php:81
+msgid "You can activate other user accounts by entering this activation code."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/view_subscription.php:82
+msgid "For public computers, please see the guideline at Manage Subscription panel."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:2
+msgid "Vocabulary and Grammar Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/vocabulary_practice.php:17
+msgid "Vocabulary and Grammar Practice"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/writing_practice.php:2
+msgid "Writing Homework"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/writing_practice.php:161
+msgid "Write an essay"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/writing_practice.php:451
+msgid "Please write your essay!"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/writing_report.php:2
+msgid "Writing Report"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/writing_report.php:52
+msgid "Successfully upload report."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/writing_report.php:57
+msgid "Cannot upload report."
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/writing_report.php:71
+msgid "Write a report"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/writing_report.php:90
+msgid "From Teacher"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/writing_report.php:102
+msgid "Select report file"
+msgstr ""
+
+#: plugins/iii-dictionary/layouts/writing_report.php:117
+msgid "Upload"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:111
+msgid "New email is not valid."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:120
+msgid "Please enter your current password."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:124
+msgid "Current password not match."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:128
+msgid "New passwords must not be empty."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:132
+msgid "Passwords must match."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:136
+msgid "Passwords must be at least six characters long."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:164
+msgid "Your birth year must be 4 digits. Please enter a valid birth year."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:172
+msgid "Invalid date of birth."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:184
+msgid "First name field cannot be empty"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:189
+msgid "Last name field cannot be empty"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:194
+msgid "Email field cannot be empty"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:199
+msgid "Mobile phone number field cannot be empty"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:207
+msgid "Driver's license number field cannot be empty"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:215
+msgid "Social security number field cannot be empty"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:223
+msgid "Latest school you tought field cannot be empty"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:250
+msgid "Successfully register as teacher."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:253
+msgid "Successfully updated."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:263
+msgid "Successfully update user."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:753
+msgid "Offer price cannot be blank."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:757
+msgid "Invalid offer price."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:773
+msgid "Successfully offer worksheet."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:777
+msgid "Cannot offer worksheet."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:805
+msgid "Successfully remove offer."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:809
+msgid "Cannot remove offer."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:951
+msgid "Please select a Group."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:956
+msgid "Invalid sheet id."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:1059
+#: plugins/iii-dictionary/library/MWDB.php:1074
+msgid "An error occurred during this operation."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:1071
+msgid "Successfully remove homework."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:1095
+msgid "Please select Grade"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:1099
+#: plugins/iii-dictionary/library/MWDB.php:1434
+msgid "Sheet name cannot be blank"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:1107
+#: plugins/iii-dictionary/library/MWDB.php:1424
+msgid "Please select Homework Type"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:1115
+msgid "Please validate and correct the words before submiting"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:1122
+msgid "Incorrect sheet format"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:1238
+msgid "Successfully save homework"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:1243
+msgid "An error occur, cannot save homework"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:1302
+#: plugins/iii-dictionary/library/MWDB.php:1601
+msgid "Successfully delete "
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:1306
+#: plugins/iii-dictionary/library/MWDB.php:1605
+msgid "An error occur or you don't have permission to delete this sheet."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:1429
+msgid "Please select Level"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:1457
+msgid "Successfully store sheet"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:1461
+#: plugins/iii-dictionary/library/MWDB.php:3980
+#: plugins/iii-dictionary/library/MWDB.php:4025
+msgid "An error occurred"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2023
+msgid "Successfully graded."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2354
+msgid "Group name and Passwords must not be empty."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2359
+msgid "Group name cannot contain spacing!"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2370
+msgid "The name, <em>"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2424
+msgid "Successfully create Group: <em>"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2444
+msgid "Can not create Group"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2463
+msgid "Successfully update Group"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2482
+msgid "Can not update Group"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2542
+#: plugins/iii-dictionary/library/subscriptionlib.php:1595
+msgid "Successfully joined group/class."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2544
+msgid "Would you like to start program now?"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2545
+msgid "You may restart the program at any time from Homework Status"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2551
+msgid "An error has occur, cannot join group/class."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2555
+msgid "Cannot join group. The group/class is full."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2572
+msgid "Successfully rejoined group/class."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2577
+msgid "An error has occur, cannot rejoin Group."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2581
+msgid "You already joined this group/class."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2586
+msgid "This group is no longer available."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2590
+msgid "Incorrect group password."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:2594
+msgid "Group does not exist."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:3016
+msgid "Successfully set inactive"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:3039
+msgid "Invalid code number."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:3044
+msgid "Invalid starting date."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:3073
+msgid "Cannot create group."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:3078
+msgid "Invalid group name/password."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:3096
+msgid "Number of license is used up for this activation code."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:3119
+msgid "Please choose a Dictionary."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:3166
+msgid "Successfully add subscription."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:3171
+msgid "Cannot add subscription."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:3329
+msgid "Cannot update subscription."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:3930
+msgid "Header name cannot be blank"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:3976
+msgid "Successfully send flash cards"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:4021
+msgid "Successfully update flash card set"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWDB.php:4067
+msgid "Successfully delete flashcard set"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:55
+msgid "-Grade-"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:240
+msgid "Public"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:243
+msgid "My Own"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:244
+msgid "Licensed"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:248
+msgid "Subscribed"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:344
+#: plugins/iii-dictionary/library/MWHtml.php:383
+#: plugins/iii-dictionary/library/MWHtml.php:434
+msgid "Comment"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:344
+msgid "Sign"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:344
+#: plugins/iii-dictionary/library/MWHtml.php:383
+#: plugins/iii-dictionary/library/MWHtml.php:434
+msgid "Number"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:348
+msgid "Number 1"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:359
+msgid "Number 2"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:363
+#: plugins/iii-dictionary/library/MWHtml.php:397
+#: plugins/iii-dictionary/library/MWHtml.php:405
+#: plugins/iii-dictionary/library/MWHtml.php:413
+msgid "Partial Sum"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:367
+#: plugins/iii-dictionary/library/MWHtml.php:401
+#: plugins/iii-dictionary/library/MWHtml.php:409
+#: plugins/iii-dictionary/library/MWHtml.php:417
+#: plugins/iii-dictionary/library/MWHtml.php:598
+msgid "Carry"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:371
+#: plugins/iii-dictionary/library/MWHtml.php:423
+#: plugins/iii-dictionary/library/MWHtml.php:438
+#: plugins/iii-dictionary/library/MWHtml.php:466
+#: plugins/iii-dictionary/library/MWHtml.php:495
+#: plugins/iii-dictionary/library/MWHtml.php:527
+#: plugins/iii-dictionary/library/MWHtml.php:574
+msgid "Answer"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:387
+msgid "Multiplicand"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:393
+msgid "Multiplier"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:442
+msgid "Dividend"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:446
+msgid "Divisor"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:450
+msgid "Steps"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:454
+msgid "Remainder"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:466
+#: plugins/iii-dictionary/library/MWHtml.php:495
+msgid "Op1"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:466
+#: plugins/iii-dictionary/library/MWHtml.php:495
+msgid "Op"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:466
+#: plugins/iii-dictionary/library/MWHtml.php:495
+msgid "Op2"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:466
+#: plugins/iii-dictionary/library/MWHtml.php:495
+msgid "Equal"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:523
+msgid "Control Parameter"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:531
+#, php-format
+msgid "Step %d."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:546
+msgid "X-cord"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:547
+msgid "Y-cord"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:548
+msgid "Width"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:549
+msgid "Height"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:550
+msgid "Value"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:550
+msgid "Image"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:574
+msgid "Equation"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:598
+msgid "Borrow"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:644
+msgid "Select Worksheet"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:649
+msgid "Math level:"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:656
+msgid "No worksheets"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:821
+msgid "Select a dictionary"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:829
+msgid "My Choice"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:844
+#, php-format
+msgid "%s students/licenses"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:892
+msgid "--Type--"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1009
+msgid "Please subscribe to this product"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1012
+#, php-format
+msgid "Welcome! You get %s words free!"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1015
+#, php-format
+msgid "You have tried %s words. Did you like it?"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1032
+#: plugins/iii-dictionary/library/MWHtml.php:1059
+#: plugins/iii-dictionary/library/MWHtml.php:1087
+#: plugins/iii-dictionary/library/MWHtml.php:1115
+#: plugins/iii-dictionary/library/MWHtml.php:1142
+msgid "Why subscribe?"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1034
+#: plugins/iii-dictionary/library/MWHtml.php:1061
+#: plugins/iii-dictionary/library/MWHtml.php:1089
+#: plugins/iii-dictionary/library/MWHtml.php:1117
+#: plugins/iii-dictionary/library/MWHtml.php:1144
+msgid "You can look up five words in the dictionary, then every additional word searched will bring up this pop-up untill you subscribe."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1035
+#: plugins/iii-dictionary/library/MWHtml.php:1062
+#: plugins/iii-dictionary/library/MWHtml.php:1090
+#: plugins/iii-dictionary/library/MWHtml.php:1118
+#: plugins/iii-dictionary/library/MWHtml.php:1145
+msgid "Get the latest updates; additional features"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1040
+#: plugins/iii-dictionary/library/MWHtml.php:1067
+#: plugins/iii-dictionary/library/MWHtml.php:1095
+#: plugins/iii-dictionary/library/MWHtml.php:1123
+#: plugins/iii-dictionary/library/MWHtml.php:1150
+msgid "Features"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1042
+msgid "More than <span class=\"semi-bold\">22,000</span> idioms, verbal collocations, and commonly used phrases from American and British English."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1043
+msgid "More than <span class=\"semi-bold\">160,000</span> example sentences the most of any learner's dictionary."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1044
+msgid "<span class=\"semi-bold\">100,000</span> words and phrases with <span class=\"semi-bold\">3,000</span> core vocabulary words identified."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1045
+msgid "More than <span class=\"semi-bold\">12,000</span> usage labels, notes, and paragraphs."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1046
+msgid "<span class=\"semi-bold\">33,000</span> IPA pronunciations."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1069
+msgid "Over <span class=\"semi-bold\">275,000</span> Synonyms &amp; related words."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1070
+msgid "Over <span class=\"semi-bold\">115,000</span> Audio pronunciations."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1071
+msgid "Over <span class=\"semi-bold\">225,000</span> Definitions."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1072
+msgid "Over <span class=\"semi-bold\">700</span> Illustrations."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1073
+msgid "Deluxe audio edition."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1074
+#: plugins/iii-dictionary/library/MWHtml.php:1101
+msgid "Faster search with high-performance database engine."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1097
+msgid "Over <span class=\"semi-bold\">59,000</span> entries explain today's most widely used health-care terms."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1098
+msgid "More than <span class=\"semi-bold\">8,000</span> example phrases show how words are used in context."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1099
+msgid "Affordable quick reference."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1100
+msgid "Accessible guide to medical language."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1102
+msgid "Unmatched quality from the reference experts at Merriam-Webster."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1125
+msgid "Nearly <span class=\"semi-bold\">70,000</span> entries including new words and definitions from the fields of science, technology, entertainment, and health."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1126
+msgid "More than <span class=\"semi-bold\">22,000</span> usage examples."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1127
+msgid "More than <span class=\"semi-bold\">1,000</span> illustrations."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1128
+msgid "Abundant word history paragraphs and synonym paragraphs."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1129
+msgid "Written especially for the needs of students grades <span class=\"semi-bold\">6-8</span>, ages <span class=\"semi-bold\">11-14</span>"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1152
+msgid "Over <span class=\"semi-bold\">36,000</span> fully revised entries."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1153
+msgid "Expanded usage examples include more than <span class=\"semi-bold\">1,300</span> quotes from classic and contemporary children's literature."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1154
+msgid "<span class=\"semi-bold\">250</span> word history paragraphs and over <span class=\"semi-bold\">130</span> synonym paragraphs."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1155
+msgid "More than <span class=\"semi-bold\">900</span> new, colorful illustrations, photographs, and diagrams."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1156
+msgid "Essential dictionary for children grades <span class=\"semi-bold\">3-5</span>, ages <span class=\"semi-bold\">8-11</span>"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1167
+msgid "Subscribe now"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1171
+msgid "Homepage"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1173
+msgid "Not now"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1415
+msgid "Messages from Support"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1441
+#, php-format
+msgid "Your subscription for the item below will expire in 10 days %s Would you like to extend your subscription now?"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1459
+msgid "Respone from ikLearn"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1462
+#, php-format
+msgid "You have a message from Support. %s Go to \"Private Messages\" under \"My Account\""
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1609
+msgid "Start Now"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1613
+#: plugins/iii-dictionary/library/MWHtml.php:1615
+msgid "Not Now"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1638
+msgid "Later"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1677
+#: plugins/iii-dictionary/library/MWHtml.php:1779
+msgid "Close X"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1682
+msgid "Select a lesson and click Join to start your lesson"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1690
+msgid "Point"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1691
+msgid "Course Name"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1694
+msgid "No."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1699
+msgid "No Class at his moment"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1706
+msgid "detail"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1760
+msgid "Please purchase points and pay by the points."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1761
+#, php-format
+msgid "%s- You need %s."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1782
+msgid "Create a Group or Class, and Manage your Class"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1792
+msgid "step 1"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1794
+msgid "Create a group (class) under"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1795
+msgid "\"Teacher &#8594; Create A group or Class.\""
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1802
+msgid "step 2"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1804
+#, php-format
+msgid "Send \"assignment\" to the class/group from %s"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1805
+msgid "\"Teacher &#8594; Homework Assignment.\" "
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1806
+msgid ""
+"\"Assignments\" are worksheets, and it can be sent as \"practice mode\" or \"test mode\". In test mode. students will not see \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\tthe answer until it has been graded. In practice mode, the worksheet will not be graded."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1814
+msgid "step 3"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1816
+msgid "Give group name and password to students and so they can join the group."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1823
+msgid "step 4"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1825
+msgid "Students see the assignment at "
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1826
+msgid "\"Student &#8594; Homework Status.\""
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1833
+msgid "step 5"
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1835
+msgid "When students finish the assignment, the teacher can see the auto-graded  assignment at "
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1836
+msgid "\"Teacher &#8594; Teacher's Box.\""
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1852
+msgid ""
+"Teachers  may use ready-made worksheets as assignments, or create their own worksheet (in English only). \"English Writing\" assignments will\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tnot be auto-graded. Teachers can manually grade \"English Writing\" assignments if they wish to do so. For \"project\" assignments, students can\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tsend their completed \"project\" file to the teacher."
+msgstr ""
+
+#: plugins/iii-dictionary/library/MWHtml.php:1872
+msgid "root"
+msgstr ""
+
+#: plugins/iii-dictionary/library/disable-users.php:12
+msgid "This user is disabled"
+msgstr ""
+
+#: plugins/iii-dictionary/library/lib.php:570
+msgid "Please log in and get more function and content."
+msgstr ""
+
+#: plugins/iii-dictionary/library/lib.php:871
+msgid "Error"
+msgstr ""
+
+#: plugins/iii-dictionary/library/lib.php:873
+msgid "Success"
+msgstr ""
+
+#: plugins/iii-dictionary/library/lib.php:877
+msgid "Notice"
+msgstr ""
+
+#: plugins/iii-dictionary/library/lib.php:1068
+msgid "Your message has been sent."
+msgstr ""
+
+#: plugins/iii-dictionary/library/lib.php:1072
+msgid "An error occured, cannot send your message."
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:728
+msgid "The credit from iklearn.com"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1018
+msgid "Please select cart type"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1022
+msgid "Card number cannot empty"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1026
+msgid "Expiration date is not valid"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1030
+msgid "Address cannot empty"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1034
+msgid "Zip code cannot empty"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1038
+#: plugins/iii-dictionary/library/subscriptionlib.php:1055
+msgid "CVV/CVC cannot empty"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1051
+msgid "Please select a Credit card"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1067
+msgid "Card information not available"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1209
+msgid "Cannot save transaction history"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1274
+msgid "You don't have enough point."
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1470
+msgid "Thank you for purchasing on iklearn.com"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1471
+msgid "This is an automatically generated message to confirm receipt of your purchase via the Internet."
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1472
+msgid "You do not need to reply to this e-mail, but you may wish to save it for your records."
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1476
+msgid "Month"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1537
+msgid "If you have any questions, please send your inquiry to support@iklearn.com"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1538
+msgid "Thank you."
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1543
+msgid "Transaction was successful"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1543
+msgid "Your receipt has been sent to your email address."
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1549
+msgid "Teacher's Tool"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1551
+msgid "You can send a homework assignment to the group now. Once sent, each student can see the assignment in his/her Homework Status area."
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1554
+#: plugins/iii-dictionary/library/subscriptionlib.php:1568
+#: plugins/iii-dictionary/library/subscriptionlib.php:1580
+msgid "Your subscription has been extended."
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1561
+msgid "You may give out the activation to your other users. Each user can activate the code to use the dictionary."
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1562
+msgid "Your activation code is:"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1563
+msgid "Purchase history section shows the code"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1564
+msgid "Would you like to activate it now for your account?"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1577
+msgid "You may join SAT preparation class at SAT Preparation page."
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1585
+msgid "Points"
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1586
+msgid "You can now use your points to purchase Worksheet and request grading."
+msgstr ""
+
+#: plugins/iii-dictionary/library/subscriptionlib.php:1591
+msgid "You can now use new worksheets for practice."
+msgstr ""
+
+#: plugins/iii-dictionary/library/teachinglib.php:76
+msgid "No Worksheet assigned to this class yet."
+msgstr ""
+
+#: plugins/iii-dictionary/library/teachinglib.php:96
+msgid "Not passed Worksheets:"
+msgstr ""
+
+#: plugins/iii-dictionary/library/teachinglib.php:99
+#, php-format
+msgid "Latest Score: %s"
+msgstr ""
+
+#: plugins/iii-dictionary/library/teachinglib.php:170
+msgid "You don't have enough points to request grading for this homework."
+msgstr ""
+
+#: plugins/iii-dictionary/library/teachinglib.php:190
+msgid "Your request has been saved."
+msgstr ""
+
+#: plugins/iii-dictionary/library/teachinglib.php:194
+msgid "Unknown error, cannot request grading."
+msgstr ""
+
+#: plugins/iii-dictionary/library/teachinglib.php:251
+#, php-format
+msgid "Finished grading homework. You've earned %s pts."
+msgstr ""
+
+#: plugins/iii-dictionary/library/teachinglib.php:255
+msgid "Unknown error occurs."
+msgstr ""
+
+#: plugins/iii-dictionary/library/teachinglib.php:260
+msgid "Unknown error."
+msgstr ""
+
+#: plugins/iii-dictionary/library/teachinglib.php:340
+msgid "Successfully purchase worksheet."
+msgstr ""
+
+#: plugins/iii-dictionary/library/teachinglib.php:346
+msgid "Cannot save worksheet to your library."
+msgstr ""
+
+#: plugins/iii-dictionary/library/teachinglib.php:351
+msgid "You don't have enough points to purchase this worksheet."
+msgstr ""
+
+#: plugins/iii-dictionary/library/template.php:270
+msgid "Wrong site for Login."
+msgstr ""
+
+#: plugins/iii-dictionary/library/template.php:286
+msgid "You don't have permission to access this page."
+msgstr ""
+
+#: themes/ik-learn/footer-math.php:7
+msgid "Copyright &copy; Merriam-Webster & Innovative Knowledge.. All rights reserved."
+msgstr ""
+
+#: themes/ik-learn/footer.php:7
+msgid "Disctionaries : Copy right by Merriam Webster, All right reserved."
+msgstr ""
+
+#: themes/ik-learn/footer.php:8
+msgid "Software and graphics : Copy right by Innovative Knowldge, Inc. All right reserved."
+msgstr ""
+
+#: themes/ik-learn/header-math.php:133 themes/ik-learn/header.php:128
+msgid "Shopping Cart"
+msgstr ""
+
+#: themes/ik-learn/header-math.php:134 themes/ik-learn/header.php:129
+msgid "Home"
+msgstr ""
+
+#: themes/ik-learn/header-math.php:139 themes/ik-learn/header.php:134
+msgid "Logout"
+msgstr ""

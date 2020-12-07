@@ -1,0 +1,659 @@
+# Translation of Plugins - Redirection - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Redirection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-27 13:36:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Redirection - Stable (latest release)\n"
+
+#: view/options.php:108
+msgid "Are you sure you want to delete everything?"
+msgstr "本当にすべて削除してよいですか ?"
+
+#: view/item-edit.php:35
+msgid "Advanced Settings"
+msgstr "高度な設定（通常は必要ありません）"
+
+#. Author URI of the plugin/theme
+msgid "http://urbangiraffe.com"
+msgstr "http://urbangiraffe.com"
+
+#. Author of the plugin/theme
+msgid "John Godley"
+msgstr "John Godley"
+
+#. Description of the plugin/theme
+msgid "Manage all your 301 redirects and monitor 404 errors"
+msgstr "すべての 301 リダイレクトを管理し、404 エラーをモニター"
+
+#. Plugin URI of the plugin/theme
+msgid "http://urbangiraffe.com/plugins/redirection/"
+msgstr "http://urbangiraffe.com/plugins/redirection/"
+
+#: view/support.php:72
+msgid "Full details of producing a translation can be found in this <a href=\"http://urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/\">guide to translating WordPress plugins</a>."
+msgstr "翻訳作成に関する詳細は<a href=\"http://urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/\">翻訳プロセスのガイドライン</a>をご覧ください。"
+
+#: view/support.php:64
+msgid "If you're multi-lingual then you may want to consider donating a translation:"
+msgstr "﻿多言語をご存知の場合、翻訳という形で寄付をしていただくこともできます。"
+
+#: view/support.php:62
+msgid "Translations"
+msgstr "翻訳"
+
+#: view/support.php:58
+msgid "Commercial<br/>Donation"
+msgstr "商用<br/>寄付"
+
+#: view/support.php:38
+msgid "Individual<br/>Donation"
+msgstr "個人の<br/>寄付"
+
+#: view/support.php:15
+msgid "If you are using this plugin in a commercial setup, or feel that it's been particularly useful, then you may want to consider a <strong>commercial donation</strong>."
+msgstr "このプラグインを商用サイトにお使いの場合、または非常に役に立つプラグインだと思っていただける場合は、<strong>商用寄付</strong>をご検討ください。"
+
+#: view/support.php:13
+msgid "Please note that a donation is just a donation - it is not a payment for support. I am not a business, this is not a product, and I'm afraid I cannot provide paid support"
+msgstr "寄付はサポートに対する支払いではないことにご注意ください。このプラグインを提供しているのは法人ではなく、これは商品ではないため、恐れ入りますが有料サポートを提供することはできません。"
+
+#: view/support.php:10
+msgid "This will act as an incentive for me to carry on developing. You get some useful software and I get to carry on making it.  Everybody wins."
+msgstr "これは私が開発を継続するための動機付けになります。皆さんは役に立つソフトウェアを手に入れることができ、私はそれを作り続けられるので、誰もが得をするといえます。"
+
+#: view/support.php:9
+msgid "Redirection is free to use - life is wonderful and lovely!  However, it has required a great deal of time and effort to develop and if it has been useful you can help support this development by <strong>making a small donation</strong>."
+msgstr "Redirection プラグインは無料でお使いいただけます。しかし、開発にはかなりの時間と労力がかかっており、<strong>少額の寄付</strong>で開発を助けていただけるようでしたら嬉しく思います。"
+
+#: view/support.php:5
+msgid "Redirection Support"
+msgstr "Redirection を応援する"
+
+#: view/submenu.php:47
+msgid "Support"
+msgstr "作者を応援　"
+
+#: view/submenu.php:34
+msgid "404s"
+msgstr "404 エラー"
+
+#: view/submenu.php:32
+msgid "404s from %s"
+msgstr "%s からの 404"
+
+#: view/submenu.php:23
+msgid "Log"
+msgstr "ログ"
+
+#: view/options.php:103
+msgid "Selecting this option will delete all redirections, all logs, and any options associated with the Redirection plugin.  Make sure this is what you want to do."
+msgstr "個のオプションを選択すると、リディレクションプラグインに関するすべての転送ルール・ログ・設定を削除します。本当にこの操作を行って良いか、再度確認してください。"
+
+#: view/options.php:102
+msgid "Delete Redirection"
+msgstr "転送ルールを削除"
+
+#: view/options.php:97
+msgid "Upload"
+msgstr "アップロード"
+
+#: view/options.php:94
+msgid "Import into"
+msgstr "インポート先"
+
+#: view/options.php:87
+msgid "Here you can import redirections from an existing <code>.htaccess</code> file, or a CSV file."
+msgstr "ここで既存の <code>.htaccess</code> または CSV ファイルから転送ルールをインポートできます。"
+
+#: view/options.php:85
+msgid "Import"
+msgstr "インポート"
+
+#: view/options.php:79
+msgid "Update"
+msgstr "更新"
+
+#: view/options.php:74
+msgid "This will be used to auto-generate a URL if no URL is given.  You can use the special tags <code>$dec$</code> or <code>$hex$</code> to have a unique ID inserted (either decimal or hex)"
+msgstr "URL が指定されていない場合、自動生成 URL として使われます。特別なタグ <code>$dec$</code> または <code>$hex$</code> を使って、独自 ID (10進法または16進法) を挿入させられます。"
+
+#: view/options.php:70
+msgid "Auto-generate URL"
+msgstr "URL を自動生成 "
+
+#: view/options.php:66
+msgid "A unique token allowing feed readers access to Redirection log RSS (leave blank to auto-generate)"
+msgstr "リディレクションログ RSS にフィードリーダーからアクセスするための固有トークン (空白にしておけば自動生成します)"
+
+#: view/options.php:63
+msgid "RSS Token"
+msgstr "RSS トークン"
+
+#: view/options.php:57
+msgid "Don't monitor"
+msgstr "モニターしない"
+
+#: view/options.php:54
+msgid "Monitor changes to posts"
+msgstr "投稿の変更をモニター"
+
+#: view/options.php:44
+msgid "404 Logs"
+msgstr "404 ログ"
+
+#: view/options.php:40 view/options.php:50
+msgid "(time to keep logs for)"
+msgstr "(ログの保存期間)"
+
+#: view/options.php:34
+msgid "Redirect Logs"
+msgstr "転送ログ"
+
+#: view/options.php:30
+msgid "I'm a nice person and I have helped support the author of this plugin"
+msgstr "このプラグインの作者に対する援助を行いました"
+
+#: view/options.php:27
+msgid "Plugin Support"
+msgstr "プラグインサポート"
+
+#: view/options.php:19 view/submenu.php:42
+msgid "Options"
+msgstr "設定"
+
+#: view/options.php:11
+msgid "Keep forever"
+msgstr "無期限に保存"
+
+#: view/options.php:10
+msgid "Two months"
+msgstr "2ヶ月"
+
+#: view/options.php:9
+msgid "A month"
+msgstr "1ヶ月"
+
+#: view/options.php:8
+msgid "A week"
+msgstr "1週間"
+
+#: view/options.php:7
+msgid "A day"
+msgstr "1日"
+
+#: view/options.php:6
+msgid "No logs"
+msgstr "ログなし"
+
+#: view/module-list.php:5 view/submenu.php:16
+msgid "Modules"
+msgstr "モジュール"
+
+#: view/log.php:28
+msgid "Export To CSV"
+msgstr "CSV としてエクスポート"
+
+#: view/log.php:25
+msgid "Delete All"
+msgstr "すべてを削除"
+
+#: view/log.php:23
+msgid "These apply to the current search term, if any, otherwise all logs."
+msgstr "これらは現在の検索キーワードに適用されます。もしキーワードがない場合はすべてのログに適用されます。"
+
+#: view/log.php:19
+msgid "Log Management"
+msgstr "ログ管理"
+
+#: view/log.php:5
+msgid "Redirection Log"
+msgstr "転送ログ"
+
+#: view/item-edit.php:14
+msgid "optional"
+msgstr "オプション"
+
+#: view/item-edit.php:11
+msgid "Description"
+msgstr "説明"
+
+#: view/group-list.php:44
+msgid "Add"
+msgstr "追加"
+
+#: view/group-list.php:24
+msgid "Use groups to organise your redirects. Groups are assigned to a module, which affects how the redirects in that group work. If you are unsure then stick to the WordPress module."
+msgstr "グループを使って転送をグループ化しましょう。グループはモジュールに割り当てられ、グループ内の転送に影響します。はっきりわからない場合は WordPress モジュールのみを使ってください。"
+
+#: view/group-list.php:22
+msgid "Add Group"
+msgstr "グループを追加"
+
+#: view/group-list.php:13 view/item-list.php:12 view/log.php:13
+msgid "Search"
+msgstr "検索"
+
+#: view/group-list.php:5 view/submenu.php:11
+msgid "Groups"
+msgstr "グループ"
+
+#: view/group-edit.php:21 view/item-edit.php:32 view/module-edit.php:12
+msgid "Save"
+msgstr "保存"
+
+#: view/add.php:46
+msgid "Add Redirection"
+msgstr "新しい転送ルールを追加"
+
+#: view/add.php:36 view/item-edit.php:18
+msgid "Group"
+msgstr "グループ"
+
+#: view/add.php:28
+msgid "Regular expression"
+msgstr "正規表現"
+
+#: view/add.php:23
+msgid "Action"
+msgstr "操作"
+
+#: view/add.php:17
+msgid "Match"
+msgstr "一致条件"
+
+#: view/add.php:7
+msgid "Your redirection has been added."
+msgstr "新しい転送ルールを追加しました。"
+
+#: view/add.php:4
+msgid "Add new redirection"
+msgstr "新しい転送ルールを追加"
+
+#: redirection-admin.php:507 view/group-edit.php:22 view/item-edit.php:33
+#: view/module-edit.php:13
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: redirection-admin.php:506
+msgid "Download"
+msgstr "ダウンロード"
+
+#: redirection-admin.php:490
+msgid "Invalid module"
+msgstr "無効なモジュール"
+
+#: redirection-admin.php:484
+msgid "Sorry, but your redirection was not created"
+msgstr "転送ルールを作成できませんでした。"
+
+#: redirection-admin.php:355 redirection-admin.php:367
+#: redirection-admin.php:394 redirection-admin.php:408
+#: redirection-admin.php:430 redirection-admin.php:442
+#: redirection-admin.php:464
+msgid "Unable to perform action"
+msgstr "操作を実行できません"
+
+#: redirection-admin.php:308
+msgid "Please specify a group name"
+msgstr "グループ名を指定してください。"
+
+#: redirection-admin.php:305
+msgid "Your group was added successfully"
+msgstr "グループの追加に成功しました。"
+
+#: redirection-admin.php:271 redirection-admin.php:291
+msgid "Your logs have been deleted"
+msgstr "ログを削除しました。"
+
+#: redirection-admin.php:259
+msgid "No items were imported"
+msgstr "項目をインポートできませんでした。"
+
+#: redirection-admin.php:257
+msgid "%d redirection was successfully imported"
+msgid_plural "%d redirections were successfully imported"
+msgstr[0] "%d件の転送をインポートしました。"
+
+#: redirection-admin.php:250
+msgid "Redirection data has been deleted and the plugin disabled"
+msgstr "リディレクションデータを削除し、プラグインを無効化しました。"
+
+#: redirection-admin.php:225 redirection-admin.php:241
+msgid "Your options were updated"
+msgstr "設定を更新しました。"
+
+#. #-#-#-#-#  tmp-redirection.pot (Redirection 2.4.5)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: redirection-admin.php:158
+msgid "Redirection"
+msgstr "Redirection"
+
+#: redirection-admin.php:153
+msgid "Sorry, unable to do that. Please try refreshing the page."
+msgstr "ご指定の操作は実行できません。ページを再読み込みしてみてください。"
+
+#: redirection-admin.php:147
+msgid "Log entries"
+msgstr "エントリーのログを保存"
+
+#: redirection-admin.php:135
+msgid "Settings"
+msgstr "設定"
+
+#: modules/wordpress.php:132
+msgid "WordPress-powered redirects. This requires no further configuration, and you can track hits."
+msgstr "WordPress による転送。追加設定は必要ありません。また、リンクのクリックをトラックできます。"
+
+#: modules/wordpress.php:128
+msgid "WordPress"
+msgstr "WordPress"
+
+#: modules/nginx.php:45
+msgid "For use with Nginx server. Requires manual configuration. The redirect happens without loading WordPress. No tracking of hits. This is an experimental module."
+msgstr "Nginx サーバー用。WordPress が読み込まれず転送が行われます。リンクのクリックはトラックできません。これは試験的なモジュールです。"
+
+#: modules/nginx.php:41
+msgid "Nginx"
+msgstr "Nginx"
+
+#: modules/apache.php:112
+msgid "Uses Apache <code>.htaccess</code> files. Requires further configuration. The redirect happens without loading WordPress. No tracking of hits."
+msgstr "Apache の <code>.htaccess</code> ファイルを使用。追加設定が必要になります。WordPress が読み込まれず転送が行われます。リンクのクリックはトラックできません。"
+
+#: modules/apache.php:108
+msgid "Apache"
+msgstr "Apache"
+
+#: modules/apache.php:102
+msgid "<code>.htaccess</code> saved to %s"
+msgstr "<code>.htaccess</code> を %s に保存しました"
+
+#: modules/apache.php:93
+msgid "Automatically remove or add www to your site."
+msgstr "自動的にサイト URL の www を除去または追加。"
+
+#: modules/apache.php:90
+msgid "Add WWW (www.%s)"
+msgstr "WWW を追加 (www.%s)"
+
+#: modules/apache.php:89
+msgid "Remove WWW (%s)"
+msgstr "WWW を除去 (%s)"
+
+#: modules/apache.php:88
+msgid "Default server"
+msgstr "デフォルトサーバー"
+
+#: modules/apache.php:85
+msgid "Canonical URL"
+msgstr "カノニカル URL"
+
+#: modules/apache.php:81
+msgid "WordPress is installed in: <code>%s</code>"
+msgstr "WordPress のインストール位置: <code>%s</code>"
+
+#: modules/apache.php:80
+msgid "If you want Redirection to automatically update your <code>.htaccess</code> file then enter the full path and filename here. You can also download the file and update it manually."
+msgstr "Redirection プラグインに自動的に <code>.htaccess</code> ファイルを更新して欲しい場合は、フルパスとファイル名をここに入力してください。ファイルをダウンロードして手動で更新することもできます。"
+
+#: modules/apache.php:76
+msgid ".htaccess Location"
+msgstr ".htaccess ファイルの場所"
+
+#: modules/apache.php:63
+msgid "Cannot write to chosen location - check path and permissions."
+msgstr "選択された場所には書き込めません。パスと権限を確認して下さい。"
+
+#: models/redirect.php:398
+msgid "Do nothing"
+msgstr "何もしない"
+
+#: models/redirect.php:397
+msgid "Error (404)"
+msgstr "エラー (404)"
+
+#: models/redirect.php:396
+msgid "Pass-through"
+msgstr "通過"
+
+#: models/redirect.php:395
+msgid "Redirect to random post"
+msgstr "ランダムな記事へ転送"
+
+#: models/redirect.php:394
+msgid "Redirect to URL"
+msgstr "URL へ転送"
+
+#: models/redirect.php:213
+msgid "Unable to add new redirect - delete Redirection from the options page and re-install"
+msgstr "新規転送ルールを追加できません。設定ページから転送ルールを削除し、再インストールしてください。"
+
+#: models/redirect.php:177
+msgid "Invalid source URL when creating redirect for given match type"
+msgstr "指定された一致タイプの転送ルールを作成する際に無効なソース URL が入力されました"
+
+#: models/redirect.php:174
+msgid "Invalid group when creating redirect"
+msgstr "転送ルールを作成する際に無効なグループが指定されました"
+
+#: models/redirect.php:166
+msgid "You can only redirect from a relative URL (<code>%s</code>) on this domain (<code>%s</code>)."
+msgstr "相対 URL (<code>%s</code>) で、このドメイン (<code>%s</code>) 上にある URL のみからの転送が可能です。"
+
+#: models/redirect.php:160
+msgid "Source and target URL must be different"
+msgstr "ソースとターゲット URL は異なるものを指定してください"
+
+#: models/pager.php:720
+msgid "Configure"
+msgstr "設定"
+
+#: models/pager.php:581
+msgid "Show only this IP"
+msgstr "この IP のみ表示"
+
+#: models/pager.php:481 models/pager.php:612
+msgid "IP"
+msgstr "IP"
+
+#: models/pager.php:479 models/pager.php:610 view/add.php:13
+#: view/item-edit.php:4
+msgid "Source URL"
+msgstr "ソース URL"
+
+#: models/pager.php:478 models/pager.php:609
+msgid "Date"
+msgstr "日付"
+
+#: models/pager.php:441 models/pager.php:575
+msgid "Add redirect"
+msgstr "転送ルールを追加"
+
+#: models/pager.php:356
+msgid "All modules"
+msgstr "すべてのモジュール"
+
+#: models/pager.php:279
+msgid "Unknown"
+msgstr "不明"
+
+#: models/pager.php:255
+msgid "View Redirects"
+msgstr "転送ルールを表示"
+
+#: models/pager.php:245 models/pager.php:709 view/group-edit.php:8
+msgid "Module"
+msgstr "モジュール"
+
+#: models/pager.php:244 models/pager.php:710 view/submenu.php:6
+msgid "Redirects"
+msgstr "転送ルール"
+
+#: models/pager.php:243 view/group-edit.php:4 view/group-list.php:30
+msgid "Name"
+msgstr "名称"
+
+#: models/pager.php:164 models/pager.php:364
+msgid "Filter"
+msgstr "フィルター"
+
+#: models/pager.php:151
+msgid "No group filter"
+msgstr "グループフィルターなし"
+
+#: models/pager.php:104
+msgid "Reset Hits"
+msgstr "訪問数をリセット"
+
+#: models/pager.php:61 models/pager.php:102 models/pager.php:262
+#: models/pager.php:301
+msgid "Enable"
+msgstr "有効化"
+
+#: models/pager.php:59 models/pager.php:103 models/pager.php:260
+#: models/pager.php:302
+msgid "Disable"
+msgstr "無効化"
+
+#: models/pager.php:54 models/pager.php:101 models/pager.php:254
+#: models/pager.php:300 models/pager.php:498 models/pager.php:628
+#: view/options.php:108
+msgid "Delete"
+msgstr "削除"
+
+#: models/pager.php:53 models/pager.php:253
+msgid "Edit"
+msgstr "編集"
+
+#: models/pager.php:31
+msgid "Last Access"
+msgstr "前回のアクセス"
+
+#: models/pager.php:30
+msgid "Hits"
+msgstr "ヒット数"
+
+#: models/pager.php:29
+msgid "URL"
+msgstr "URL"
+
+#: models/pager.php:28
+msgid "Type"
+msgstr "タイプ"
+
+#: models/database.php:99
+msgid "Modified Posts"
+msgstr "編集済みの投稿"
+
+#: models/database.php:98 models/group.php:109 view/item-list.php:5
+msgid "Redirections"
+msgstr "転送ルール"
+
+#: matches/user-agent.php:51
+msgid "The visitor will be redirected from the source URL if the user agent matches.  You can specify a <em>matched</em> target URL as the address to send visitors if they do match, and <em>not matched</em> if they don't match.  Leaving a URL blank means that the visitor is not redirected. <strong>All matches are performed as regular expressions</strong>.\n"
+msgstr "もしユーザーエージェントが一致する場合、ソース URL から転送されます。<strong>一致の場合</strong>と<strong>不一致の場合</strong>に転送先にするターゲット URL をそれぞれ指定できます。URL を空のままにした場合、ユーザーは転送されません。<strong>一致条件の判定はすべて正規表現で行われます</strong>。\n"
+
+#: matches/user-agent.php:25
+msgid "User Agent"
+msgstr "ユーザーエージェント"
+
+#: matches/user-agent.php:20
+msgid "Nintendo Wii"
+msgstr "Nintendo Wii"
+
+#: matches/user-agent.php:19
+msgid "Android"
+msgstr "Android"
+
+#: matches/user-agent.php:18
+msgid "iPad"
+msgstr "iPad"
+
+#: matches/user-agent.php:17
+msgid "iPhone"
+msgstr "iPhone"
+
+#: matches/user-agent.php:16
+msgid "Safari"
+msgstr "Safari"
+
+#: matches/user-agent.php:15
+msgid "Opera"
+msgstr "Opera"
+
+#: matches/user-agent.php:14
+msgid "FireFox"
+msgstr "FireFox"
+
+#: matches/user-agent.php:13
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: matches/user-agent.php:12
+msgid "FeedBurner"
+msgstr "FeedBurner"
+
+#: matches/user-agent.php:7
+msgid "URL and user agent"
+msgstr "URL およびユーザーエージェント"
+
+#: matches/url.php:12 view/add.php:32
+msgid "Target URL"
+msgstr "ターゲット URL"
+
+#: matches/url.php:5
+msgid "URL only"
+msgstr "URL のみ"
+
+#: matches/referrer.php:55 matches/referrer.php:57 matches/user-agent.php:68
+#: matches/user-agent.php:70
+msgid "Not matched"
+msgstr "不一致の場合"
+
+#: matches/referrer.php:45 matches/referrer.php:47 matches/user-agent.php:58
+#: matches/user-agent.php:60
+msgid "Matched"
+msgstr "一致の場合"
+
+#: matches/referrer.php:39
+msgid "The visitor will be redirected from the source URL if the referrer matches.  You can specify a <em>matched</em> target URL as the address to send visitors if they do match, and <em>not matched</em> if they don't match.  Leaving a URL blank means that the visitor is not redirected."
+msgstr "もしリファラーが一致する場合、ソース URL から転送されます。<strong>一致の場合</strong>と<strong>不一致の場合</strong>に転送先にするターゲット URL をそれぞれ指定できます。URL を空のままにした場合、ユーザーは転送されません。"
+
+#: matches/referrer.php:27 matches/referrer.php:37 matches/url.php:20
+#: matches/user-agent.php:38
+msgid "HTTP Code"
+msgstr "HTTP コード"
+
+#: matches/referrer.php:23 view/item-edit.php:7
+msgid "Regex"
+msgstr "正規表現"
+
+#: matches/referrer.php:20 models/pager.php:480 models/pager.php:611
+msgid "Referrer"
+msgstr "リファラー"
+
+#: matches/referrer.php:8
+msgid "URL and referrer"
+msgstr "URL およびリファラー"
+
+#: matches/login.php:35 matches/login.php:37
+msgid "Logged Out"
+msgstr "ログアウト中"
+
+#: matches/login.php:23 matches/login.php:25
+msgid "Logged In"
+msgstr "ログイン中"
+
+#: matches/login.php:16
+msgid "The target URL will be chosen from one of the following URLs, depending if the user is logged in or out.  Leaving a URL blank means that the user is not redirected."
+msgstr "ユーザーがログインしているかどうかにより、ターゲット URL は以下のうちいずれかになります。URL を空白にした場合、そのユーザーは転送されません。"
+
+#: matches/login.php:7
+msgid "URL and login status"
+msgstr "URL およびログイン状態"
