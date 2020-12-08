@@ -7534,8 +7534,16 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                             
                                             ?>" alt="<?php echo $current_user->display_name ?>" class="" alt="setting my account" style="width: 24px;height: 24px;margin:26px 0px 20px; border-radius: 8px;"></a>
                                             <div id="account-show" style="display: none;">
-                                                <div style="margin-top: 13px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/Icon_Register_Tutor_Account.png" style="width: 15px"></div>
-                                                <div style="margin-top: 23px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_ACCOUNT_profile.png" style="width: 15px"></div>
+                                                <?php 
+                                                $chk_mobile_number = '';
+                                                if ($is_user_logged_in) {
+                                                    $chk_mobile_number = get_user_meta($current_user->ID, 'mobile_number', true);
+                                                }
+                                                ?>
+                                                <div id="tutor-regis" class="create-tutor-regist <?php if ($chk_mobile_number != ''){ echo ' hidden-teacher';}?>" style="margin-top: 13px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/Icon_Register_Tutor_Account.png" style="width: 15px">
+                                                </div>
+                                                <div id="tutor-regis" class="create-tutor-regist <?php if ($chk_mobile_number != ''){ echo ' hidden-teacher';}?>" style="margin-top: <?php if ($chk_mobile_number != '') { echo '13px;';} else { echo '23px;'; } ?> "><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_ACCOUNT_profile.png" style="width: 15px"></div>
+                                                <div id="tutor-regis" class="<?php if ($chk_mobile_number != ''){ echo ' create-tutor-regist';} else { echo ' hidden-teacher'; }?>" style="margin-top: 13px; <?php if ($chk_mobile_number == ''){ echo '  display: none';} ?>"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_ACCOUNT_profile.png" style="width: 15px"></div>
                                                 <div style="margin-top: 7px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_ACCOUNT_update_my_account.png" style="width: 15px"></div>
                                                 <div style="margin-top: 7px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_ACCOUNT_subscription_points.png" style="width: 15px"></div>
                                                 <div style="margin-top: 7px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Earning_Payment.png" style="width: 15px"></div>
@@ -8123,6 +8131,9 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                             });
                         });
                     });
+                    <?php 
+
+                    ?>
                 </script>
 
             </header>
@@ -8137,6 +8148,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                 $action = 'login';
                 $page_header_title = __('Login', 'iii-dictionary');
             }
+
 
             switch ($action) {
                 case 'login':
