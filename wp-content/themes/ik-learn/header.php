@@ -7534,7 +7534,8 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                             
                                             ?>" alt="<?php echo $current_user->display_name ?>" class="" alt="setting my account" style="width: 24px;height: 24px;margin:26px 0px 20px; border-radius: 8px;"></a>
                                             <div id="account-show" style="display: none;">
-                                                <div style="margin-top: 13px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_ACCOUNT_profile.png" style="width: 15px"></div>
+                                                <div style="margin-top: 13px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/Icon_Register_Tutor_Account.png" style="width: 15px"></div>
+                                                <div style="margin-top: 23px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_ACCOUNT_profile.png" style="width: 15px"></div>
                                                 <div style="margin-top: 7px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_ACCOUNT_update_my_account.png" style="width: 15px"></div>
                                                 <div style="margin-top: 7px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_ACCOUNT_subscription_points.png" style="width: 15px"></div>
                                                 <div style="margin-top: 7px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Earning_Payment.png" style="width: 15px"></div>
