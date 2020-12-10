@@ -7534,7 +7534,8 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                             
                                             ?>" alt="<?php echo $current_user->display_name ?>" class="" alt="setting my account" style="width: 24px;height: 24px;margin:26px 0px 20px; border-radius: 8px;"></a>
                                             <div id="account-show" style="display: none;">
-                                                <div style="margin-top: 13px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_ACCOUNT_profile.png" style="width: 15px"></div>
+                                                <div id="icon-register" style="margin-top: 15px; padding-bottom: 10px; display: none;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/Icon_Register_Tutor_Account.png" style="width: 15px"></div>
+                                                <div style="margin-top: 14px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_ACCOUNT_profile.png" style="width: 15px"></div>
                                                 <div style="margin-top: 7px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_ACCOUNT_update_my_account.png" style="width: 15px"></div>
                                                 <div style="margin-top: 7px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_ACCOUNT_subscription_points.png" style="width: 15px"></div>
                                                 <div style="margin-top: 7px;"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Earning_Payment.png" style="width: 15px"></div>
@@ -9472,6 +9473,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                 var mtop = "113px";
                             }else{
                                 var mtop = "157px";
+                                $('#icon-register').css('display','block');
                             }
                             if (name !== '') {
                                 var x=$("#mtutoring img,#class-manager img");
@@ -9558,14 +9560,14 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                 if (check) {
                                     //closeNav();
                                     $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "0px");
-                                    $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "-6px");
+                                    $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "2px");
                                     $('#menu-left-myaccount li:nth-child(5)').css("margin-top", "192px");
                                     $('#menu-left-myaccount li:nth-child(6)').css("margin-top", "8px");
                                 } else {
                                     
                                     $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "0px");
                                     openNav();
-                                    $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "-6px");
+                                    $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "2px");
                                     $('#menu-left-myaccount li:nth-child(5)').css("margin-top", "192px");
                                     $('#menu-left-myaccount li:nth-child(6)').css("margin-top", "8px");
                                 }
@@ -9602,16 +9604,16 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                 if (check) {
                                     //closeNav();
                                     $('#menu-left-myaccount li:nth-child(3)').css("margin-top", "0px");
-                                    $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "-4px");
-                                    $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "17px");
+                                    $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "2px");
+                                    $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "20px");
                                     $('#menu-left-myaccount li:nth-child(5)').css("margin-top", "2px");
                                     $('#menu-left-myaccount li:nth-child(6)').css("margin-top", "6px");
                                 } else {
                                     
                                     $('#menu-left-myaccount li:nth-child(3)').css("margin-top", "0px");
                                     openNav();
-                                    $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "-4px");
-                                    $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "17px");
+                                    $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "2px");
+                                    $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "20px");
                                     $('#menu-left-myaccount li:nth-child(5)').css("margin-top", "2px");
                                     $('#menu-left-myaccount li:nth-child(6)').css("margin-top", "6px");
                                 }
@@ -9658,14 +9660,14 @@ function set_my_mce_editor_placeholder( $textarea_html ){
 
                                 if (check) {
                                     //closeNav();
-                                    $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "-6px");
+                                    $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "2px");
                                     $('#menu-left-myaccount li:nth-child(3)').css("margin-top", "91px");
                                     $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "1px");
                                     $('#menu-left-myaccount li:nth-child(5)').css("margin-top", "1px");
                                     $('#menu-left-myaccount li:nth-child(6)').css("margin-top", "6px");
                                 } else {
                                     openNav();
-                                    $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "-4px");
+                                    $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "2px");
                                 $('#menu-left-myaccount li:nth-child(3)').css("margin-top", "91px");
                                 $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "4px");
                                 $('#menu-left-myaccount li:nth-child(5)').css("margin-top", "4px");
@@ -9713,6 +9715,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                 var mtop = "113px";
                             }else{
                                 var mtop = "157px";
+                                $('#icon-register').css('display','block');
                             }
 
                             if (name !== '') {
@@ -9724,18 +9727,19 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                         $('#menu-left-myaccount li:nth-child(3)').css("margin-top", "89px");
                                         $('#menu-left-myaccount li:nth-child(6)').css("margin-top", "7px");
                                     } else if ($("#sub-lesson-manager").hasClass("opensub")) {
-                                        $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "-6px");
+                                        $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "2px");
                                         $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "0px");
                                         $('#menu-left-myaccount li:nth-child(5)').css("margin-top", "192px");
                                         $('#menu-left-myaccount li:nth-child(6)').css("margin-top", "8px");
                                     } else if ($("#sub-class-manager").hasClass("opensub")) {
                                         $('#online-show').css('display','block');
-                                        $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "-6px");
-                                        $('#menu-left-myaccount li:nth-child(5)').css("margin-top", "17px");
+                                        $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "2px");
+                                        $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "20px");
+                                        $('#menu-left-myaccount li:nth-child(5)').css("margin-top", "4px");
                                         $('#menu-left-myaccount li:nth-child(6)').css("margin-top", "7px");
                                     } else if ($("#sub-tutoring").hasClass("opensub")) {
                                         $('#tutoring-show').css('display','block');
-                                        $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "-4px");
+                                        $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "2px");
                                         $('#menu-left-myaccount li:nth-child(3)').css("margin-top", "0px");
                                         $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "4px");
                                         $('#menu-left-myaccount li:nth-child(5)').css("margin-top", "4px");
@@ -9860,7 +9864,8 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                             if($('#tutor-regist').hasClass('hidden-teacher')){
                                 var mtop = "113px";
                             }else{
-                                var mtop = "147px";
+                                var mtop = "155px";
+                                $('#icon-register').css('display','block');
                             }
 
                             if (check) {
@@ -9899,7 +9904,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                 $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "0px");
                             } else {
                                 openNav();
-                                $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "-6px");
+                                $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "2px");
                                 $('#menu-left-myaccount li:nth-child(5)').css("margin-top", "192px");
                                 $('#menu-left-myaccount li:nth-child(6)').css("margin-top", "8px");
                             }
@@ -9942,9 +9947,9 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                 $('#menu-left-myaccount li:nth-child(3)').css("margin-top", "0px");
                             } else {
                                 openNav();
-                                $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "-4px");
+                                $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "2px");
                                 $('#menu-left-myaccount li:nth-child(3)').css("margin-top", "0px");
-                                $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "17px");
+                                $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "20px");
                                 $('#menu-left-myaccount li:nth-child(5)').css("margin-top", "3px");
                                 $('#menu-left-myaccount li:nth-child(6)').css("margin-top", "6px");
                             }
@@ -9984,10 +9989,10 @@ function set_my_mce_editor_placeholder( $textarea_html ){
 
                             if (check) {
                                 closeNav();
-                                $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "-4px");
+                                $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "2px");
                             } else {
                                 openNav();
-                                $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "-4px");
+                                $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "2px");
                                 $('#menu-left-myaccount li:nth-child(3)').css("margin-top", "91px");
                                 $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "4px");
                                 $('#menu-left-myaccount li:nth-child(5)').css("margin-top", "4px");
@@ -26181,7 +26186,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                         function change_image_close(y){
                         y.attr('src','<?php echo get_template_directory_uri(); ?>/library/images/icon_MAIN_normal_state.png');
                         y.removeClass('active');
-                        $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "-5px");
+                        $('#menu-left-myaccount li:nth-child(2)').css("margin-top", "2px");
                         $('#menu-left-myaccount li:nth-child(3)').css("margin-top", "0px");
                         $('#menu-left-myaccount li:nth-child(4)').css("margin-top", "2px");
                         $('#menu-left-myaccount li:nth-child(5)').css("margin-top", "8px");
@@ -26806,7 +26811,9 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                         };
                         };
             });
-           
+            $('.section-right').click(function(){
+                closeNav();
+            });
             $('#add-new-school-edu').click(function(){
                 
                 for(i=3; i<6; i++){
