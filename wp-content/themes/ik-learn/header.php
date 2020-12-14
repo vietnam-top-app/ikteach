@@ -210,7 +210,13 @@ function set_my_mce_editor_placeholder( $textarea_html ){
         <script>
             var active_day = <?php echo $active_day ?>;
             var active_day_tutor = <?php echo $active_day_teach ?>;
+            var getprofile = window.location.href;
+            if( getprofile == 'https://iktutor.com/ikteach/en/#signup')
+                var signup_show = 1;
+            else var signup_show = 0;
+            
         </script>
+
     </head>
 
     <body <?php body_class('body-math'); ?> itemscope itemtype="http://schema.org/WebPage">
@@ -8962,6 +8968,9 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                 (function ($) {
                     $(function () {
                         var interval, intervalmy, intervalcity;
+                       
+                            
+                       
                         function show_detail_worksheet(id, class_open) {
                             var check = $(class_open).hasClass("hidden");
                             if (check == false) {
@@ -23384,7 +23393,22 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                             console.log(cur_day);
                             get_list_schedule_tutor('schedule');
                             get_scheduled_day_tutor(cur_day,type);
+                            
                         }, 5000);
+                        setTimeout(function(){
+                            if(signup_show == 1){
+                                $('.sign-up-link').click();
+
+                                
+                                 $("#lost-password").removeClass("active");
+                            $("#login-user").removeClass("active");
+                            $("#create-account").addClass(" active");
+
+                            var img = '<?php echo get_template_directory_uri() ?>/library/images/Profile_Image.png';
+                            $("#user-upload-avatar").attr('src',img);
+
+                        }
+                        },1000);
                         $(".schedule-rightbtn").click(function(){
                             $("#table-status-show").css("display","none");
                             if($('#btn-find-tutoring').hasClass('active')){
@@ -26976,7 +27000,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
             //             });
             
             $( document ).ready(function() {
-
+                
                if( $('#my-timezone').find('.my-timezone').hasClass('active')){
                  var city = $('#my-timezone').find('.active').attr("data-city");
                  document.getElementById('mycity-name').innerHTML= city;
@@ -27021,6 +27045,8 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                     }
             }
            });
+            
+
 
             function validateSelectBox(obj){
                 var options = obj.children;
