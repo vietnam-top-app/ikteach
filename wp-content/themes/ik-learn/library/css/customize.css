@@ -4,6 +4,11 @@ body {
     font-family:Myriad_regular;
     font-weight: 300;
 }
+.a4765546{
+    font-family: Myriad_light;
+    font-size: 15px;
+    color: #7f7f7f;
+}
 @font-face {
     font-family:Daum_Semi_regular;
     src:url(../fonts/Daum_Regular.ttf) format('truetype'), url(../fonts/Daum_Regular.eot#iefix) format('embedded-opentype');
@@ -9308,6 +9313,13 @@ iframe#message_ifr, iframe#message-to-all_ifr {
 .header-message .nav-tabs li.active a{
     border-bottom: 5px solid #D6D6D6; 
 }
+.a4127804{
+    padding-top: 8px;
+    padding-left: 30px !important;
+}
+/* .tab-content{
+    padding: 30px;
+} */
 .tab-content .icon-delete{
     cursor: pointer;
 }
@@ -14919,7 +14931,6 @@ font-weight: bold;
     padding-top: 12px;
     margin-left: -33px;
     padding-left: 33px;
-    margin-bottom: 25px;
 }
 .teacher-center .student-center-title {
     font-family: Myriad_regular;
@@ -16655,8 +16666,10 @@ margin-left: -7px;
 .speak-input {
     height: 50px;
 }
+
 .list-step {
     border-right: 1px solid #d6d6d6;
+    padding-top: 5px;
 }
 .list-step img {
     width: 30px;
@@ -16670,15 +16683,71 @@ margin-left: -7px;
 }
 .list-step ul  {
     list-style: disc;
-    padding: 7px 24px 30px;
+    padding: 21px 24px 44px;
 }
 .list-step ul li {
     padding-left: 8px;
+    margin-bottom: 16px;
     font-size: 15px;
     color: #929292;
 }
 .list-step ul li.active {
+    width: 130px;
+    color: #00b522;
+    border-bottom: 1px solid #00b522;
 
+}
+.top-oc {
+    padding-bottom: 18px;
+}
+.top-oc span {
+    font-family: Myriad_light;
+    font-size: 28px;
+    color: #00b522;
+    padding-bottom: 18px !important;
+}
+.top-oc button {
+    float: right;
+    width: 90px;
+    height: 30px;
+    color: white;
+    background: #65c762;
+    border: none;
+
+    border-radius: 5px;
+}
+#mid-oc_2634643{
+    border-top: 1px solid #d5d5d5;
+}
+.mid-oc div:nth-child(1) {
+    font-size: 20px;
+    color: #505050;
+    padding-top: 36px;
+}
+.mid-oc div:nth-child(2) {
+    font-size: 15px;
+    font-family: Myriad_light;
+    color: #7f7f7f;
+    padding-top: 30px;
+}
+.mid-oc .title-input {
+    font-family: semibold;
+    font-size: 15px;
+    color: #505050;
+    padding-bottom: 13px;
+    padding-top: 40px;
+}
+.mid-oc input {
+    height: 50px;
+    width: 100%;
+    padding-left: 5px;
+    border-radius:  7px !important;
+    border:1px solid #d9d9d9;
+    color: #515151;
+    font-size: 16px;
+}
+
+.list-step ul li.active {
     color: #00b522;
 }
 .top-oc {
@@ -16696,7 +16765,7 @@ margin-left: -7px;
     color: white;
     background: #65c762;
     border: none;
-    
+
     border-radius: 5px;
 }
 .mid-oc div:nth-child(1) {
