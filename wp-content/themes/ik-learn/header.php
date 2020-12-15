@@ -72,10 +72,10 @@ function file_get_contents_curl( $url ) {
   return $data;
  
 }
-$ip_user = $_SERVER['REMOTE_ADDR'];
-$time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
+// $ip_user = $_SERVER['REMOTE_ADDR'];
+// $time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
 
-// $time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
+$time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
 
 $time_zone_user1 = $time_zone_user->region;
 $timezone_name = $time_zone_user->timezone;
@@ -5949,10 +5949,110 @@ function set_my_mce_editor_placeholder( $textarea_html ){
 
                                 <!--create class-->
                                 <div id="create-class" class="style-form tab-pane fade">  
-                                    <h3 class="clearfix">
-                                        Create Course <span id="class-overview">overview</span>
-                                    </h3>
-                                    <div class="subscription">
+                                    <div class="teacher-center">
+                                        <div class="row">
+                                            <div class="col-sm-10 col-md-10 col-xs-10">
+                                                <p class="mt-bottom-12 student-center-title">My Online Course</p>
+                                                <div class="new-request-lists">CREATE COURSE</div>
+                                            </div>
+                                            <div class="col-sm-2 col-md-2 col-xs-2 text-right">
+                                                <img class="img-one-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/Icon_Close.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="subscription row">
+                                        <div class="col-sm-3 col-xs-3 col-md-3 list-step">
+                                            <div class="step-1">
+                                                <div>
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_01.png">
+                                                    <span>Let's Get Start!</span>
+                                                </div>
+                                                <ul>
+                                                    <li class="active" data-toggle="tab" href="#oc-name">OC Name</li>
+                                                    <li data-toggle="tab" href="#oc-select">Select Subject</li>
+                                                </ul>
+                                            </div>
+                                            <div class="step-2">
+                                                <div>
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_02.png">
+                                                    <span>Plan the Course</span>
+                                                </div>
+                                                <ul>
+                                                    <li>Description</li>
+                                                    <li>Create Section</li>
+                                                    <li>Create Lecture</li>
+                                                </ul>
+                                            </div>
+                                            <div class="step-3">
+                                                <div>
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_03.png">
+                                                    <span>Add Contents</span>
+                                                </div>
+                                                <ul>
+                                                    <li>Worksheet Type</li>
+                                                    <li>Create Worksheet</li>
+                                                    <li>Assign Worksheet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="step-4">
+                                                <div>
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_04.png">
+                                                    <span>Publish the Course</span>
+                                                </div>
+                                                <ul>
+                                                    <li>Course Preview</li>
+                                                    <li>Landing Page</li>
+                                                    <li>Pricing</li>
+                                                    <li>Promotions</li>
+                                                    <li>Course Message </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-9 col-xs-9 col-md-9 tab-content">
+                                            <div id="oc-name" class="style-form tab-pane fade active in">
+                                                <div class="top-oc">
+                                                    <span> Online Course(OC) Name</span>
+                                                    <button type="button">SAVE</button>
+                                                </div>
+                                                <div class="mid-oc">
+                                                    <div>Congratulations on creating your first course! Decide on what type of course you are making.</div><br>
+                                                    <div>The first step is to create a course name. You can re-name your course later at any time. </div><br>
+                                                    <div class="title-input">Course Name</div>
+                                                    <input type="text" name="" placeholder="ex: English Conversation 101">
+
+                                                </div>
+                                            </div>
+                                            <div id="oc-select" class="style-form tab-pane fade">
+                                                <div class="top-oc">
+                                                    <span>Select Subject</span>
+                                                    <button type="button">SAVE</button>
+                                                </div>
+                                                <div class="mid-oc">
+                                                    <div>Which category best fits your course?</div><br>
+                                                    <div>Select the subject of your course from the dropdown menu that best describes your course.</div><br>
+                                                    <div class="title-input">Subject</div>
+                                                    <select class="select-box-it form-control">
+                                                        <option>English: Conversation for Foreign Students</option>
+                                                        <option>English: Grammar</option>
+                                                        <option>English: Writing</option>
+                                                        <option>English: Reading Comprehension</option>
+                                                        <option>English: Others</option>
+                                                        <option>Math: Elementary</option>
+                                                        <option>Math: Middle School</option>
+                                                        <option>Math: High School</option>
+                                                        <option>Math: Advanced</option>
+                                                        <option>Math: Others</option>
+                                                        <option>Science: Elementary/Middle School</option>
+                                                        <option>Science: High School</option>
+                                                        <option>Science: Chemistry for High School</option>
+                                                        <option>Science: Others </option>
+
+                                                    </select>
+
+                                                </div>
+                                            </div>
+                                        </div>
                                         
                                         <div class="col-md-12 title-bars-stl clearfix">
                                             <div class="col-sm-11 col-md-11">
