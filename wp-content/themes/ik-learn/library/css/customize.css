@@ -1020,10 +1020,6 @@ a.sortable:hover, a.sortable:focus, a.sortable:active {
     vertical-align: bottom;
 }
 
-.close-input-oc {
-    margin-top: 17px;
-}
-
 .sortable.asc .sorting-indicator:before{
     content: "\f343";
 }
