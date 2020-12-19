@@ -72,10 +72,10 @@ function file_get_contents_curl( $url ) {
   return $data;
  
 }
-$ip_user = $_SERVER['REMOTE_ADDR'];
-$time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
+// $ip_user = $_SERVER['REMOTE_ADDR'];
+// $time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
 
-// $time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
+$time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
 
 $time_zone_user1 = $time_zone_user->region;
 $timezone_name = $time_zone_user->timezone;
@@ -5992,7 +5992,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                 <ul>
                                                     <li>Worksheet Type</li>
                                                     <li>Create Worksheet</li>
-                                                    <li>Assign Worksheet</li>
+                                                    <li data-toggle="tab" href="#assign-worksheet">Assign Worksheet</li>
                                                 </ul>
                                             </div>
                                             <div class="step-4">
@@ -6087,6 +6087,26 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                         }
                                                     </style>
 
+                                                </div>
+                                            </div>
+
+                                            <div id="assign-worksheet" class="style-form tab-pane fade">
+                                                <div class="top-oc">
+                                                    <span>Assign Worksheets</span>
+                                                    <button type="button">SAVE</button>
+                                                </div>
+                                                <div class="mid-oc">
+                                                    <div>Insert the Worksheets into the Lectures</div>
+                                                    <div class="mid-oc--content" style="margin-top: 15px;">All the worksheet made with the Online Worksheet Creator can be accessed from the Course Saved area. You can insert worksheets into previously made lecture slots</div>
+                                                </div>
+                                                <div class="bot-worksheet">
+                                                    <div class="group--bot-worksheet">
+                                                        <div class="group-section-title row">
+                                                            <span class="section-title">SECTION 1: Introduction</span>
+                                                            <img class="section-title-icon">icon
+                                                        </div>
+                                                    </div>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
