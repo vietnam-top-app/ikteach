@@ -1020,6 +1020,10 @@ a.sortable:hover, a.sortable:focus, a.sortable:active {
     vertical-align: bottom;
 }
 
+.close-input-oc {
+    margin-top: 17px;
+}
+
 .sortable.asc .sorting-indicator:before{
     content: "\f343";
 }
@@ -16705,9 +16709,6 @@ margin-left: -7px;
     font-family: Myriad_light;
     color: #7f7f7f;
 }
-.mid-oc--content {
-    margin-top: 15px !important;
-}
 .mid-oc .title-input {
     font-family: semibold;
     font-size: 15px;
@@ -16724,6 +16725,12 @@ margin-left: -7px;
     font-size: 16px;
 }
 
+.a295534 .a96766 {
+	height: 17px;
+    width: auto;
+    padding-right: 13px;
+}
+
 .bot-worksheet {
     margin-top: 25px;
 }
@@ -16736,11 +16743,11 @@ margin-left: -7px;
 .group--bot-worksheet {
     padding-left: 35px;
     padding-right: 25px;
-    
+
 }
 
 .section-title-icon {
-    float: right; 
+    float: right;
     margin-right: 20px;
 }
 
