@@ -5981,7 +5981,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                 <ul>
                                                     <li data-toggle="tab" href="#oc-description">Description</li>
                                                     <li>Create Section</li>
-                                                    <li>Create Lecture</li>
+                                                    <li data-toggle="tab" href="#oc-Lecture">Create Lecture</li>
                                                 </ul>
                                             </div>
                                             <div class="step-3">
@@ -6089,8 +6089,119 @@ function set_my_mce_editor_placeholder( $textarea_html ){
 
                                                 </div>
                                             </div>
+
+                                            <div id="oc-Lecture" class="style-form tab-pane fade">
+                                                <div class="top-oc">
+                                                    <span>Create Lecture</span>
+                                                    <button type="button">SAVE</button>
+                                                </div>
+                                                <div class="mid-oc">
+                                                    <div class="title-input">Add a lecture to your existing section.</div><br>
+                                                    <div class="a295534"><img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png">The lectutes are a series of worksheets that are nested in the section.</div>
+                                                    <br>
+                                                    <div class="a295534"><img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png">Users can have multiple lectures within the section. There's  no limit. They can define as many they like.</div>
+                                                    <br><br>
+                                                    <div class="a23428017">
+                                                    <div class="a36879308" >Example <img class="a19706342" src="<?php echo get_template_directory_uri(); ?>/library/images/12_Tab_Close.png"></div>
+                                                    <img class="a46876713" src="<?php echo get_template_directory_uri(); ?>/library/images/ex_Lecture.png"></div>
+                                                    <br>
+                                                    <br>
+                                                    <div class="clearable-input">
+                                                                <input type="text" name="" style="width: 612px; background-color: rgba(209, 223, 228,0.2);" class="group-input-desc" placeholder="SECTION 1: Introduction" disabled>
+                                                                <img class="a43790599" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png" data-clear-input>
+                                                                <img class="a22350621" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Menu_Trigger.png" data-clear-input>
+                                                    </div>
+                                                    <div class="a24448545">
+                                                    <div class="clearable-input" style="padding-top: 9px;">
+                                                        <div class="a295534" style="font-weight: bold;">Lectures:</div>
+                                                                <input type="text" name="" style="width: 572px" class="group-input-desc" placeholder="ex: intro of the Course">
+                                                                <img class="a97974675" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png" data-clear-input>
+                                                                <img class="a14379763" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Menu_Trigger.png" data-clear-input>   
+                                                    </div>
+                                                    </div>
+                                                        <a class="add-item-description" style="padding-bottom: 12px;">+ Add more</a>
+                                                    <style>
+                                                        .a24448545{
+                                                            margin-left: 40px;
+                                                        }
+                                                        .a295534 {
+                                                            font-size: 8px !important;
+                                                        }
+                                                        .a97974675 {
+                                                            margin-top: 68px;
+                                                            margin-right: 47px;
+                                                            height: 17px;
+                                                        }
+
+                                                        .a14379763 {
+                                                            margin-top: 72px;
+                                                            margin-right: 15px;
+                                                            height: 12px;
+                                                        }
+
+                                                        .a43790599 {
+                                                            height: 17px;
+                                                            margin-top: 17px;
+                                                            margin-right: 47px;
+                                                        }
+
+                                                        .a22350621 {
+                                                            height: 12px;
+                                                            margin-top: 20px;
+                                                            margin-right: 15px;
+                                                        }
+
+                                                        .a19706342 {
+                                                            height: 8px  !important;
+                                                            padding-left: 5px;
+                                                        }
+                                                        .a36879308 {
+                                                            left: 520px;
+                                                            top: 202px;
+                                                            position: absolute;
+                                                            font-size: 12px !important;
+                                                            color: rgba(0,0,0,0.3) !important;
+                                                        }
+
+                                                        .a23428017 {
+                                                            height: 195px;
+                                                            width: 612px;
+                                                            background-color: rgba(209, 223, 228,0.2);
+                                                        }
+
+                                                        .a46876713 {
+                                                            padding: 28px 0px 0px 50px;
+                                                            height: 165px;
+    														width: auto;
+                                                        }
+
+                                                    	.a96766 {
+                                                            margin: auto;
+                                                    		height: 17px;
+    														width: auto;
+    														padding-right: 13px;
+                                                    	}
+
+                                                        .close-input-oc {
+                                                            margin-top: 17px;
+                                                            margin-right: 17px;
+                                                        }
+                                                        .group-input-desc {
+                                                            width: 600px;
+                                                        }
+                                                        .add-item-description {
+                                                            float: right;
+                                                            margin-right: 14px;
+                                                            color: #65c762;
+                                                            font-size: 14px;
+                                                            text-decoration: underline;
+                                                            margin-top: 13px;
+                                                        }
+                                                    </style>
+
+                                                </div>
+                                            </div>
                                         </div>
-                                        
                                         <div class="col-md-12 title-bars-stl clearfix">
                                             <div class="col-sm-11 col-md-11">
                                                 <span class="arrow-explain-class">Explain Course to Your Students</span>
@@ -27119,9 +27230,4 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                
 
             }
-      
-
-
-                
-
 </script>
