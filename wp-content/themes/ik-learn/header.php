@@ -6105,6 +6105,12 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                             <span class="section-title">SECTION 1: Introduction</span>
                                                             <img class="section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
                                                         </div>
+                                                        <div class="sub-worksheet">
+                                                            <div class="element-sub-worksheet">
+                                                                <span>Intro of courses</span>
+                                                                <img class="section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     
                                                 </div>
