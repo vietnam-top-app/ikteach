@@ -5990,7 +5990,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                     <span>Add Contents</span>
                                                 </div>
                                                 <ul>
-                                                    <li>Worksheet Type</li>
+                                                    <li  data-toggle="tab" href="#oc-Worksheet-Type">Worksheet Type</li>
                                                     <li>Create Worksheet</li>
                                                     <li>Assign Worksheet</li>
                                                 </ul>
@@ -6164,7 +6164,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                         }
 
                                                         .a23428017 {
-                                                            height: 195px;
+                                                            height: 180px;
                                                             width: 612px;
                                                             background-color: rgba(209, 223, 228,0.2);
                                                         }
@@ -6201,7 +6201,57 @@ function set_my_mce_editor_placeholder( $textarea_html ){
 
                                                 </div>
                                             </div>
+
+                                        <div id="oc-Worksheet-Type" class="style-form tab-pane fade">
+                                                <div class="top-oc">
+                                                    <span>Worksheet Type</span>
+                                                    <button type="button">SAVE</button>
+                                                </div>
+                                                <div class="mid-oc">
+                                                    <div>Let's get to know the worksheet types.</div><br>
+                                                    <div class="a24764648">There are three types of worksheets that users can create. here are details about how they look.</div><br>
+                                                    <div class="a23428017">
+                                                    <div class="a67177610" >Text Worksheet</div><br>
+                                                    <img class="a92228050" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Text-Worksheet.png">
+                                                    <div class="a33773935">Text worksheets is a form of text documents that can be anything form simple descriptive texts to course related texts</div>
+                                                    <img class="a72856419" src="<?php echo get_template_directory_uri(); ?>/library/images/img_Text-Worksheet.png">
+                                                    </div>
+                                                    <style >
+                                                        .a67177610 {
+                                                            font-size: 17px;
+                                                            color: #505050;
+                                                            margin-left: 5rem;
+                                                        }
+
+                                                        .a72856419{
+                                                            margin-left: 41rem;
+                                                            margin-top: -11rem;
+                                                            height: 140px;
+                                                        }
+
+                                                        .a33773935 {
+                                                            margin-left: 10rem;
+                                                            width: 30rem;
+                                                            font-size: 12px;
+                                                        }
+
+                                                        .a92228050 {
+                                                            top: 23rem;
+                                                            left: 6rem;
+                                                            position: absolute;
+                                                            height: 30px;
+                                                        }
+
+                                                        .a24764648 {
+                                                            font-size: 12px;
+                                                            color: rgba(0,0,0,0.5);
+                                                        }
+                                                    </style>
+
+                                                </div>
+                                            </div>
                                         </div>
+
                                         <div class="col-md-12 title-bars-stl clearfix">
                                             <div class="col-sm-11 col-md-11">
                                                 <span class="arrow-explain-class">Explain Course to Your Students</span>
