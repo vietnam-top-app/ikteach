@@ -72,10 +72,10 @@ function file_get_contents_curl( $url ) {
   return $data;
  
 }
-$ip_user = $_SERVER['REMOTE_ADDR'];
-$time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
+//$ip_user = $_SERVER['REMOTE_ADDR'];
+//$time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
 
-// $time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
+$time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
 
 $time_zone_user1 = $time_zone_user->region;
 $timezone_name = $time_zone_user->timezone;
@@ -5981,7 +5981,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                 <ul>
                                                     <li data-toggle="tab" href="#oc-description">Description</li>
                                                     <li>Create Section</li>
-                                                    <li>Create Lecture</li>
+                                                    <li data-toggle="tab" href="#oc-Lecture">Create Lecture</li>
                                                 </ul>
                                             </div>
                                             <div class="step-3">
@@ -5990,8 +5990,8 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                     <span>Add Contents</span>
                                                 </div>
                                                 <ul>
-                                                    <li>Worksheet Type</li>
-                                                    <li>Create Worksheet</li>
+                                                    <li  data-toggle="tab" href="#oc-Worksheet-Type">Worksheet Type</li>
+                                                    <li  data-toggle="tab" href="#oc-Create-Worksheet">Create Worksheet</li>
                                                     <li>Assign Worksheet</li>
                                                 </ul>
                                             </div>
@@ -6084,6 +6084,304 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                             font-size: 14px;
                                                             text-decoration: underline;
                                                             margin-top: 13px;
+                                                        }
+                                                    </style>
+
+                                                </div>
+                                            </div>
+
+                                            <div id="oc-Lecture" class="style-form tab-pane fade">
+                                                <div class="top-oc">
+                                                    <span>Create Lecture</span>
+                                                    <button type="button">SAVE</button>
+                                                </div>
+                                                <div class="mid-oc">
+                                                    <div class="title-input">Add a lecture to your existing section.</div><br>
+                                                    <div class="a295534"><img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png">The lectutes are a series of worksheets that are nested in the section.</div>
+                                                    <br>
+                                                    <div class="a295534"><img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png">Users can have multiple lectures within the section. There's  no limit. They can define as many they like.</div>
+                                                    <br><br>
+                                                    <div class="a23428017">
+                                                    <div class="a36879308" >Example <img class="a19706342" src="<?php echo get_template_directory_uri(); ?>/library/images/12_Tab_Close.png"></div>
+                                                    <img class="a46876713" src="<?php echo get_template_directory_uri(); ?>/library/images/ex_Lecture.png"></div>
+                                                    <br>
+                                                    <br>
+                                                    <div class="clearable-input">
+                                                                <input type="text" name="" style="width: 612px; background-color: rgba(209, 223, 228,0.2);" class="group-input-desc" placeholder="SECTION 1: Introduction" disabled>
+                                                                <img class="a43790599" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png" data-clear-input>
+                                                                <img class="a22350621" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Menu_Trigger.png" data-clear-input>
+                                                    </div>
+                                                    <div class="a24448545">
+                                                    <div class="clearable-input" style="padding-top: 9px;">
+                                                        <div class="a295534" style="font-weight: bold;">Lectures:</div>
+                                                                <input type="text" name="" style="width: 572px" class="group-input-desc" placeholder="ex: intro of the Course">
+                                                                <img class="a97974675" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png" data-clear-input>
+                                                                <img class="a14379763" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Menu_Trigger.png" data-clear-input>   
+                                                    </div>
+                                                    </div>
+
+
+                                                    
+                                                        <a class="add-item-description" style="padding-bottom: 12px;">+ Add more</a>
+                                                    <style>
+                                                        .a24448545{
+                                                            margin-left: 40px;
+                                                        }
+                                                        .a295534 {
+                                                            font-size: 8px !important;
+                                                        }
+                                                        .a97974675 {
+                                                            margin-top: 68px;
+                                                            margin-right: 47px;
+                                                            height: 17px;
+                                                        }
+
+                                                        .a14379763 {
+                                                            margin-top: 72px;
+                                                            margin-right: 15px;
+                                                            height: 12px;
+                                                        }
+
+                                                        .a43790599 {
+                                                            height: 17px;
+                                                            margin-top: 17px;
+                                                            margin-right: 47px;
+                                                        }
+
+                                                        .a22350621 {
+                                                            height: 12px;
+                                                            margin-top: 20px;
+                                                            margin-right: 15px;
+                                                        }
+
+                                                        .a19706342 {
+                                                            height: 8px  !important;
+                                                            padding-left: 5px;
+                                                        }
+                                                        .a36879308 {
+                                                            left: 520px;
+                                                            top: 202px;
+                                                            position: absolute;
+                                                            font-size: 12px !important;
+                                                            color: rgba(0,0,0,0.3) !important;
+                                                        }
+
+                                                        .a23428017 {
+                                                            margin-bottom: 30px
+                                                            height: 180px;
+                                                            width: 612px;
+                                                            background-color: rgba(209, 223, 228,0.2);
+                                                        }
+
+                                                        .a46876713 {
+                                                            padding: 28px 0px 0px 50px;
+                                                            height: 165px;
+    														width: auto;
+                                                        }
+
+                                                    	.a96766 {
+                                                            margin: auto;
+                                                    		height: 17px;
+    														width: auto;
+    														padding-right: 13px;
+                                                    	}
+
+                                                        .close-input-oc {
+                                                            margin-top: 17px;
+                                                            margin-right: 17px;
+                                                        }
+                                                        .group-input-desc {
+                                                            width: 600px;
+                                                        }
+                                                        .add-item-description {
+                                                            float: right;
+                                                            margin-right: 14px;
+                                                            color: #65c762;
+                                                            font-size: 14px;
+                                                            text-decoration: underline;
+                                                            margin-top: 13px;
+                                                        }
+                                                    </style>
+
+                                                </div>
+                                            </div>
+                                        <div id="oc-Create-Worksheet" class="style-form tab-pane fade">
+                                            <div class="top-oc">
+                                                    <span>Create Worksheets</span>
+                                                    <button type="button">SAVE</button>
+                                                </div>
+                                                <div class="mid-oc">
+                                                    <div>How do You Create the Various Worksheets?</div>
+                                                   <div class="a24764648">All worksheets can be created from the Online Worksheet Creator. You can save, edit, and retrieve worksheets from there.</div>
+
+                                                    <div class="a23428018">
+                                                        <div class="worksheet_row">
+                                                        <img class="a92228053" src="http://ikteach.local/wp-content/themes/ik-learn/library/images/icon_step1_Online_Worksheet_Creator.png">
+                                                        <div class="a67177611">Video Worksheet</div>
+                                                        <div class="a33773935">Video worksheets are video lectures or other types of teaching videos.</div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="a23428018">
+                                                        <div class="worksheet_row">
+                                                        <img class="a92228053" src="http://ikteach.local/wp-content/themes/ik-learn/library/images/icon_step2_Create_Worksheet.png">
+                                                        <div class="a67177611">Create Worksheets</div>
+                                                        <div class="a33773935">From the online worksheet creator, you can create worksheets: text, interactive, or video. For video, you can create them on YouTube and imbued them into the worksheet.</div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="a23428018">
+                                                        <div class="worksheet_row">
+                                                        <img class="a92228053" src="http://ikteach.local/wp-content/themes/ik-learn/library/images/icon_step3_Save_Your_Worksheets.png">
+                                                        <div class="a67177611">Save Your Worksheets</div>
+                                                        <div class="a33773935">After creating the worksheets, you can save it online in this program. They can be retrieved anytime for editing and updates.</div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="button-491844">
+                                                        Create Worksheet Now
+                                                    </div>
+                                                    <style>
+                                                        .a23428018 {
+                                                            height: 140px;
+                                                            width: 612px;
+                                                            background-color: rgba(209, 223, 228,0.2);
+                                                            margin-bottom: 40px;
+                                                        }
+
+                                                        .button-491844{
+                                                            height: 40px;
+                                                            background-color: cyan;
+                                                            text-align: center;
+                                                            padding-top: 10px;
+                                                            color: white;
+                                                            border-radius: 5px;
+                                                        }
+
+                                                         .a67177611 {
+                                                            font-size: 17px !important;
+                                                            color: #505050!important;
+                                                            margin-left: 105px;
+                                                            margin-bottom: 23px;
+                                                        }
+                                                        .a33773935 {
+                                                            color: #707070;
+                                                            margin-left: 105px;
+                                                            font-size: 15px;
+                                                        }
+
+                                                        .a92228053{
+                                                            height: 60px !important;
+                                                            width: 71px;
+                                                            left: 25px;
+                                                            position: absolute;
+                                                        }
+
+                                                        .close-input-oc {
+                                                            margin-top: 17px;
+                                                            margin-right: 17px;
+                                                        }
+                                                        .group-input-desc {
+                                                            width: 600px;
+                                                        }
+                                                        .add-item-description {
+                                                            float: right;
+                                                            margin-right: 14px;
+                                                            color: #65c762;
+                                                            font-size: 14px;
+                                                            text-decoration: underline;
+                                                            margin-top: 13px;
+                                                        }
+                                                    </style>
+
+                                                </div>
+                                        </div>
+                                        
+
+                                        <div id="oc-Worksheet-Type" class="style-form tab-pane fade">
+                                                <div class="top-oc">
+                                                    <span>Worksheet Type</span>
+                                                    <button type="button">SAVE</button>
+                                                </div>
+                                                <div class="mid-oc">
+                                                    <div>Let's get to know the worksheet types.</div><br>
+                                                    <div class="a24764648">There are three types of worksheets that users can create. here are details about how they look.</div><br>
+
+                                                    <div class="a23428017">
+                                                    <div class="a67177610" >Text Worksheet</div><br>
+                                                    <div class="worksheet_row">
+                                                    <img class="a92228050" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Text-Worksheet.png">
+                                                    <div class="a33773935">Text worksheets is a form of text documents that can be anything form simple descriptive texts to course related texts</div>
+                                                    <img class="a72856419" src="<?php echo get_template_directory_uri(); ?>/library/images/img_Text-Worksheet.png">
+                                                    </div>                                                    
+                                                    </div>
+
+
+                                                    <div class="a23428017">
+                                                    <div class="a67177610" >Interactive Worksheet</div><br>
+                                                    <div class="worksheet_row">
+                                                    <img class="a92228051" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Interactive-Worksheet.png">
+                                                    <div class="a33773935">Interactive worksheets is an online form where you can create questions, tasks, and assignments. For example, you can create ‘question and answer’ quizzes and tests in this worksheet.</div>
+                                                    <img class="a72856419" src="<?php echo get_template_directory_uri(); ?>/library/images/img_Interactive-Worksheet.png">
+                                                    </div>
+                                                    </div>
+
+
+                                                    <div class="a23428017">
+                                                    <div class="a67177610" >Video Worksheet</div><br>
+                                                    <div class="worksheet_row">
+                                                    <img class="a92228052" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Video-Worksheet.png">
+                                                    <div class="a33773935">Video worksheets are video lectures or other types of teaching videos.</div>
+                                                    <img class="a72856419" src="<?php echo get_template_directory_uri(); ?>/library/images/img_Video-Worksheet.png">
+                                                    </div>
+                                                    </div>
+
+
+                                                    <style >
+                                                        .a67177610 {
+                                                            font-size: 17px !important;
+                                                            color: #505050!important;
+                                                            margin-left: 5rem;
+                                                        }
+
+                                                        .a72856419{ 
+                                                            margin-left: 44rem;
+                                                            margin-top: -11rem;
+                                                            height: 140px;
+                                                        }
+
+                                                        .a33773935 {
+                                                            color: #707070;
+                                                            margin-left: 10rem;
+                                                            width: 30rem;
+                                                            font-size: 12px;
+                                                        }
+                                                        .a92228051{ 
+                                                            width: 27px;
+                                                           top: 39rem;
+                                                            left: 6rem;
+                                                            position: absolute;
+                                                            height: 30px; 
+                                                        }
+                                                        .a92228052{
+                                                            width: 27px;
+                                                           top: 57 rem;
+                                                            left: 6rem;
+                                                            position: absolute;
+                                                            height: 30px; 
+                                                        }
+
+                                                        .a92228050 {
+                                                            width: 27px;
+                                                            top: 23rem;
+                                                            left: 6rem;
+                                                            position: absolute;
+                                                            height: 30px;
+                                                        }
+
+                                                        .a24764648 {
+                                                            font-size: 12px;
+                                                            color: rgba(0,0,0,0.5);
                                                         }
                                                     </style>
 
@@ -27119,9 +27417,4 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                
 
             }
-      
-
-
-                
-
 </script>
