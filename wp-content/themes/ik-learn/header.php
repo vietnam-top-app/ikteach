@@ -6167,7 +6167,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                         }
 
                                                         .a23428017 {
-                                                            margin-bottom: 30px
+                                                            margin-bottom: 30px;
                                                             height: 180px;
                                                             width: 612px;
                                                             background-color: rgba(209, 223, 228,0.2);
@@ -6358,7 +6358,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                         }
                                                         .a92228051{ 
                                                             width: 27px;
-                                                           top: 39rem;
+                                                            top: 43rem;
                                                             left: 6rem;
                                                             position: absolute;
                                                             height: 30px; 
