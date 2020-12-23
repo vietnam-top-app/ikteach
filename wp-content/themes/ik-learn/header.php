@@ -5992,7 +5992,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                 <ul>
                                                     <li  data-toggle="tab" href="#oc-Worksheet-Type">Worksheet Type</li>
                                                     <li  data-toggle="tab" href="#oc-Create-Worksheet">Create Worksheet</li>
-                                                    <li data-toggle="tab" href="#assign-worksheet">Assign Worksheet</li>
+                                                    <li>Assign Worksheet</li>
                                                 </ul>
                                             </div>
                                             <div class="step-4">
@@ -6167,6 +6167,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                         }
 
                                                         .a23428017 {
+                                                            margin-bottom: 30px;
                                                             height: 195px;
                                                             width: 612px;
                                                             background-color: rgba(209, 223, 228,0.2);
@@ -6357,7 +6358,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                         }
                                                         .a92228051{ 
                                                             width: 27px;
-                                                           top: 39rem;
+                                                            top: 43rem;
                                                             left: 6rem;
                                                             position: absolute;
                                                             height: 30px; 
