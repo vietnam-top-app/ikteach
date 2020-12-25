@@ -5992,7 +5992,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                 <ul>
                                                     <li  data-toggle="tab" href="#oc-Worksheet-Type">Worksheet Type</li>
                                                     <li  data-toggle="tab" href="#oc-Create-Worksheet">Create Worksheet</li>
-                                                    <li>Assign Worksheet</li>
+                                                    <li data-toggle="tab" href="#assign-worksheet">Assign Worksheet</li>
                                                 </ul>
                                             </div>
                                             <div class="step-4">
@@ -6052,7 +6052,8 @@ function set_my_mce_editor_placeholder( $textarea_html ){
 
                                                 </div>
                                             </div>
-                                            <div id="oc-description" class="style-form tab-pane fade">
+                                            <div id="oc-description" class="style-form tab-pane fadAssign Worksheet
+e">
                                                 <div class="top-oc">
                                                     <span>Description</span>
                                                     <button type="button">SAVE</button>
@@ -6093,7 +6094,8 @@ function set_my_mce_editor_placeholder( $textarea_html ){
 
                                             <div id="oc-create-section" class="style-form tab-pane fade">
                                                 <div class="top-oc">
-                                                    <span>Create Section</span>
+                                                    <span>Create Section</span>Assign Worksheet
+
                                                     <button type="button">SAVE</button>
                                                 </div>
                                                 <div class="mid-oc">
@@ -6510,10 +6512,11 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                      padding-top: 11px;
                                                      padding-left: 17px;
                                                      padding-right: 17px;
-                                                     margin-bottom: 30px;
+                                                     margin-bottom: 20px;
                                                      margin-left: 27px !important;
                                                      border: 1px solid;
                                                      border-radius: 5px;
+                                                     background-color: #d9d9d9;
                                                  }
 
                                                  .section-title-icon{
@@ -6552,7 +6555,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                                     <span class="title-sub-worksheet">Overview of this Course
                                                                     </span>
                                                                     <img style="height: 24px;
-                                                                        margin-left: 168px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Text-Worksheet.png">
+                                                                        margin-left: 218px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Text-Worksheet.png">
                                                                     <button type="button" class="group-btn-worksheet-custome edit-btn-worksheet">Edit</button>
                                                                     <img class="worksheet-section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
                                                                 </div>
@@ -6576,8 +6579,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                                 <div class="group-element-sub-worksheet">
                                                                     <span class="title-sub-worksheet">Getting know the Conversation
                                                                     </span>
-                                                                    <img style="height: 24px;
-                                                                        margin-left: 113px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Video-Worksheet.png">
+                                                                    <img class="group-icon-section2" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Video-Worksheet.png">
                                                                     <button type="button" class="group-btn-worksheet-custome edit-btn-worksheet">Edit</button>
                                                                     <img class="worksheet-section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
                                                                 </div>
@@ -6585,29 +6587,20 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                                     <span class="title-sub-worksheet">Let's Start with Basics
                                                                     </span>
                                                                     <img style="height: 24px;
-                                                                        margin-left: 189px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Interactive-Worksheet.png">
+    margin-left: 233px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Interactive-Worksheet.png">
                                                                     <button type="button" class="group-btn-worksheet-custome edit-btn-worksheet">Edit</button>
                                                                     <img class="worksheet-section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
                                                                 </div>
                                                                 <div class="group-element-sub-worksheet">
-                                                                    <span class="title-sub-worksheet">Let's Start with Basics
+                                                                    <span class="title-sub-worksheet">Let's Start with Basics2
                                                                     </span>
                                                                     <img style="height: 24px;
-                                                                        margin-left: 189px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Interactive-Worksheet.png">
+    margin-left: 225px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Interactive-Worksheet.png">
                                                                     <button type="button" class="group-btn-worksheet-custome edit-btn-worksheet">Edit</button>
                                                                     <img class="worksheet-section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
 
                                                                 </div>
-                                                                <div class="group-element-sub-worksheet">
-                                                                    <span class="title-sub-worksheet">Let's Start with Basics
-                                                                    </span>
-                                                                    <img style="height: 24px;
-                                                                        margin-left: 189px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Interactive-Worksheet.png">
-                                                                    <button type="button" class="group-btn-worksheet-custome edit-btn-worksheet">Edit</button>
-                                                                    <img class="worksheet-section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
-
-                                                                </div>
-                                                                <div class="group-element-sub-worksheet-final">
+                                                                <!-- <div class="group-element-sub-worksheet-final">
                                                                     <div class="final-box">
                                                                     <img style="height: 24px;
                                                                         margin-left: 18px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Interactive-Worksheet.png">
@@ -6615,11 +6608,11 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                                     </span>  
                                                                     <img class="worksheet-section-title-icon-final" src="<?php echo get_template_directory_uri(); ?>/library/images/Icon_Edit.png">
                                                                     <img class="worksheet-section-title-icon-trash" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png">
-                                                                    <!-- <img class="worksheet-section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">   -->
+                                                                    
                                                                     </div>
                                                                     
 
-                                                                </div>
+                                                                </div> -->
 
                                                                
                                                             </div>
@@ -6634,7 +6627,10 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                             
                                         <style type="text/css">
 
-                                            
+                                            .group-icon-section2 {
+                                                height: 24px;
+                                                margin-left: 168px;
+                                            }
                                             .sub-worksheet {
                                                 margin-top: 20px; 
                                             }
@@ -6642,7 +6638,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                 margin-top: 9px; 
                                                 border-radius: 6px; 
                                                 border-style: groove; 
-                                                margin-left: 40px; 
+                                                margin-left: 60px; 
                                                 margin-right: -8px; 
                                                 height: 50px;
                                                 padding-top: 7px;
@@ -6660,7 +6656,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                 margin-top: 5px;
                                             }
                                             .group-btn-worksheet {
-                                                margin-left: 330px;
+                                                margin-left: 313px;
                                                 font-size: 14px;
                                                 width: 70px;
                                                 height: 23px;
@@ -6694,7 +6690,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                 margin-top: 6px;
                                             }
                                             .group-btn-worksheet-specit {
-                                                margin-left: 272px;
+                                                margin-left: 263px;
                                                 font-size: 14px;
                                                 width: 70px;
                                                 height: 23px;
