@@ -6001,7 +6001,7 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                     <span>Publish the Course</span>
                                                 </div>
                                                 <ul>
-                                                    <li>Course Preview</li>
+                                                    <li data-toggle="tab" href="#oc-Overview-Course">Course Preview</li>
                                                     <li>Landing Page</li>
                                                     <li>Pricing</li>
                                                     <li>Promotions</li>
@@ -6505,7 +6505,32 @@ e">
                                                     </style>
 
                                                 </div>
+                                        </div>
+
+                                        <div id="oc-Overview-Course" class="style-form tab-pane fade">
+                                            <div class="top-oc">
+                                                <span>Course Preview</span>
+                                                <button type="button">Save</button>
                                             </div>
+                                            <div class="mid-oc">
+                                                <div>
+                                                    Preview Your Course Before Publishing It
+                                                    <div class="desc-sub-title">Take a closer look at course and make any adjustments if necessary</div>
+
+                                                    <div></div>
+
+                                                </div>
+
+                                                <style type="text/css">
+                                                    .desc-sub-title {
+                                                        font-size: 2px;
+                                                    }
+                                                    
+                                                </style>
+                                            </div>
+                                            
+                                        </div>
+
                                              <style>                                               
                                                  .group-section-title{
                                                      height: 50px;
@@ -6736,6 +6761,8 @@ e">
                                             }
 
                                         </style>
+                                        
+
                                         <div class="col-md-12 title-bars-stl clearfix">
                                             <div class="col-sm-11 col-md-11">
                                                 <span class="arrow-explain-class">Explain Course to Your Students</span>
