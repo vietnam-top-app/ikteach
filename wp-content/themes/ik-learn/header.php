@@ -6103,7 +6103,7 @@ e">
                                                             float: right;
                                                             margin-right: 14px;
                                                             color: #65c762;
-                                                            font-size: 14px;
+                                                            Sections are distinct units within an online course, usually consisting of various worksheets.                font-size: 14px;
                                                             text-decoration: underline;
                                                             margin-top: 13px;
                                                         }
@@ -6129,7 +6129,7 @@ e">
 
                                             <div id="oc-create-section" class="style-form tab-pane fade">
                                                 <div class="top-oc">
-                                                    <span>Create Section</span>Assign Worksheet
+                                                    <span>Create Section</span>
 
                                                     <button type="button">SAVE</button>
                                                 </div>
