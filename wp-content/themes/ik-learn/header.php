@@ -6063,7 +6063,7 @@ e">
                                                     <div class="block-content-des">
                                                         <div>
                                                             <div class="title-input-desc">What will student learn in your course?</div>
-                                                            <div class="clearable-input">
+                                                            <div class="clearable-input clearable-input-custome">
                                                                     <input type="text" name="" class="group-input-desc" placeholder="ex: English Conversation">
                                                                     <span class="close-input-oc" data-clear-input>&times;</span>      
                                                             </div>
@@ -6071,18 +6071,18 @@ e">
                                                             <a class="add-item-description">+ Add more</a>    
                                                         </div>
                                                         <div class="center-block-content-desc">
-                                                            <div class="title-input-desc">What will student learn in your course?</div>
-                                                            <div class="clearable-input">
-                                                                    <input type="text" name="" class="group-input-desc" placeholder="ex: English Conversation">
+                                                            <div class="title-input-desc">Any course requirements or prerequisites?</div>
+                                                            <div class="clearable-input clearable-input-custome">
+                                                                    <input type="text" name="" class="group-input-desc" placeholder="ex: Be able to understand beginner level of English">
                                                                     <span class="close-input-oc" data-clear-input>&times;</span>      
                                                             </div>
                                                             
                                                             <a class="add-item-description">+ Add more</a>    
                                                         </div>
                                                         <div>
-                                                            <div class="title-input-desc">What will student learn in your course?</div>
-                                                            <div class="clearable-input">
-                                                                    <input type="text" name="" class="group-input-desc" placeholder="ex: English Conversation">
+                                                            <div class="title-input-desc">Who are your target audience?</div>
+                                                            <div class="clearable-input clearable-input-custome">
+                                                                    <input type="text" name="" class="group-input-desc" placeholder="ex: Intermediate English Listener">
                                                                     <span class="close-input-oc" data-clear-input>&times;</span>      
                                                             </div>
                                                             
@@ -6117,6 +6117,9 @@ e">
                                                         .center-block-content-desc {
                                                             margin-top: 25px;
                                                             margin-bottom: 25px;
+                                                        }
+                                                        .clearable-input-custome {
+                                                            margin-top: 5px;
                                                         }
                                                     </style>
 
