@@ -72,10 +72,10 @@ function file_get_contents_curl( $url ) {
   return $data;
  
 }
-$ip_user = $_SERVER['REMOTE_ADDR'];
-$time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
+//$ip_user = $_SERVER['REMOTE_ADDR'];
+//$time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
 
-// $time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
+$time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
 
 $time_zone_user1 = $time_zone_user->region;
 $timezone_name = $time_zone_user->timezone;
@@ -5980,8 +5980,8 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                 </div>
                                                 <ul>
                                                     <li data-toggle="tab" href="#oc-description">Description</li>
-                                                    <li>Create Section</li>
-                                                    <li>Create Lecture</li>
+                                                    <li data-toggle="tab" href="#oc-create-section">Create Section</li>
+                                                    <li data-toggle="tab" href="#oc-Lecture">Create Lecture</li>
                                                 </ul>
                                             </div>
                                             <div class="step-3">
@@ -5990,8 +5990,8 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                                                     <span>Add Contents</span>
                                                 </div>
                                                 <ul>
-                                                    <li>Worksheet Type</li>
-                                                    <li>Create Worksheet</li>
+                                                    <li  data-toggle="tab" href="#oc-Worksheet-Type">Worksheet Type</li>
+                                                    <li  data-toggle="tab" href="#oc-Create-Worksheet">Create Worksheet</li>
                                                     <li>Assign Worksheet</li>
                                                 </ul>
                                             </div>
@@ -6089,8 +6089,655 @@ function set_my_mce_editor_placeholder( $textarea_html ){
 
                                                 </div>
                                             </div>
+
+
+                                            <div id="oc-create-section" class="style-form tab-pane fade">
+                                                <div class="top-oc">
+                                                    <span>Create Section</span>
+                                                    <button type="button">SAVE</button>
+                                                </div>
+                                                <div class="mid-oc">
+                                                    <div class="title-input">Creating a “Section” is the first step to create your online course!</div><br>
+                                                    <div class="a295534"><img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png">Sections are distinct units within an online course, usually consisting of various worksheets.</div>
+                                                    <br>
+                                                    <div class="a295534"><img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png">You can have multiple sections within the course. There is no limit. Create as many sections as you need. </div>
+                                                    <br><br>
+                                                    <div class="a23428017">
+                                                    <div class="a36879308" >Example <img class="a19706342" src="<?php echo get_template_directory_uri(); ?>/library/images/12_Tab_Close.png"></div>
+                                                    <img class="a46876713" src="<?php echo get_template_directory_uri(); ?>/library/images/ex_Lecture.png"></div>
+                                                    <br>
+                                                    <br>
+                                                    <div class="clearable-input">
+                                                                <input type="text" name="" style="width: 612px; background-color: rgba(209, 223, 228,0.2);" class="group-input-desc" placeholder="SECTION 1: Introduction" disabled>
+                                                                <img class="a43790599" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png" data-clear-input>
+                                                                <img class="a22350621" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Menu_Trigger.png" data-clear-input>
+                                                    </div>
+                                                    <div class="a24448545">
+                                                    <div class="clearable-input" style="padding-top: 9px;">
+                                                        <div class="a295534" style="font-weight: bold;">Lectures:</div>
+                                                                <input type="text" name="" style="width: 572px" class="group-input-desc" placeholder="ex: intro of the Course">
+                                                                <img class="a97974675" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png" data-clear-input>
+                                                                <img class="a14379763" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Menu_Trigger.png" data-clear-input>   
+                                                    </div>
+                                                    </div>
+
+
+                                                    
+                                                        <a class="add-item-description" style="padding-bottom: 12px;">+ Add more</a>
+                                                    <style>
+                                                        .a24448545{
+                                                            margin-left: 40px;
+                                                        }
+                                                        .a295534 {
+                                                            font-size: 8px !important;
+                                                        }
+                                                        .a97974675 {
+                                                            margin-top: 68px;
+                                                            margin-right: 47px;
+                                                            height: 17px;
+                                                        }
+
+                                                        .a14379763 {
+                                                            margin-top: 72px;
+                                                            margin-right: 15px;
+                                                            height: 12px;
+                                                        }
+
+                                                        .a43790599 {
+                                                            height: 17px;
+                                                            margin-top: 17px;
+                                                            margin-right: 47px;
+                                                        }
+
+                                                        .a22350621 {
+                                                            height: 12px;
+                                                            margin-top: 20px;
+                                                            margin-right: 15px;
+                                                        }
+
+                                                        .a19706342 {
+                                                            height: 8px  !important;
+                                                            padding-left: 5px;
+                                                        }
+                                                        .a36879308 {
+                                                            left: 520px;
+                                                            top: 202px;
+                                                            position: absolute;
+                                                            font-size: 12px !important;
+                                                            color: rgba(0,0,0,0.3) !important;
+                                                        }
+
+                                                        .a23428017 {
+                                                            margin-bottom: 30px;
+                                                            height: 195px;
+                                                            width: 612px;
+                                                            background-color: rgba(209, 223, 228,0.2);
+                                                        }
+
+                                                        .a46876713 {
+                                                            padding: 28px 0px 0px 50px;
+                                                            height: 165px;
+    														width: auto;
+                                                        }
+
+                                                    	.a96766 {
+                                                            margin: auto;
+                                                    		height: 17px;
+    														width: auto;
+    														padding-right: 13px;
+                                                    	}
+
+                                                        .close-input-oc {
+                                                            margin-top: 17px;
+                                                            margin-right: 17px;
+                                                        }
+                                                        .group-input-desc {
+                                                            width: 600px;
+                                                        }
+                                                        .add-item-description {
+                                                            float: right;
+                                                            margin-right: 14px;
+                                                            color: #65c762;
+                                                            font-size: 14px;
+                                                            text-decoration: underline;
+                                                            margin-top: 13px;
+                                                        }
+                                                    </style>
+
+                                                </div>
+                                            </div>
+
+                                            <div id="oc-Lecture" class="style-form tab-pane fade">
+                                                <div class="top-oc">
+                                                    <span>Create Lecture</span>
+                                                    <button type="button">SAVE</button>
+                                                </div>
+                                                <div class="mid-oc">
+                                                    <div class="title-input">Add a lecture to your existing section.</div><br>
+                                                    <div class="a295534"><img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png">The lectutes are a series of worksheets that are nested in the section.</div>
+                                                    <br>
+                                                    <div class="a295534"><img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png">Users can have multiple lectures within the section. There's  no limit. They can define as many they like.</div>
+                                                    <br><br>
+                                                    <div class="a23428017">
+                                                    <div class="a36879308" >Example <img class="a19706342" src="<?php echo get_template_directory_uri(); ?>/library/images/12_Tab_Close.png"></div>
+                                                    <img class="a46876713" src="<?php echo get_template_directory_uri(); ?>/library/images/ex_Lecture.png"></div>
+                                                    <br>
+                                                    <br>
+                                                    <div class="clearable-input">
+                                                                <input type="text" name="" style="width: 612px; background-color: rgba(209, 223, 228,0.2);" class="group-input-desc" placeholder="SECTION 1: Introduction" disabled>
+                                                                <img class="a43790599" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png" data-clear-input>
+                                                                <img class="a22350621" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Menu_Trigger.png" data-clear-input>
+                                                    </div>
+                                                    <div class="a24448545">
+                                                    <div class="clearable-input" style="padding-top: 9px;">
+                                                        <div class="a295534" style="font-weight: bold;">Lectures:</div>
+                                                                <input type="text" name="" style="width: 572px" class="group-input-desc" placeholder="ex: intro of the Course">
+                                                                <img class="a97974675" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png" data-clear-input>
+                                                                <img class="a14379763" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Menu_Trigger.png" data-clear-input>   
+                                                    </div>
+                                                    </div>
+
+
+                                                    
+                                                        <a class="add-item-description" style="padding-bottom: 12px;">+ Add more</a>
+                                                    <style>
+                                                        .a24448545{
+                                                            margin-left: 40px;
+                                                        }
+                                                        .a295534 {
+                                                            font-size: 8px !important;
+                                                        }
+                                                        .a97974675 {
+                                                            margin-top: 68px;
+                                                            margin-right: 47px;
+                                                            height: 17px;
+                                                        }
+
+                                                        .a14379763 {
+                                                            margin-top: 72px;
+                                                            margin-right: 15px;
+                                                            height: 12px;
+                                                        }
+
+                                                        .a43790599 {
+                                                            height: 17px;
+                                                            margin-top: 17px;
+                                                            margin-right: 47px;
+                                                        }
+
+                                                        .a22350621 {
+                                                            height: 12px;
+                                                            margin-top: 20px;
+                                                            margin-right: 15px;
+                                                        }
+
+                                                        .a19706342 {
+                                                            height: 8px  !important;
+                                                            padding-left: 5px;
+                                                        }
+                                                        .a36879308 {
+                                                            left: 520px;
+                                                            top: 202px;
+                                                            position: absolute;
+                                                            font-size: 12px !important;
+                                                            color: rgba(0,0,0,0.3) !important;
+                                                        }
+
+                                                        .a23428017 {
+                                                            margin-bottom: 30px;
+                                                            height: 195px;
+                                                            width: 612px;
+                                                            background-color: rgba(209, 223, 228,0.2);
+                                                        }
+
+                                                        .a46876713 {
+                                                            padding: 28px 0px 0px 50px;
+                                                            height: 165px;
+    														width: auto;
+                                                        }
+
+                                                    	.a96766 {
+                                                            margin: auto;
+                                                    		height: 17px;
+    														width: auto;
+    														padding-right: 13px;
+                                                    	}
+
+                                                        .close-input-oc {
+                                                            margin-top: 17px;
+                                                            margin-right: 17px;
+                                                        }
+                                                        .group-input-desc {
+                                                            width: 600px;
+                                                        }
+                                                        .add-item-description {
+                                                            float: right;
+                                                            margin-right: 14px;
+                                                            color: #65c762;
+                                                            font-size: 14px;
+                                                            text-decoration: underline;
+                                                            margin-top: 13px;
+                                                        }
+                                                    </style>
+
+                                                </div>
+                                            </div>
+                                        <div id="oc-Create-Worksheet" class="style-form tab-pane fade">
+                                            <div class="top-oc">
+                                                    <span>Create Worksheets</span>
+                                                    <button type="button">SAVE</button>
+                                                </div>
+                                                <div class="mid-oc">
+                                                    <div>How do You Create the Various Worksheets?</div>
+                                                   <div class="a24764648">All worksheets can be created from the Online Worksheet Creator. You can save, edit, and retrieve worksheets from there.</div>
+
+                                                    <div class="a23428018">
+                                                        <div class="worksheet_row">
+                                                        <img class="a92228053" src="http://ikteach.local/wp-content/themes/ik-learn/library/images/icon_step1_Online_Worksheet_Creator.png">
+                                                        <div class="a67177611">Video Worksheet</div>
+                                                        <div class="a33773935">Video worksheets are video lectures or other types of teaching videos.</div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="a23428018">
+                                                        <div class="worksheet_row">
+                                                        <img class="a92228053" src="http://ikteach.local/wp-content/themes/ik-learn/library/images/icon_step2_Create_Worksheet.png">
+                                                        <div class="a67177611">Create Worksheets</div>
+                                                        <div class="a33773935">From the online worksheet creator, you can create worksheets: text, interactive, or video. For video, you can create them on YouTube and imbued them into the worksheet.</div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="a23428018">
+                                                        <div class="worksheet_row">
+                                                        <img class="a92228053" src="http://ikteach.local/wp-content/themes/ik-learn/library/images/icon_step3_Save_Your_Worksheets.png">
+                                                        <div class="a67177611">Save Your Worksheets</div>
+                                                        <div class="a33773935">After creating the worksheets, you can save it online in this program. They can be retrieved anytime for editing and updates.</div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="button-491844">
+                                                        Create Worksheet Now
+                                                    </div>
+                                                    <style>
+                                                        .a23428018 {
+                                                            height: 140px;
+                                                            width: 612px;
+                                                            background-color: rgba(209, 223, 228,0.2);
+                                                            margin-bottom: 40px;
+                                                        }
+
+                                                        .button-491844{
+                                                            height: 40px;
+                                                            background-color: cyan;
+                                                            text-align: center;
+                                                            padding-top: 10px;
+                                                            color: white;
+                                                            border-radius: 5px;
+                                                        }
+
+                                                         .a67177611 {
+                                                            font-size: 17px !important;
+                                                            color: #505050!important;
+                                                            margin-left: 105px;
+                                                            margin-bottom: 23px;
+                                                        }
+                                                        .a33773935 {
+                                                            color: #707070;
+                                                            margin-left: 105px;
+                                                            font-size: 15px;
+                                                        }
+
+                                                        .a92228053{
+                                                            height: 60px !important;
+                                                            width: 71px;
+                                                            left: 25px;
+                                                            position: absolute;
+                                                        }
+
+                                                        .close-input-oc {
+                                                            margin-top: 17px;
+                                                            margin-right: 17px;
+                                                        }
+                                                        .group-input-desc {
+                                                            width: 600px;
+                                                        }
+                                                        .add-item-description {
+                                                            float: right;
+                                                            margin-right: 14px;
+                                                            color: #65c762;
+                                                            font-size: 14px;
+                                                            text-decoration: underline;
+                                                            margin-top: 13px;
+                                                        }
+                                                    </style>
+
+                                                </div>
                                         </div>
                                         
+
+                                        <div id="oc-Worksheet-Type" class="style-form tab-pane fade">
+                                                <div class="top-oc">
+                                                    <span>Worksheet Type</span>
+                                                    <button type="button">SAVE</button>
+                                                </div>
+                                                <div class="mid-oc">
+                                                    <div>Let's get to know the worksheet types.</div><br>
+                                                    <div class="a24764648">There are three types of worksheets that users can create. here are details about how they look.</div><br>
+
+                                                    <div class="a23428017">
+                                                    <div class="a67177610" >Text Worksheet</div><br>
+                                                    <div class="worksheet_row">
+                                                    <img class="a92228050" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Text-Worksheet.png">
+                                                    <div class="a33773935">Text worksheets is a form of text documents that can be anything form simple descriptive texts to course related texts</div>
+                                                    <img class="a72856419" src="<?php echo get_template_directory_uri(); ?>/library/images/img_Text-Worksheet.png">
+                                                    </div>                                                    
+                                                    </div>
+
+
+                                                    <div class="a23428017">
+                                                    <div class="a67177610" >Interactive Worksheet</div><br>
+                                                    <div class="worksheet_row">
+                                                    <img class="a92228051" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Interactive-Worksheet.png">
+                                                    <div class="a33773935">Interactive worksheets is an online form where you can create questions, tasks, and assignments. For example, you can create ‘question and answer’ quizzes and tests in this worksheet.</div>
+                                                    <img class="a72856419" src="<?php echo get_template_directory_uri(); ?>/library/images/img_Interactive-Worksheet.png">
+                                                    </div>
+                                                    </div>
+
+
+                                                    <div class="a23428017">
+                                                    <div class="a67177610" >Video Worksheet</div><br>
+                                                    <div class="worksheet_row">
+                                                    <img class="a92228052" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Video-Worksheet.png">
+                                                    <div class="a33773935">Video worksheets are video lectures or other types of teaching videos.</div>
+                                                    <img class="a72856419" src="<?php echo get_template_directory_uri(); ?>/library/images/img_Video-Worksheet.png">
+                                                    </div>
+                                                    </div>
+
+
+                                                    <style >
+                                                        .a67177610 {
+                                                            font-size: 17px !important;
+                                                            color: #505050!important;
+                                                            margin-left: 5rem;
+                                                        }
+
+                                                        .a72856419{ 
+                                                            margin-left: 44rem;
+                                                            margin-top: -11rem;
+                                                            height: 140px;
+                                                        }
+
+                                                        .a33773935 {
+                                                            color: #707070;
+                                                            margin-left: 10rem;
+                                                            width: 30rem;
+                                                            font-size: 12px;
+                                                        }
+                                                        .a92228051{ 
+                                                            width: 27px;
+                                                            top: 43rem;
+                                                            left: 6rem;
+                                                            position: absolute;
+                                                            height: 30px; 
+                                                        }
+                                                        .a92228052{
+                                                            width: 27px;
+                                                           top: 57 rem;
+                                                            left: 6rem;
+                                                            position: absolute;
+                                                            height: 30px; 
+                                                        }
+
+                                                        .a92228050 {
+                                                            width: 27px;
+                                                            top: 23rem;
+                                                            left: 6rem;
+                                                            position: absolute;
+                                                            height: 30px;
+                                                        }
+
+                                                        .a24764648 {
+                                                            font-size: 12px;
+                                                            color: rgba(0,0,0,0.5);
+                                                        }
+                                                    </style>
+
+                                                </div>
+                                            </div>
+                                             <style>                                               
+                                                 .group-section-title{
+                                                     height: 50px;
+                                                     padding-top: 11px;
+                                                     padding-left: 17px;
+                                                     padding-right: 17px;
+                                                     margin-bottom: 30px;
+                                                     margin-left: 27px !important;
+                                                     border: 1px solid;
+                                                     border-radius: 5px;
+                                                 }
+
+                                                 .section-title-icon{
+                                                 height: 17px;
+                                                 float: right;
+                                                 }
+                                                 .section-title{
+                                                 color: #505050;
+                                                 font-size: 16px;
+                                                 }
+                                            </style>
+                                            <div id="assign-worksheet" class="style-form tab-pane fade">
+                                                <div class="top-oc">
+                                                    <span>Assign Worksheets</span>
+                                                    <button type="button">SAVE</button>
+                                                </div>
+                                                <div class="mid-oc">
+                                                    <div>Insert the Worksheets into the Lectures</div>
+                                                    <div class="mid-oc--content" style="margin-top: 15px;">All the worksheet made with the Online Worksheet Creator can be accessed from the Course Saved area. You can insert worksheets into previously made lecture slots</div>
+                                                </div>
+                                                <div class="bot-worksheet">
+                                                    <div class="group--bot-worksheet">
+                                                        <div class="group-section-title row">
+                                                            <span class="section-title">SECTION 1: Introduction</span>
+                                                            <img class="section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
+                                                        </div>
+                                                        <div class="sub-worksheet">
+                                                            <div class="element-sub-worksheet">
+                                                                <div class="group-element-sub-worksheet">
+                                                                    <span class="title-sub-worksheet" >Intro of courses
+                                                                    </span>
+                                                                    <button type="button" class="group-btn-worksheet insert-btn-worksheet">Insert</button>
+                                                                    <img class="worksheet-section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
+                                                                </div>
+                                                                <div class="group-element-sub-worksheet">
+                                                                    <span class="title-sub-worksheet">Overview of this Course
+                                                                    </span>
+                                                                    <img style="height: 24px;
+                                                                        margin-left: 168px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Text-Worksheet.png">
+                                                                    <button type="button" class="group-btn-worksheet-custome edit-btn-worksheet">Edit</button>
+                                                                    <img class="worksheet-section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="group--bot-worksheet">
+                                                        <div class="group-section-title row">
+                                                            <span class="section-title">SECTION 2: Startding Conversation</span>
+                                                            <img class="section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
+                                                        </div>
+                                                        <div class="sub-worksheet">
+                                                            <div class="element-sub-worksheet">
+                                                                <div class="group-element-sub-worksheet">
+                                                                    <span class="title-sub-worksheet" >Conversation Overview
+                                                                    </span>
+                                                                    <button type="button" class="group-btn-worksheet-specit insert-btn-worksheet">Insert</button>
+                                                                    <img class="worksheet-section-title-icon-specit" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
+                                                                </div>
+                                                                <div class="group-element-sub-worksheet">
+                                                                    <span class="title-sub-worksheet">Getting know the Conversation
+                                                                    </span>
+                                                                    <img style="height: 24px;
+                                                                        margin-left: 113px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Video-Worksheet.png">
+                                                                    <button type="button" class="group-btn-worksheet-custome edit-btn-worksheet">Edit</button>
+                                                                    <img class="worksheet-section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
+                                                                </div>
+                                                                <div class="group-element-sub-worksheet">
+                                                                    <span class="title-sub-worksheet">Let's Start with Basics
+                                                                    </span>
+                                                                    <img style="height: 24px;
+                                                                        margin-left: 189px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Interactive-Worksheet.png">
+                                                                    <button type="button" class="group-btn-worksheet-custome edit-btn-worksheet">Edit</button>
+                                                                    <img class="worksheet-section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
+                                                                </div>
+                                                                <div class="group-element-sub-worksheet">
+                                                                    <span class="title-sub-worksheet">Let's Start with Basics
+                                                                    </span>
+                                                                    <img style="height: 24px;
+                                                                        margin-left: 189px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Interactive-Worksheet.png">
+                                                                    <button type="button" class="group-btn-worksheet-custome edit-btn-worksheet">Edit</button>
+                                                                    <img class="worksheet-section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
+
+                                                                </div>
+                                                                <div class="group-element-sub-worksheet">
+                                                                    <span class="title-sub-worksheet">Let's Start with Basics
+                                                                    </span>
+                                                                    <img style="height: 24px;
+                                                                        margin-left: 189px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Interactive-Worksheet.png">
+                                                                    <button type="button" class="group-btn-worksheet-custome edit-btn-worksheet">Edit</button>
+                                                                    <img class="worksheet-section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">
+
+                                                                </div>
+                                                                <div class="group-element-sub-worksheet-final">
+                                                                    <div class="final-box">
+                                                                    <img style="height: 24px;
+                                                                        margin-left: 18px;" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Interactive-Worksheet.png">
+                                                                    <span class="title-sub-worksheet_specit">Basic Conversation Worksheet 1
+                                                                    </span>  
+                                                                    <img class="worksheet-section-title-icon-final" src="<?php echo get_template_directory_uri(); ?>/library/images/Icon_Edit.png">
+                                                                    <img class="worksheet-section-title-icon-trash" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png">
+                                                                    <!-- <img class="worksheet-section-title-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Box_Handle.png">   -->
+                                                                    </div>
+                                                                    
+
+                                                                </div>
+
+                                                               
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+
+                                            
+                                        <style type="text/css">
+
+                                            
+                                            .sub-worksheet {
+                                                margin-top: 20px; 
+                                            }
+                                            .group-element-sub-worksheet {
+                                                margin-top: 9px; 
+                                                border-radius: 6px; 
+                                                border-style: groove; 
+                                                margin-left: 40px; 
+                                                margin-right: -8px; 
+                                                height: 50px;
+                                                padding-top: 7px;
+                                                border-width: 2px;
+                                            }
+                                            .title-sub-worksheet {
+                                                margin-left: 17px;
+                                                font-size: 16px;
+                                                color: #505050;
+                                            }
+                                            .worksheet-section-title-icon {
+                                                float: right;
+                                                margin-right: 20px;
+                                                height: 17px;
+                                                margin-top: 5px;
+                                            }
+                                            .group-btn-worksheet {
+                                                margin-left: 330px;
+                                                font-size: 14px;
+                                                width: 70px;
+                                                height: 23px;
+                                                border-radius: 8px;
+                                                border-width: 0;
+                                            }
+                                            .group-btn-worksheet-custome {
+                                                width: 70px;
+                                                border-radius: 8px;
+                                                height: 23px;
+                                                margin-left: 13px;
+                                            }
+                                            .insert-btn-worksheet {
+                                                color: white;
+                                                background-color: #404040;
+                                            }
+                                            .edit-btn-worksheet {
+                                                color: white;
+                                                background-color: #bfbfbf;
+                                                border-width: 0px;
+                                            }
+                                            .edit-btn-worksheet-specit {
+                                                background-color: #bfbfbf;
+                                                border-color: white;    
+                                                color: white;
+                                            }
+                                            .worksheet-section-title-icon-specit {
+                                                float: right;
+                                                margin-right: 20px;
+                                                height: 17px;
+                                                margin-top: 6px;
+                                            }
+                                            .group-btn-worksheet-specit {
+                                                margin-left: 272px;
+                                                font-size: 14px;
+                                                width: 70px;
+                                                height: 23px;
+                                                border-radius: 8px;
+                                                margin-top: -11px;
+                                                border-width: 0;
+                                            }
+                                            .group--bot-worksheet {
+                                                margin-top: 30px;
+                                            }
+                                            .group-element-sub-worksheet-final {
+                                                margin-top: -7px;
+                                                border-radius: 3px;
+                                                border-style: groove;
+                                                margin-left: 40px;
+                                                margin-right: -8px;
+                                                height: 54px;
+                                                padding-top: 7px;
+                                                border-width: 2px;
+                                                z-index: 8;
+                                                border-top: 0;
+                                            }
+                                            .final-box {
+                                                margin-top: 16px;
+                                            }
+                                            .title-sub-worksheet_specit {
+                                                margin-left: 7px;
+
+
+                                            }
+                                            .worksheet-section-title-icon-final {
+                                                margin-left: 224px;
+                                                height: 18px;
+                                                margin-top: -3px;
+    
+                                            }
+                                            .worksheet-section-title-icon-trash {
+                                                margin-left: 14px;
+                                                height: 19px;
+                                                margin-top: -3px;
+                                            }
+
+                                        </style>
                                         <div class="col-md-12 title-bars-stl clearfix">
                                             <div class="col-sm-11 col-md-11">
                                                 <span class="arrow-explain-class">Explain Course to Your Students</span>
@@ -27119,9 +27766,4 @@ function set_my_mce_editor_placeholder( $textarea_html ){
                
 
             }
-      
-
-
-                
-
 </script>
