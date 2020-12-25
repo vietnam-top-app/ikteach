@@ -72,10 +72,10 @@ function file_get_contents_curl( $url ) {
   return $data;
  
 }
-//$ip_user = $_SERVER['REMOTE_ADDR'];
-//$time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
+$ip_user = $_SERVER['REMOTE_ADDR'];
+$time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
 
-$time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
+// $time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
 
 $time_zone_user1 = $time_zone_user->region;
 $timezone_name = $time_zone_user->timezone;
@@ -6335,7 +6335,7 @@ e">
 
                                                     <div class="a23428018">
                                                         <div class="worksheet_row">
-                                                        <img class="a92228053" src="http://ikteach.local/wp-content/themes/ik-learn/library/images/icon_step1_Online_Worksheet_Creator.png">
+                                                        <img class="a92228053" src="https://iktutor.com/ikteach/wp-content/themes/ik-learn/library/images/icon_step1_Online_Worksheet_Creator.png">
                                                         <div class="a67177611">Video Worksheet</div>
                                                         <div class="a33773935">Video worksheets are video lectures or other types of teaching videos.</div>
                                                         </div>
@@ -6343,7 +6343,7 @@ e">
 
                                                     <div class="a23428018">
                                                         <div class="worksheet_row">
-                                                        <img class="a92228053" src="http://ikteach.local/wp-content/themes/ik-learn/library/images/icon_step2_Create_Worksheet.png">
+                                                        <img class="a92228053" src="https://iktutor.com/ikteach/wp-content/themes/ik-learn/library/images/icon_step2_Create_Worksheet.png">
                                                         <div class="a67177611">Create Worksheets</div>
                                                         <div class="a33773935">From the online worksheet creator, you can create worksheets: text, interactive, or video. For video, you can create them on YouTube and imbued them into the worksheet.</div>
                                                         </div>
@@ -6351,7 +6351,7 @@ e">
 
                                                     <div class="a23428018">
                                                         <div class="worksheet_row">
-                                                        <img class="a92228053" src="http://ikteach.local/wp-content/themes/ik-learn/library/images/icon_step3_Save_Your_Worksheets.png">
+                                                        <img class="a92228053" src="https://iktutor.com/ikteach/wp-content/themes/ik-learn/library/images/icon_step3_Save_Your_Worksheets.png">
                                                         <div class="a67177611">Save Your Worksheets</div>
                                                         <div class="a33773935">After creating the worksheets, you can save it online in this program. They can be retrieved anytime for editing and updates.</div>
                                                         </div>
