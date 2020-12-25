@@ -72,10 +72,10 @@ function file_get_contents_curl( $url ) {
   return $data;
  
 }
-$ip_user = $_SERVER['REMOTE_ADDR'];
-$time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
+// $ip_user = $_SERVER['REMOTE_ADDR'];
+// $time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
 
-// $time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
+$time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
 
 $time_zone_user1 = $time_zone_user->region;
 $timezone_name = $time_zone_user->timezone;
@@ -6059,15 +6059,36 @@ e">
                                                     <button type="button">SAVE</button>
                                                 </div>
                                                 <div class="mid-oc">
-                                                    <div>The desciption will help student to decide whether the course is the one of them</div><br>
-                                                    <div>
-                                                        <div class="title-input">What will student learn in your course?</div>
-                                                        <div class="clearable-input">
-                                                                <input type="text" name="" class="group-input-desc" placeholder="ex: English Conversation">
-                                                                <span class="close-input-oc" data-clear-input>&times;</span>      
+                                                    <div>The desciption will help student to decide whether the course is the one of them</div>
+                                                    <div class="block-content-des">
+                                                        <div>
+                                                            <div class="title-input-desc">What will student learn in your course?</div>
+                                                            <div class="clearable-input">
+                                                                    <input type="text" name="" class="group-input-desc" placeholder="ex: English Conversation">
+                                                                    <span class="close-input-oc" data-clear-input>&times;</span>      
+                                                            </div>
+                                                            
+                                                            <a class="add-item-description">+ Add more</a>    
+                                                        </div>
+                                                        <div class="center-block-content-desc">
+                                                            <div class="title-input-desc">What will student learn in your course?</div>
+                                                            <div class="clearable-input">
+                                                                    <input type="text" name="" class="group-input-desc" placeholder="ex: English Conversation">
+                                                                    <span class="close-input-oc" data-clear-input>&times;</span>      
+                                                            </div>
+                                                            
+                                                            <a class="add-item-description">+ Add more</a>    
+                                                        </div>
+                                                        <div>
+                                                            <div class="title-input-desc">What will student learn in your course?</div>
+                                                            <div class="clearable-input">
+                                                                    <input type="text" name="" class="group-input-desc" placeholder="ex: English Conversation">
+                                                                    <span class="close-input-oc" data-clear-input>&times;</span>      
+                                                            </div>
+                                                            
+                                                            <a class="add-item-description">+ Add more</a>    
                                                         </div>
                                                         
-                                                        <a class="add-item-description">+ Add more</a>
                                                     </div>    
                                                     <style >
                                                         .close-input-oc {
@@ -6085,6 +6106,17 @@ e">
                                                             font-size: 14px;
                                                             text-decoration: underline;
                                                             margin-top: 13px;
+                                                        }
+                                                        .title-input-desc {
+                                                            font-size: 17px !important;
+                                                            font-weight: bold;
+                                                        }
+                                                        .block-content-des {
+                                                            margin-top: -13px;
+                                                        }
+                                                        .center-block-content-desc {
+                                                            margin-top: 25px;
+                                                            margin-bottom: 25px;
                                                         }
                                                     </style>
 
