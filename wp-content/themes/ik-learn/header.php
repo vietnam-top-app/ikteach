@@ -6509,7 +6509,7 @@ e">
                                              <style>                                               
                                                  .group-section-title{
                                                      height: 50px;
-                                                     padding-top: 11px;
+                                                     padding-top: 15px;
                                                      padding-left: 17px;
                                                      padding-right: 17px;
                                                      margin-bottom: 20px;
@@ -6656,6 +6656,7 @@ e">
                                                 margin-top: 5px;
                                             }
                                             .group-btn-worksheet {
+                                                margin-top: 3px;
                                                 margin-left: 313px;
                                                 font-size: 14px;
                                                 width: 70px;
@@ -6668,6 +6669,7 @@ e">
                                                 border-radius: 8px;
                                                 height: 23px;
                                                 margin-left: 13px;
+                                                margin-top: 2px;
                                             }
                                             .insert-btn-worksheet {
                                                 color: white;
@@ -6695,7 +6697,7 @@ e">
                                                 width: 70px;
                                                 height: 23px;
                                                 border-radius: 8px;
-                                                margin-top: -11px;
+                                                margin-top: 4px;
                                                 border-width: 0;
                                             }
                                             .group--bot-worksheet {
