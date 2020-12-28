@@ -6353,7 +6353,7 @@ e">
                                                          .a67177611 {
                                                             font-size: 17px !important;
                                                             color: #505050!important;
-                                                            margin-left: 105px;
+                                                            margin-left: 130px;
                                                             margin-bottom: 23px;
                                                         }
                                                         .a33773935 {
@@ -6366,6 +6366,7 @@ e">
                                                             height: 60px !important;
                                                             width: 71px;
                                                             position: absolute;
+                                                            margin-left: 25px;
                                                         }
 
                                                         .close-input-oc {
@@ -6402,7 +6403,7 @@ e">
                                                     <div class="a67177610" >Text Worksheet</div><br>
                                                     <div class="worksheet_row">
                                                     <img class="a92228050" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Text-Worksheet.png">
-                                                    <div class="a33773935">Text worksheets is a form of text documents that can be anything form simple descriptive texts to course related texts</div>
+                                                    <div class="a493837">Text worksheets is a form of text documents that can be anything form simple descriptive texts to course related texts</div>
                                                     <img class="a72856419" src="<?php echo get_template_directory_uri(); ?>/library/images/img_Text-Worksheet.png">
                                                     </div>                                                    
                                                     </div>
@@ -6412,7 +6413,7 @@ e">
                                                     <div class="a67177610" >Interactive Worksheet</div><br>
                                                     <div class="worksheet_row">
                                                     <img class="a92228051" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Interactive-Worksheet.png">
-                                                    <div class="a33773935">Interactive worksheets is an online form where you can create questions, tasks, and assignments. For example, you can create ‘question and answer’ quizzes and tests in this worksheet.</div>
+                                                    <div class="a493837">Interactive worksheets is an online form where you can create questions, tasks, and assignments. For example, you can create ‘question and answer’ quizzes and tests in this worksheet.</div>
                                                     <img class="a72856419" src="<?php echo get_template_directory_uri(); ?>/library/images/img_Interactive-Worksheet.png">
                                                     </div>
                                                     </div>
@@ -6422,7 +6423,7 @@ e">
                                                     <div class="a67177610" >Video Worksheet</div><br>
                                                     <div class="worksheet_row">
                                                     <img class="a92228052" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Video-Worksheet.png">
-                                                    <div class="a33773935">Video worksheets are video lectures or other types of teaching videos.</div>
+                                                    <div class="a493837">Video worksheets are video lectures or other types of teaching videos.</div>
                                                     <img class="a72856419" src="<?php echo get_template_directory_uri(); ?>/library/images/img_Video-Worksheet.png">
                                                     </div>
                                                     </div>
@@ -6443,7 +6444,14 @@ e">
 
                                                         .a33773935 {
                                                             color: #707070;
-                                                            margin-left: 10rem;
+                                                            margin-left: 130px;
+                                                            font-size: 12px;
+                                                            padding-right: 200px;
+                                                        }
+
+                                                        .a493837 {
+                                                            color: #707070;
+                                                            margin-left: 105px;
                                                             font-size: 12px;
                                                             padding-right: 10px;
                                                         }
@@ -6470,6 +6478,7 @@ e">
                                                         .a24764648 {
                                                             font-size: 12px;
                                                             color: rgba(0,0,0,0.5);
+                                                            margin-bottom: 20px; 
                                                         }
                                                     </style>
 
