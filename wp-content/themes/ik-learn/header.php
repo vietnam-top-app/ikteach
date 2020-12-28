@@ -72,10 +72,10 @@ function file_get_contents_curl( $url ) {
   return $data;
  
 }
-// $ip_user = $_SERVER['REMOTE_ADDR'];
-// $time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
+$ip_user = $_SERVER['REMOTE_ADDR'];
+$time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
 
-$time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
+// $time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
 
 $time_zone_user1 = $time_zone_user->region;
 $timezone_name = $time_zone_user->timezone;
