@@ -6308,10 +6308,9 @@ e">
                                                     <div class="a23428018">
                                                         <div class="worksheet_row">
                                                         <img class="a92228053" src="https://iktutor.com/ikteach/wp-content/themes/ik-learn/library/images/icon_step1_Online_Worksheet_Creator.png">
-                                                        <div class="a12312322312">
+                                                        
                                                             <div class="a67177611">Video Worksheet</div>
                                                             <div class="a33773935">Video worksheets are video lectures or other types of teaching videos.</div>
-                                                        </div>
                                                         </div>
                                                     </div>
 
