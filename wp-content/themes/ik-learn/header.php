@@ -6446,14 +6446,13 @@ e">
                                                             color: #707070;
                                                             margin-left: 130px;
                                                             font-size: 12px;
-                                                            padding-right: 200px;
                                                         }
 
                                                         .a493837 {
                                                             color: #707070;
                                                             margin-left: 105px;
                                                             font-size: 12px;
-                                                            padding-right: 10px;
+                                                            padding-right: 200px;
                                                         }
                                                         .a92228051{ 
                                                             width: 27px;
