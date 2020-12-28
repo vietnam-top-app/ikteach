@@ -6308,8 +6308,10 @@ e">
                                                     <div class="a23428018">
                                                         <div class="worksheet_row">
                                                         <img class="a92228053" src="https://iktutor.com/ikteach/wp-content/themes/ik-learn/library/images/icon_step1_Online_Worksheet_Creator.png">
-                                                        <div class="a67177611">Video Worksheet</div>
-                                                        <div class="a33773935">Video worksheets are video lectures or other types of teaching videos.</div>
+                                                        <div class="a12312322312">
+                                                            <div class="a67177611">Video Worksheet</div>
+                                                            <div class="a33773935">Video worksheets are video lectures or other types of teaching videos.</div>
+                                                        </div>
                                                         </div>
                                                     </div>
 
@@ -6327,8 +6329,8 @@ e">
                                                         <div class="a67177611">Save Your Worksheets</div>
                                                         <div class="a33773935">After creating the worksheets, you can save it online in this program. They can be retrieved anytime for editing and updates.</div>
                                                         </div>
-                                                    </div>
-                                                    
+                                                    </div> 
+
                                                     <div class="button-491844">
                                                         Create Worksheet Now
                                                     </div>
@@ -6364,7 +6366,6 @@ e">
                                                         .a92228053{
                                                             height: 60px !important;
                                                             width: 71px;
-                                                            left: 25px;
                                                             position: absolute;
                                                         }
 
@@ -6444,19 +6445,17 @@ e">
                                                         .a33773935 {
                                                             color: #707070;
                                                             margin-left: 10rem;
-                                                            width: 30rem;
                                                             font-size: 12px;
+                                                            padding-right: 10px;
                                                         }
                                                         .a92228051{ 
                                                             width: 27px;
-                                                            top: 43rem;
                                                             left: 6rem;
                                                             position: absolute;
                                                             height: 30px; 
                                                         }
                                                         .a92228052{
                                                             width: 27px;
-                                                           top: 57 rem;
                                                             left: 6rem;
                                                             position: absolute;
                                                             height: 30px; 
@@ -6464,7 +6463,6 @@ e">
 
                                                         .a92228050 {
                                                             width: 27px;
-                                                            top: 23rem;
                                                             left: 6rem;
                                                             position: absolute;
                                                             height: 30px;
@@ -6595,6 +6593,9 @@ e">
                                             </div>
                                         </div>
                                         
+
+                                        
+
 
                                             
                                         <style type="text/css">
