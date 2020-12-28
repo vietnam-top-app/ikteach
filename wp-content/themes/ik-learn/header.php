@@ -72,8 +72,8 @@ function file_get_contents_curl( $url ) {
   return $data;
  
 }
-//$ip_user = $_SERVER['REMOTE_ADDR'];
-//$time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
+// $ip_user = $_SERVER['REMOTE_ADDR'];
+// $time_zone_user = json_decode(file_get_contents_curl("https://ipinfo.io/{$ip_user}"));
 
 $time_zone_user = json_decode(file_get_contents("https://ipinfo.io/"));
 
@@ -6059,15 +6059,36 @@ e">
                                                     <button type="button">SAVE</button>
                                                 </div>
                                                 <div class="mid-oc">
-                                                    <div>The desciption will help student to decide whether the course is the one of them</div><br>
-                                                    <div>
-                                                        <div class="title-input">What will student learn in your course?</div>
-                                                        <div class="clearable-input">
-                                                                <input type="text" name="" class="group-input-desc" placeholder="ex: English Conversation">
-                                                                <span class="close-input-oc" data-clear-input>&times;</span>      
+                                                    <div>The desciption will help student to decide whether the course is the one of them</div>
+                                                    <div class="block-content-des">
+                                                        <div>
+                                                            <div class="title-input-desc">What will student learn in your course?</div>
+                                                            <div class="clearable-input clearable-input-custome">
+                                                                    <input type="text" name="" class="group-input-desc" placeholder="ex: English Conversation">
+                                                                    <span class="close-input-oc" data-clear-input>&times;</span>      
+                                                            </div>
+                                                            
+                                                            <a class="add-item-description">+ Add more</a>    
+                                                        </div>
+                                                        <div class="center-block-content-desc">
+                                                            <div class="title-input-desc">Any course requirements or prerequisites?</div>
+                                                            <div class="clearable-input clearable-input-custome">
+                                                                    <input type="text" name="" class="group-input-desc" placeholder="ex: Be able to understand beginner level of English">
+                                                                    <span class="close-input-oc" data-clear-input>&times;</span>      
+                                                            </div>
+                                                            
+                                                            <a class="add-item-description">+ Add more</a>    
+                                                        </div>
+                                                        <div>
+                                                            <div class="title-input-desc">Who are your target audience?</div>
+                                                            <div class="clearable-input clearable-input-custome">
+                                                                    <input type="text" name="" class="group-input-desc" placeholder="ex: Intermediate English Listener">
+                                                                    <span class="close-input-oc" data-clear-input>&times;</span>      
+                                                            </div>
+                                                            
+                                                            <a class="add-item-description">+ Add more</a>    
                                                         </div>
                                                         
-                                                        <a class="add-item-description">+ Add more</a>
                                                     </div>    
                                                     <style >
                                                         .close-input-oc {
@@ -6082,9 +6103,23 @@ e">
                                                             float: right;
                                                             margin-right: 14px;
                                                             color: #65c762;
-                                                            font-size: 14px;
+                                                            Sections are distinct units within an online course, usually consisting of various worksheets.                font-size: 14px;
                                                             text-decoration: underline;
                                                             margin-top: 13px;
+                                                        }
+                                                        .title-input-desc {
+                                                            font-size: 17px !important;
+                                                            font-weight: bold;
+                                                        }
+                                                        .block-content-des {
+                                                            margin-top: -13px;
+                                                        }
+                                                        .center-block-content-desc {
+                                                            margin-top: 25px;
+                                                            margin-bottom: 25px;
+                                                        }
+                                                        .clearable-input-custome {
+                                                            margin-top: 5px;
                                                         }
                                                     </style>
 
@@ -6094,15 +6129,15 @@ e">
 
                                             <div id="oc-create-section" class="style-form tab-pane fade">
                                                 <div class="top-oc">
-                                                    <span>Create Section</span>Assign Worksheet
+                                                    <span>Create Section</span>
 
                                                     <button type="button">SAVE</button>
                                                 </div>
                                                 <div class="mid-oc">
-                                                    <div class="title-input">Creating a “Section” is the first step to create your online course!</div><br>
-                                                    <div class="a295534"><img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png">Sections are distinct units within an online course, usually consisting of various worksheets.</div>
+                                                    <div class="title-input">Section is the first step to create your online couser!</div><br>
+                                                    <img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png"><div class="a295534">The sections are distinct group within an online course, usually consisting of various lecltures that are created by the user.</div>
                                                     <br>
-                                                    <div class="a295534"><img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png">You can have multiple sections within the course. There is no limit. Create as many sections as you need. </div>
+                                                    <img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png"><div class="a295534">Users can have multiple sections within the course. There's no limit.  They can define as many lecltures as they like. </div>
                                                     <br><br>
                                                     <div class="a23428017">
                                                     <div class="a36879308" >Example <img class="a19706342" src="<?php echo get_template_directory_uri(); ?>/library/images/12_Tab_Close.png"></div>
@@ -6110,50 +6145,56 @@ e">
                                                     <br>
                                                     <br>
                                                     <div class="clearable-input">
-                                                                <input type="text" name="" style="width: 612px; background-color: rgba(209, 223, 228,0.2);" class="group-input-desc" placeholder="SECTION 1: Introduction" disabled>
+                                                        <div class="a859336" style="font-weight: bold;">Section 1:</div>
+                                                                <input type="text" name="" style="width: 612px" class="group-input-desc" placeholder="ex: Introduction">
                                                                 <img class="a43790599" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png" data-clear-input>
                                                                 <img class="a22350621" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Menu_Trigger.png" data-clear-input>
                                                     </div>
-                                                    <div class="a24448545">
-                                                    <div class="clearable-input" style="padding-top: 9px;">
-                                                        <div class="a295534" style="font-weight: bold;">Lectures:</div>
-                                                                <input type="text" name="" style="width: 572px" class="group-input-desc" placeholder="ex: intro of the Course">
-                                                                <img class="a97974675" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png" data-clear-input>
-                                                                <img class="a14379763" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Menu_Trigger.png" data-clear-input>   
-                                                    </div>
-                                                    </div>
-
-
-                                                    
                                                         <a class="add-item-description" style="padding-bottom: 12px;">+ Add more</a>
                                                     <style>
+                                                        .a859336 {
+                                                            font-size: 15px !important;
+                                                            padding-bottom: 7px;
+                                                        }
                                                         .a24448545{
                                                             margin-left: 40px;
                                                         }
                                                         .a295534 {
-                                                            font-size: 8px !important;
+                                                            margin-left: 35px;
                                                         }
                                                         .a97974675 {
-                                                            margin-top: 68px;
+                                                            margin-top: 85px;
                                                             margin-right: 47px;
                                                             height: 17px;
                                                         }
 
                                                         .a14379763 {
-                                                            margin-top: 72px;
+                                                            margin-top: 88px;
                                                             margin-right: 15px;
                                                             height: 12px;
                                                         }
 
                                                         .a43790599 {
                                                             height: 17px;
-                                                            margin-top: 17px;
+                                                            margin-top: 71px;
                                                             margin-right: 47px;
+                                                        }
+
+                                                        .a44665 {
+                                                            height: 17px;
+                                                            margin-top: 15px;
+                                                            margin-right: 47px;
+                                                        }
+
+                                                        .a137680 {
+                                                            height: 12px;
+                                                            margin-top: 17px;
+                                                            margin-right: 15px;
                                                         }
 
                                                         .a22350621 {
                                                             height: 12px;
-                                                            margin-top: 20px;
+                                                            margin-top: 74px;
                                                             margin-right: 15px;
                                                         }
 
@@ -6163,7 +6204,15 @@ e">
                                                         }
                                                         .a36879308 {
                                                             left: 520px;
-                                                            top: 202px;
+                                                            top: 22rem;
+                                                            position: absolute;
+                                                            font-size: 12px !important;
+                                                            color: rgba(0,0,0,0.3) !important;
+                                                        }
+
+                                                        .a221107 {
+                                                            left: 520px;
+                                                            top: 20rem;
                                                             position: absolute;
                                                             font-size: 12px !important;
                                                             color: rgba(0,0,0,0.3) !important;
@@ -6171,6 +6220,7 @@ e">
 
                                                         .a23428017 {
                                                             margin-bottom: 30px;
+                                                            margin-top: -25px;
                                                             height: 195px;
                                                             width: 612px;
                                                             background-color: rgba(209, 223, 228,0.2);
@@ -6183,10 +6233,10 @@ e">
                                                         }
 
                                                     	.a96766 {
+                                                            position: absolute;
                                                             margin: auto;
                                                     		height: 17px;
     														width: auto;
-    														padding-right: 13px;
                                                     	}
 
                                                         .close-input-oc {
@@ -6216,23 +6266,24 @@ e">
                                                 </div>
                                                 <div class="mid-oc">
                                                     <div class="title-input">Add a lecture to your existing section.</div><br>
-                                                    <div class="a295534"><img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png">The lectutes are a series of worksheets that are nested in the section.</div>
+                                                    <img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png"><div class="a295534">The lectutes are a series of worksheets that are nested in the section.</div>
                                                     <br>
-                                                    <div class="a295534"><img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png">Users can have multiple lectures within the section. There's  no limit. They can define as many they like.</div>
+                                                    <img class="a96766" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Points.png"><div class="a295534">Users can have multiple lectures within the section. There's  no limit. They can define as many they like.</div>
                                                     <br><br>
                                                     <div class="a23428017">
-                                                    <div class="a36879308" >Example <img class="a19706342" src="<?php echo get_template_directory_uri(); ?>/library/images/12_Tab_Close.png"></div>
+                                                    <div class="a221107" >Example <img class="a19706342" src="<?php echo get_template_directory_uri(); ?>/library/images/12_Tab_Close.png"></div>
                                                     <img class="a46876713" src="<?php echo get_template_directory_uri(); ?>/library/images/ex_Lecture.png"></div>
                                                     <br>
                                                     <br>
                                                     <div class="clearable-input">
                                                                 <input type="text" name="" style="width: 612px; background-color: rgba(209, 223, 228,0.2);" class="group-input-desc" placeholder="SECTION 1: Introduction" disabled>
-                                                                <img class="a43790599" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png" data-clear-input>
-                                                                <img class="a22350621" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Menu_Trigger.png" data-clear-input>
+                                                                <img class="a44665" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png" data-clear-input>
+                                                                <img class="a137680" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Menu_Trigger.png" data-clear-input>
                                                     </div>
                                                     <div class="a24448545">
                                                     <div class="clearable-input" style="padding-top: 9px;">
-                                                        <div class="a295534" style="font-weight: bold;">Lectures:</div>
+                                                        <div class="a859336" style="font-weight: bold; font-size: 15px;
+    margin-bottom: 6px;">Lectures:</div>
                                                                 <input type="text" name="" style="width: 572px" class="group-input-desc" placeholder="ex: intro of the Course">
                                                                 <img class="a97974675" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Trash.png" data-clear-input>
                                                                 <img class="a14379763" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_Menu_Trigger.png" data-clear-input>   
@@ -6242,86 +6293,7 @@ e">
 
                                                     
                                                         <a class="add-item-description" style="padding-bottom: 12px;">+ Add more</a>
-                                                    <style>
-                                                        .a24448545{
-                                                            margin-left: 40px;
-                                                        }
-                                                        .a295534 {
-                                                            font-size: 8px !important;
-                                                        }
-                                                        .a97974675 {
-                                                            margin-top: 68px;
-                                                            margin-right: 47px;
-                                                            height: 17px;
-                                                        }
-
-                                                        .a14379763 {
-                                                            margin-top: 72px;
-                                                            margin-right: 15px;
-                                                            height: 12px;
-                                                        }
-
-                                                        .a43790599 {
-                                                            height: 17px;
-                                                            margin-top: 17px;
-                                                            margin-right: 47px;
-                                                        }
-
-                                                        .a22350621 {
-                                                            height: 12px;
-                                                            margin-top: 20px;
-                                                            margin-right: 15px;
-                                                        }
-
-                                                        .a19706342 {
-                                                            height: 8px  !important;
-                                                            padding-left: 5px;
-                                                        }
-                                                        .a36879308 {
-                                                            left: 520px;
-                                                            top: 202px;
-                                                            position: absolute;
-                                                            font-size: 12px !important;
-                                                            color: rgba(0,0,0,0.3) !important;
-                                                        }
-
-                                                        .a23428017 {
-                                                            margin-bottom: 30px;
-                                                            height: 195px;
-                                                            width: 612px;
-                                                            background-color: rgba(209, 223, 228,0.2);
-                                                        }
-
-                                                        .a46876713 {
-                                                            padding: 28px 0px 0px 50px;
-                                                            height: 165px;
-    														width: auto;
-                                                        }
-
-                                                    	.a96766 {
-                                                            margin: auto;
-                                                    		height: 17px;
-    														width: auto;
-    														padding-right: 13px;
-                                                    	}
-
-                                                        .close-input-oc {
-                                                            margin-top: 17px;
-                                                            margin-right: 17px;
-                                                        }
-                                                        .group-input-desc {
-                                                            width: 600px;
-                                                        }
-                                                        .add-item-description {
-                                                            float: right;
-                                                            margin-right: 14px;
-                                                            color: #65c762;
-                                                            font-size: 14px;
-                                                            text-decoration: underline;
-                                                            margin-top: 13px;
-                                                        }
-                                                    </style>
-
+                                                    
                                                 </div>
                                             </div>
                                         <div id="oc-Create-Worksheet" class="style-form tab-pane fade">
@@ -6335,7 +6307,7 @@ e">
 
                                                     <div class="a23428018">
                                                         <div class="worksheet_row">
-                                                        <img class="a92228053" src="http://ikteach.local/wp-content/themes/ik-learn/library/images/icon_step1_Online_Worksheet_Creator.png">
+                                                        <img class="a92228053" src="https://iktutor.com/ikteach/wp-content/themes/ik-learn/library/images/icon_step1_Online_Worksheet_Creator.png">
                                                         <div class="a67177611">Video Worksheet</div>
                                                         <div class="a33773935">Video worksheets are video lectures or other types of teaching videos.</div>
                                                         </div>
@@ -6343,7 +6315,7 @@ e">
 
                                                     <div class="a23428018">
                                                         <div class="worksheet_row">
-                                                        <img class="a92228053" src="http://ikteach.local/wp-content/themes/ik-learn/library/images/icon_step2_Create_Worksheet.png">
+                                                        <img class="a92228053" src="https://iktutor.com/ikteach/wp-content/themes/ik-learn/library/images/icon_step2_Create_Worksheet.png">
                                                         <div class="a67177611">Create Worksheets</div>
                                                         <div class="a33773935">From the online worksheet creator, you can create worksheets: text, interactive, or video. For video, you can create them on YouTube and imbued them into the worksheet.</div>
                                                         </div>
@@ -6351,7 +6323,7 @@ e">
 
                                                     <div class="a23428018">
                                                         <div class="worksheet_row">
-                                                        <img class="a92228053" src="http://ikteach.local/wp-content/themes/ik-learn/library/images/icon_step3_Save_Your_Worksheets.png">
+                                                        <img class="a92228053" src="https://iktutor.com/ikteach/wp-content/themes/ik-learn/library/images/icon_step3_Save_Your_Worksheets.png">
                                                         <div class="a67177611">Save Your Worksheets</div>
                                                         <div class="a33773935">After creating the worksheets, you can save it online in this program. They can be retrieved anytime for editing and updates.</div>
                                                         </div>
